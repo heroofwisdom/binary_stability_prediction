@@ -1,0 +1,276 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    python_version: 3.10.11
+    cli_version: 0.15.5
+    framework: lightgbm
+    is_jupyter_run: true
+    is_kaggle_kernel: false
+    start_time: 1690143760.604044
+    t:
+      1:
+      - 1
+      - 5
+      - 28
+      - 35
+      - 53
+      - 55
+      2:
+      - 1
+      - 5
+      - 8
+      - 28
+      - 35
+      - 53
+      - 55
+      3:
+      - 2
+      - 23
+      4: 3.10.11
+      5: 0.15.5
+      8:
+      - 1
+      - 5
+setup:
+  desc: null
+  value:
+    Session id: 123
+    Target: 50A_50B
+    Target type: Binary
+    Original data shape:
+    - 2572
+    - 101
+    Transformed data shape:
+    - 3767
+    - 93
+    Transformed train set shape:
+    - 3510
+    - 93
+    Transformed test set shape:
+    - 257
+    - 93
+    Ignore features: 8
+    Ordinal features: 12
+    Numeric features: 72
+    Categorical features: 20
+    Preprocess: true
+    Imputation type: simple
+    Numeric imputation: mean
+    Categorical imputation: mode
+    Maximum one-hot encoding: 1
+    Encoding method: null
+    Fix imbalance: true
+    Fix imbalance method: SMOTETomek
+    Fold Generator: StratifiedKFold
+    Fold Number: 10
+    CPU Jobs: -1
+    Use GPU: false
+    Log Experiment: WandbLogger
+    Experiment Name: 50A_50B Multilabel Manual Transform
+    USI: 4f44
+Extra Trees Classifier:
+  desc: null
+  value:
+    bootstrap: false
+    ccp_alpha: 0.0
+    class_weight: {}
+    criterion: entropy
+    max_depth: 11
+    max_features: 0.6668945070124204
+    max_leaf_nodes: null
+    max_samples: null
+    min_impurity_decrease: 5.638378119759254e-06
+    min_samples_leaf: 3
+    min_samples_split: 3
+    min_weight_fraction_leaf: 0.0
+    n_estimators: 92
+    n_jobs: -1
+    oob_score: false
+    random_state: 123
+    verbose: 0
+    warm_start: false
+Random Forest Classifier:
+  desc: null
+  value:
+    bootstrap: true
+    ccp_alpha: 0.0
+    class_weight: null
+    criterion: gini
+    max_depth: null
+    max_features: sqrt
+    max_leaf_nodes: null
+    max_samples: null
+    min_impurity_decrease: 0.0
+    min_samples_leaf: 1
+    min_samples_split: 2
+    min_weight_fraction_leaf: 0.0
+    n_estimators: 100
+    n_jobs: -1
+    oob_score: false
+    random_state: 123
+    verbose: 0
+    warm_start: false
+Light Gradient Boosting Machine:
+  desc: null
+  value:
+    boosting_type: gbdt
+    class_weight: null
+    colsample_bytree: 1.0
+    importance_type: split
+    learning_rate: 0.1
+    max_depth: -1
+    min_child_samples: 20
+    min_child_weight: 0.001
+    min_split_gain: 0.0
+    n_estimators: 100
+    n_jobs: -1
+    num_leaves: 31
+    objective: null
+    random_state: 123
+    reg_alpha: 0.0
+    reg_lambda: 0.0
+    subsample: 1.0
+    subsample_for_bin: 200000
+    subsample_freq: 0
+Gradient Boosting Classifier:
+  desc: null
+  value:
+    ccp_alpha: 0.0
+    criterion: friedman_mse
+    init: null
+    learning_rate: 0.1
+    loss: log_loss
+    max_depth: 3
+    max_features: null
+    max_leaf_nodes: null
+    min_impurity_decrease: 0.0
+    min_samples_leaf: 1
+    min_samples_split: 2
+    min_weight_fraction_leaf: 0.0
+    n_estimators: 100
+    n_iter_no_change: null
+    random_state: 123
+    subsample: 1.0
+    tol: 0.0001
+    validation_fraction: 0.1
+    verbose: 0
+    warm_start: false
+Decision Tree Classifier:
+  desc: null
+  value:
+    ccp_alpha: 0.0
+    class_weight: null
+    criterion: gini
+    max_depth: null
+    max_features: null
+    max_leaf_nodes: null
+    min_impurity_decrease: 0.0
+    min_samples_leaf: 1
+    min_samples_split: 2
+    min_weight_fraction_leaf: 0.0
+    random_state: 123
+    splitter: best
+Naive Bayes:
+  desc: null
+  value:
+    priors: null
+    var_smoothing: 1.0e-09
+Logistic Regression:
+  desc: null
+  value:
+    C: 1.0
+    class_weight: null
+    dual: false
+    fit_intercept: true
+    intercept_scaling: 1
+    l1_ratio: null
+    max_iter: 1000
+    multi_class: auto
+    n_jobs: null
+    penalty: l2
+    random_state: 123
+    solver: lbfgs
+    tol: 0.0001
+    verbose: 0
+    warm_start: false
+K Neighbors Classifier:
+  desc: null
+  value:
+    algorithm: auto
+    leaf_size: 30
+    metric: minkowski
+    metric_params: null
+    n_jobs: -1
+    n_neighbors: 5
+    p: 2
+    weights: uniform
+Ada Boost Classifier:
+  desc: null
+  value:
+    algorithm: SAMME.R
+    base_estimator: deprecated
+    estimator: null
+    learning_rate: 1.0
+    n_estimators: 50
+    random_state: 123
+SVM - Linear Kernel:
+  desc: null
+  value:
+    alpha: 0.0001
+    average: false
+    class_weight: null
+    early_stopping: false
+    epsilon: 0.1
+    eta0: 0.001
+    fit_intercept: true
+    l1_ratio: 0.15
+    learning_rate: optimal
+    loss: hinge
+    max_iter: 1000
+    n_iter_no_change: 5
+    n_jobs: -1
+    penalty: l2
+    power_t: 0.5
+    random_state: 123
+    shuffle: true
+    tol: 0.001
+    validation_fraction: 0.1
+    verbose: 0
+    warm_start: false
+Ridge Classifier:
+  desc: null
+  value:
+    alpha: 1.0
+    class_weight: null
+    copy_X: true
+    fit_intercept: true
+    max_iter: null
+    positive: false
+    random_state: 123
+    solver: auto
+    tol: 0.0001
+Linear Discriminant Analysis:
+  desc: null
+  value:
+    covariance_estimator: null
+    n_components: null
+    priors: null
+    shrinkage: null
+    solver: svd
+    store_covariance: false
+    tol: 0.0001
+Quadratic Discriminant Analysis:
+  desc: null
+  value:
+    priors: null
+    reg_param: 0.0
+    store_covariance: false
+    tol: 0.0001
+Dummy Classifier:
+  desc: null
+  value:
+    constant: null
+    random_state: 123
+    strategy: prior

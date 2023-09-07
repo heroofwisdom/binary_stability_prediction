@@ -1,0 +1,152 @@
+2023-07-25 12:16:47,263 INFO    Thread-5000 (_run_job):90553 [wandb_setup.py:_flush():76] Current SDK version is 0.15.5
+2023-07-25 12:16:47,263 INFO    Thread-5000 (_run_job):90553 [wandb_setup.py:_flush():76] Configure stats pid to 90553
+2023-07-25 12:16:47,263 INFO    Thread-5000 (_run_job):90553 [wandb_setup.py:_flush():76] Loading settings from /Users/heroofwisdom/.config/wandb/settings
+2023-07-25 12:16:47,263 INFO    Thread-5000 (_run_job):90553 [wandb_setup.py:_flush():76] Loading settings from /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/settings
+2023-07-25 12:16:47,263 INFO    Thread-5000 (_run_job):90553 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'Citrine_Solutions_Engineer_Test_V3', 'entity': 'alanfiler', 'root_dir': '/Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3', 'run_id': 'dxroa09m', 'sweep_param_path': '/Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/sweep-3mbu6zjy/config-dxroa09m.yaml', 'sweep_id': '3mbu6zjy'}
+2023-07-25 12:16:47,263 INFO    Thread-5000 (_run_job):90553 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-07-25 12:16:47,264 INFO    Thread-5000 (_run_job):90553 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-07-25 12:16:47,264 INFO    Thread-5000 (_run_job):90553 [wandb_init.py:_log_setup():507] Logging user logs to /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230725_121647-dxroa09m/logs/debug.log
+2023-07-25 12:16:47,264 INFO    Thread-5000 (_run_job):90553 [wandb_init.py:_log_setup():508] Logging internal logs to /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230725_121647-dxroa09m/logs/debug-internal.log
+2023-07-25 12:16:47,264 INFO    Thread-5000 (_run_job):90553 [wandb_init.py:_jupyter_setup():453] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x1a1199e70>
+2023-07-25 12:16:47,264 INFO    Thread-5000 (_run_job):90553 [wandb_init.py:init():547] calling init triggers
+2023-07-25 12:16:47,264 INFO    Thread-5000 (_run_job):90553 [wandb_init.py:init():554] wandb.init called with sweep_config: {'epochs': 20, 'learning_rate': 0.002689149243203216, 'wd': 0.0520801233829648}
+config: {}
+2023-07-25 12:16:47,265 INFO    Thread-5000 (_run_job):90553 [wandb_init.py:init():596] starting backend
+2023-07-25 12:16:47,265 INFO    Thread-5000 (_run_job):90553 [wandb_init.py:init():600] setting up manager
+2023-07-25 12:16:47,270 INFO    Thread-5000 (_run_job):90553 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2023-07-25 12:16:47,275 INFO    Thread-5000 (_run_job):90553 [wandb_init.py:init():606] backend started and connected
+2023-07-25 12:16:47,286 INFO    Thread-5000 (_run_job):90553 [wandb_run.py:_config_callback():1281] config_cb None None {'epochs': 20, 'learning_rate': 0.002689149243203216, 'wd': 0.0520801233829648}
+2023-07-25 12:16:47,290 INFO    Thread-5000 (_run_job):90553 [wandb_run.py:_label_probe_notebook():1233] probe notebook
+2023-07-25 12:16:47,290 INFO    Thread-5000 (_run_job):90553 [wandb_run.py:_label_probe_notebook():1243] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-07-25 12:16:47,290 INFO    Thread-5000 (_run_job):90553 [wandb_init.py:init():705] updated telemetry
+2023-07-25 12:16:47,326 INFO    Thread-5000 (_run_job):90553 [wandb_init.py:init():738] communicating run to backend with 60.0 second timeout
+2023-07-25 12:16:47,557 INFO    Thread-5000 (_run_job):90553 [wandb_run.py:_on_init():2173] communicating current version
+2023-07-25 12:16:47,640 INFO    Thread-5000 (_run_job):90553 [wandb_run.py:_on_init():2182] got version response upgrade_message: "wandb version 0.15.7 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2023-07-25 12:16:47,640 INFO    Thread-5000 (_run_job):90553 [wandb_init.py:init():789] starting run threads in backend
+2023-07-25 12:16:47,747 INFO    Thread-5000 (_run_job):90553 [wandb_run.py:_console_start():2152] atexit reg
+2023-07-25 12:16:47,747 INFO    Thread-5000 (_run_job):90553 [wandb_run.py:_redirect():2007] redirect: SettingsConsole.WRAP_RAW
+2023-07-25 12:16:47,747 INFO    Thread-5000 (_run_job):90553 [wandb_run.py:_redirect():2072] Wrapping output streams.
+2023-07-25 12:16:47,747 INFO    Thread-5000 (_run_job):90553 [wandb_run.py:_redirect():2097] Redirects installed.
+2023-07-25 12:16:47,748 INFO    Thread-5000 (_run_job):90553 [wandb_init.py:init():830] run started, returning control to user process
+2023-07-25 12:16:49,628 INFO    Thread-5000 (_run_job):90553 [wandb_run.py:_finish():1887] finishing run alanfiler/Citrine_Solutions_Engineer_Test_V3/dxroa09m
+2023-07-25 12:16:49,630 INFO    Thread-5000 (_run_job):90553 [jupyter.py:save_history():445] not saving jupyter history
+2023-07-25 12:16:49,630 INFO    Thread-5000 (_run_job):90553 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-07-25 12:16:49,630 INFO    Thread-5000 (_run_job):90553 [wandb_init.py:_jupyter_teardown():435] cleaning up jupyter logic
+2023-07-25 12:16:49,630 INFO    Thread-5000 (_run_job):90553 [wandb_run.py:_atexit_cleanup():2121] got exitcode: 1
+2023-07-25 12:16:49,630 INFO    Thread-5000 (_run_job):90553 [wandb_run.py:_restore():2104] restore
+2023-07-25 12:16:49,631 INFO    Thread-5000 (_run_job):90553 [wandb_run.py:_restore():2110] restore done
+2023-07-25 12:16:49,631 INFO    Thread-5000 (_run_job):90553 [wandb_run.py:_restore():2104] restore
+2023-07-25 12:16:49,631 INFO    Thread-5000 (_run_job):90553 [wandb_run.py:_restore():2110] restore done
+2023-07-25 12:16:50,634 ERROR   Thread-5000 (_run_job):90553 [wandb_run.py:_atexit_cleanup():2142] Problem finishing run
+Traceback (most recent call last):
+  File "/Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/.venv/lib/python3.10/site-packages/wandb/agents/pyagent.py", line 298, in _run_job
+    self._function()
+  File "/var/folders/tq/793pyzvn4ts7t0217hsm6l2w0000gq/T/ipykernel_90553/650280142.py", line 29, in train
+    learn.fit_one_cycle(config.epochs, lr_max=config.learning_rate, cbs=[EarlyStoppingCallback(monitor='f1_score', min_delta=0.001, patience=3), SaveModelCallback(monitor='f1_score', min_delta=0.001)])
+  File "/Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/.venv/lib/python3.10/site-packages/fastai/callback/schedule.py", line 119, in fit_one_cycle
+    self.fit(n_epoch, cbs=ParamScheduler(scheds)+L(cbs), reset_opt=reset_opt, wd=wd, start_epoch=start_epoch)
+  File "/Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/.venv/lib/python3.10/site-packages/fastai/learner.py", line 264, in fit
+    self._with_events(self._do_fit, 'fit', CancelFitException, self._end_cleanup)
+  File "/Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/.venv/lib/python3.10/site-packages/fastai/learner.py", line 199, in _with_events
+    try: self(f'before_{event_type}');  f()
+  File "/Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/.venv/lib/python3.10/site-packages/fastai/learner.py", line 253, in _do_fit
+    self._with_events(self._do_epoch, 'epoch', CancelEpochException)
+  File "/Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/.venv/lib/python3.10/site-packages/fastai/learner.py", line 199, in _with_events
+    try: self(f'before_{event_type}');  f()
+  File "/Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/.venv/lib/python3.10/site-packages/fastai/learner.py", line 247, in _do_epoch
+    self._do_epoch_train()
+  File "/Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/.venv/lib/python3.10/site-packages/fastai/learner.py", line 239, in _do_epoch_train
+    self._with_events(self.all_batches, 'train', CancelTrainException)
+  File "/Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/.venv/lib/python3.10/site-packages/fastai/learner.py", line 199, in _with_events
+    try: self(f'before_{event_type}');  f()
+  File "/Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/.venv/lib/python3.10/site-packages/fastai/learner.py", line 205, in all_batches
+    for o in enumerate(self.dl): self.one_batch(*o)
+  File "/Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/.venv/lib/python3.10/site-packages/fastai/learner.py", line 235, in one_batch
+    self._with_events(self._do_one_batch, 'batch', CancelBatchException)
+  File "/Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/.venv/lib/python3.10/site-packages/fastai/learner.py", line 201, in _with_events
+    self(f'after_{event_type}');  final()
+  File "/Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/.venv/lib/python3.10/site-packages/fastai/learner.py", line 172, in __call__
+    def __call__(self, event_name): L(event_name).map(self._call_one)
+  File "/Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/.venv/lib/python3.10/site-packages/fastcore/foundation.py", line 156, in map
+    def map(self, f, *args, **kwargs): return self._new(map_ex(self, f, *args, gen=False, **kwargs))
+  File "/Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/.venv/lib/python3.10/site-packages/fastcore/basics.py", line 840, in map_ex
+    return list(res)
+  File "/Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/.venv/lib/python3.10/site-packages/fastcore/basics.py", line 825, in __call__
+    return self.func(*fargs, **kwargs)
+  File "/Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/.venv/lib/python3.10/site-packages/fastai/learner.py", line 176, in _call_one
+    for cb in self.cbs.sorted('order'): cb(event_name)
+  File "/Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/.venv/lib/python3.10/site-packages/fastai/callback/core.py", line 62, in __call__
+    except Exception as e: raise modify_exception(e, f'Exception occured in `{self.__class__.__name__}` when calling event `{event_name}`:\n\t{e.args[0]}', replace=True)
+  File "/Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/.venv/lib/python3.10/site-packages/fastai/callback/core.py", line 60, in __call__
+    try: res = getcallable(self, event_name)()
+  File "/Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/.venv/lib/python3.10/site-packages/fastai/callback/progress.py", line 32, in after_batch
+    self.pbar.update(self.iter+1)
+  File "/Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/.venv/lib/python3.10/site-packages/fastprogress/fastprogress.py", line 66, in update
+    self.update_bar(val)
+  File "/Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/.venv/lib/python3.10/site-packages/fastprogress/fastprogress.py", line 81, in update_bar
+    self.on_update(val, f'{pct}[{val}/{tot} {elapsed_t}{self.lt}{remaining_t}{end}]')
+  File "/Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/.venv/lib/python3.10/site-packages/fastprogress/fastprogress.py", line 134, in on_update
+    elif self.parent is not None: self.parent.show()
+  File "/Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/.venv/lib/python3.10/site-packages/fastprogress/fastprogress.py", line 177, in show
+    self.out.update(HTML(self.html_code))
+  File "/Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/.venv/lib/python3.10/site-packages/IPython/core/display_functions.py", line 374, in update
+    update_display(obj, display_id=self.display_id, **kwargs)
+  File "/Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/.venv/lib/python3.10/site-packages/IPython/core/display_functions.py", line 326, in update_display
+    display(obj, display_id=display_id, **kwargs)
+  File "/Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/.venv/lib/python3.10/site-packages/IPython/core/display_functions.py", line 305, in display
+    publish_display_data(data=format_dict, metadata=md_dict, **kwargs)
+  File "/Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/.venv/lib/python3.10/site-packages/IPython/core/display_functions.py", line 93, in publish_display_data
+    display_pub.publish(
+  File "/Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/.venv/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 464, in publish
+    ipython.display_pub._orig_publish(data, metadata=metadata, **kwargs)
+  File "/Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/.venv/lib/python3.10/site-packages/ipykernel/zmqshell.py", line 102, in publish
+    self._flush_streams()
+  File "/Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/.venv/lib/python3.10/site-packages/ipykernel/zmqshell.py", line 65, in _flush_streams
+    sys.stdout.flush()
+  File "/Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/.venv/lib/python3.10/site-packages/ipykernel/iostream.py", line 559, in flush
+    self.pub_thread.schedule(self._flush)
+  File "/Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/.venv/lib/python3.10/site-packages/ipykernel/iostream.py", line 251, in schedule
+    self._event_pipe.send(b"")
+  File "/Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/.venv/lib/python3.10/site-packages/zmq/sugar/socket.py", line 696, in send
+    return super().send(data, flags=flags, copy=copy, track=track)
+  File "zmq/backend/cython/socket.pyx", line 742, in zmq.backend.cython.socket.Socket.send
+  File "zmq/backend/cython/socket.pyx", line 783, in zmq.backend.cython.socket.Socket.send
+  File "zmq/backend/cython/socket.pyx", line 138, in zmq.backend.cython.socket._check_closed
+zmq.error.ZMQError: Socket operation on non-socket
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/.venv/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 2130, in _atexit_cleanup
+    self._on_finish()
+  File "/Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/.venv/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 2365, in _on_finish
+    self._footer_exit_status_info(
+  File "/Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/.venv/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 3268, in _footer_exit_status_info
+    printer.display(f'{" ".join(info)}')
+  File "/Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/.venv/lib/python3.10/site-packages/wandb/sdk/lib/printer.py", line 68, in display
+    self._display(text, level=level, default_text=default_text)
+  File "/Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/.venv/lib/python3.10/site-packages/wandb/sdk/lib/printer.py", line 240, in _display
+    self._display_fn_mapping(level)(text)
+  File "/Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/.venv/lib/python3.10/site-packages/wandb/sdk/lib/ipython.py", line 74, in display_html
+    return display(HTML(html))
+  File "/Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/.venv/lib/python3.10/site-packages/IPython/core/display_functions.py", line 305, in display
+    publish_display_data(data=format_dict, metadata=md_dict, **kwargs)
+  File "/Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/.venv/lib/python3.10/site-packages/IPython/core/display_functions.py", line 93, in publish_display_data
+    display_pub.publish(
+  File "/Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/.venv/lib/python3.10/site-packages/ipykernel/zmqshell.py", line 102, in publish
+    self._flush_streams()
+  File "/Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/.venv/lib/python3.10/site-packages/ipykernel/zmqshell.py", line 65, in _flush_streams
+    sys.stdout.flush()
+  File "/Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/.venv/lib/python3.10/site-packages/ipykernel/iostream.py", line 559, in flush
+    self.pub_thread.schedule(self._flush)
+  File "/Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/.venv/lib/python3.10/site-packages/ipykernel/iostream.py", line 251, in schedule
+    self._event_pipe.send(b"")
+  File "/Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/.venv/lib/python3.10/site-packages/zmq/sugar/socket.py", line 696, in send
+    return super().send(data, flags=flags, copy=copy, track=track)
+  File "zmq/backend/cython/socket.pyx", line 742, in zmq.backend.cython.socket.Socket.send
+  File "zmq/backend/cython/socket.pyx", line 783, in zmq.backend.cython.socket.Socket.send
+  File "zmq/backend/cython/socket.pyx", line 138, in zmq.backend.cython.socket._check_closed
+zmq.error.ZMQError: Socket operation on non-socket
+2023-07-25 12:17:57,193 INFO    MainThread:90553 [pyagent.py:run():314] Starting sweep agent: entity=None, project=None, count=10
+2023-07-25 12:18:10,663 INFO    MainThread:90553 [pyagent.py:run():314] Starting sweep agent: entity=None, project=None, count=10

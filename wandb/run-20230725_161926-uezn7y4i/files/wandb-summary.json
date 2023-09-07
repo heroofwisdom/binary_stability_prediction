@@ -1,0 +1,1 @@
+{"f1_score_weighted_average": 0.9610894941634242, "precision_score_weighted_average": 0.9610894941634242, "recall_score_weighted_average": 0.9610894941634242, "f1_score": 0.16666666666666666, "precision_score": 0.16666666666666666, "recall_score": 0.16666666666666666, "_timestamp": 1690323636.170132, "_runtime": 69.26478886604309, "_step": 8, "_wandb": {"runtime": 68}}

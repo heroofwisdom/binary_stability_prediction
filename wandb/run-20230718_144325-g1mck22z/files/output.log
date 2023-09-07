@@ -1,0 +1,8 @@
+
+Transformation Pipeline and Model Successfully Saved
+<class 'pandas.core.frame.DataFrame'>
+Int64Index: 2315 entries, 0 to 2571
+Columns: 101 entries, formulaA_elements_AtomicVolume to 10A_90B
+dtypes: category(20), float64(42), int64(39)
+memory usage: 1.6 MB
+Warning: No categorical columns found. Calling 'transform' will only return input data.

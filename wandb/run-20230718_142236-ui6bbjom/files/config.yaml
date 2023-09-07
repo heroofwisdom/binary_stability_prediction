@@ -1,0 +1,100 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    python_version: 3.10.11
+    cli_version: 0.15.5
+    framework: lightgbm
+    is_jupyter_run: true
+    is_kaggle_kernel: false
+    start_time: 1689711756.05841
+    t:
+      1:
+      - 1
+      - 4
+      - 5
+      - 8
+      - 28
+      - 35
+      - 53
+      - 55
+      2:
+      - 1
+      - 4
+      - 5
+      - 8
+      - 28
+      - 35
+      - 53
+      - 55
+      3:
+      - 2
+      - 13
+      - 23
+      4: 3.10.11
+      5: 0.15.5
+      8:
+      - 1
+      - 5
+setup:
+  desc: null
+  value:
+    Session id: 123
+    Target: 90A_10B
+    Target type: Binary
+    Original data shape:
+    - 2572
+    - 101
+    Transformed data shape:
+    - 4795
+    - 177
+    Transformed train set shape:
+    - 4540
+    - 177
+    Transformed test set shape:
+    - 257
+    - 177
+    Ordinal features: 12
+    Numeric features: 72
+    Categorical features: 20
+    Preprocess: true
+    Imputation type: simple
+    Numeric imputation: mean
+    Categorical imputation: mode
+    Maximum one-hot encoding: 25
+    Encoding method: null
+    Fix imbalance: true
+    Fix imbalance method: SMOTETomek
+    Transformation: true
+    Transformation method: yeo-johnson
+    Normalize: true
+    Normalize method: zscore
+    Fold Generator: StratifiedKFold
+    Fold Number: 10
+    CPU Jobs: -1
+    Use GPU: false
+    Log Experiment: WandbLogger
+    Experiment Name: 90A_10B Multilabel Stratified
+    USI: c5fc
+Extra Trees Classifier:
+  desc: null
+  value:
+    bootstrap: false
+    ccp_alpha: 0.0
+    class_weight: null
+    criterion: gini
+    max_depth: null
+    max_features: sqrt
+    max_leaf_nodes: null
+    max_samples: null
+    min_impurity_decrease: 0.0
+    min_samples_leaf: 1
+    min_samples_split: 2
+    min_weight_fraction_leaf: 0.0
+    n_estimators: 100
+    n_jobs: -1
+    oob_score: false
+    random_state: 123
+    verbose: 0
+    warm_start: false

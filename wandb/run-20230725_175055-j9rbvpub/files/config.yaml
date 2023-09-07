@@ -1,0 +1,49 @@
+wandb_version: 1
+
+epochs:
+  desc: null
+  value: 20
+layers:
+  desc: null
+  value: 32
+learning_rate:
+  desc: null
+  value: 0.00357727170664985
+wd:
+  desc: null
+  value: 0.05153861734347406
+_wandb:
+  desc: null
+  value:
+    python_version: 3.10.11
+    cli_version: 0.15.7
+    framework: fastai
+    is_jupyter_run: true
+    is_kaggle_kernel: false
+    start_time: 1690329055.206462
+    t:
+      1:
+      - 1
+      - 4
+      - 5
+      - 28
+      - 35
+      - 53
+      - 55
+      2:
+      - 1
+      - 4
+      - 5
+      - 28
+      - 35
+      - 53
+      - 55
+      3:
+      - 2
+      - 23
+      - 37
+      4: 3.10.11
+      5: 0.15.7
+      8:
+      - 1
+      - 5

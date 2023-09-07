@@ -1,0 +1,54 @@
+2023-07-24 14:11:50,435 INFO    MainThread:90553 [wandb_setup.py:_flush():76] Current SDK version is 0.15.5
+2023-07-24 14:11:50,435 INFO    MainThread:90553 [wandb_setup.py:_flush():76] Configure stats pid to 90553
+2023-07-24 14:11:50,435 INFO    MainThread:90553 [wandb_setup.py:_flush():76] Loading settings from /Users/heroofwisdom/.config/wandb/settings
+2023-07-24 14:11:50,435 INFO    MainThread:90553 [wandb_setup.py:_flush():76] Loading settings from /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/settings
+2023-07-24 14:11:50,435 INFO    MainThread:90553 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-07-24 14:11:50,436 INFO    MainThread:90553 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-07-24 14:11:50,436 INFO    MainThread:90553 [wandb_init.py:_log_setup():507] Logging user logs to /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230724_141150-jkldhq2m/logs/debug.log
+2023-07-24 14:11:50,436 INFO    MainThread:90553 [wandb_init.py:_log_setup():508] Logging internal logs to /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230724_141150-jkldhq2m/logs/debug-internal.log
+2023-07-24 14:11:50,436 INFO    MainThread:90553 [wandb_init.py:_jupyter_setup():453] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x1a03bf010>
+2023-07-24 14:11:50,436 INFO    MainThread:90553 [wandb_init.py:init():547] calling init triggers
+2023-07-24 14:11:50,436 INFO    MainThread:90553 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {}
+2023-07-24 14:11:50,436 INFO    MainThread:90553 [wandb_init.py:init():596] starting backend
+2023-07-24 14:11:50,436 INFO    MainThread:90553 [wandb_init.py:init():600] setting up manager
+2023-07-24 14:11:50,437 INFO    MainThread:90553 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2023-07-24 14:11:50,438 INFO    MainThread:90553 [wandb_init.py:init():606] backend started and connected
+2023-07-24 14:11:50,443 INFO    MainThread:90553 [wandb_run.py:_label_probe_notebook():1233] probe notebook
+2023-07-24 14:11:50,444 INFO    MainThread:90553 [wandb_run.py:_label_probe_notebook():1243] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-07-24 14:11:50,444 INFO    MainThread:90553 [wandb_init.py:init():705] updated telemetry
+2023-07-24 14:11:50,477 INFO    MainThread:90553 [wandb_init.py:init():738] communicating run to backend with 60.0 second timeout
+2023-07-24 14:11:50,864 INFO    MainThread:90553 [wandb_run.py:_on_init():2173] communicating current version
+2023-07-24 14:11:50,951 INFO    MainThread:90553 [wandb_run.py:_on_init():2182] got version response 
+2023-07-24 14:11:50,952 INFO    MainThread:90553 [wandb_init.py:init():789] starting run threads in backend
+2023-07-24 14:11:51,018 INFO    MainThread:90553 [wandb_run.py:_console_start():2152] atexit reg
+2023-07-24 14:11:51,018 INFO    MainThread:90553 [wandb_run.py:_redirect():2007] redirect: SettingsConsole.WRAP_RAW
+2023-07-24 14:11:51,018 INFO    MainThread:90553 [wandb_run.py:_redirect():2072] Wrapping output streams.
+2023-07-24 14:11:51,018 INFO    MainThread:90553 [wandb_run.py:_redirect():2097] Redirects installed.
+2023-07-24 14:11:51,019 INFO    MainThread:90553 [wandb_init.py:init():830] run started, returning control to user process
+2023-07-24 14:11:51,323 INFO    MainThread:90553 [wandb_run.py:_config_callback():1281] config_cb None None {'Learner': {'loss_func': {'axis': -1, 'flatten': True, 'floatify': False, 'is_2d': True, '_name': 'FlattenedLoss of CrossEntropyLoss()'}, 'opt_func': 'fastai.optimizer.Adam', 'lr': 0.001, 'splitter': 'fastai.torch_core.trainable_params', 'metrics': [{'func': 'sklearn.metrics._classification.f1_score', 'dim_argmax': -1, 'activation': 'no', 'thresh': None, 'flatten': True, '_name': '<fastai.metrics.AccumMetric object at 0x1a04507c0>'}, {'func': 'sklearn.metrics._classification.f1_score', 'dim_argmax': -1, 'activation': 'no', 'thresh': None, 'flatten': True, '_name': '<fastai.metrics.AccumMetric object at 0x1a0516f20>'}, {'func': 'sklearn.metrics._classification.precision_score', 'dim_argmax': -1, 'activation': 'no', 'thresh': None, 'flatten': True, '_name': '<fastai.metrics.AccumMetric object at 0x1a0452290>'}, {'func': 'sklearn.metrics._classification.recall_score', 'dim_argmax': -1, 'activation': 'no', 'thresh': None, 'flatten': True, '_name': '<fastai.metrics.AccumMetric object at 0x1a02883d0>'}], 'path': '.', 'model_dir': 'models', 'wd': None, 'wd_bn_bias': False, 'train_bn': True, 'moms': [0.95, 0.85, 0.95], 'default_cbs': True, '_name': '<fastai.tabular.learner.TabularLearner object at 0x1a0288190>'}, 'TrainEvalCallback': True, 'Recorder': {'add_time': True, 'train_metrics': False, 'valid_metrics': True}, 'CastToTensor': True, 'ProgressCallback': True, 'ParamScheduler': True, 'EarlyStoppingCallback': True, 'SaveModelCallback': {'fname': 'model', 'every_epoch': False, 'at_end': False, 'with_opt': False}, 'WandbCallback': {'log': None, 'log_preds': True, 'log_preds_every_epoch': False, 'log_model': False, 'model_name': None, 'log_dataset': False, 'dataset_name': None, 'valid_dl': None, 'n_preds': 36, 'seed': 12345, 'reorder': True}, 'n_inp': 2, 'input 1 dim 1': 64, 'input 1 dim 2': 20, 'input 2 dim 1': 64, 'input 2 dim 2': 72, 'batch size': 64, 'batch per epoch': 70, 'model parameters': 62464, 'device': 'cpu', 'frozen': False, 'frozen idx': 0}
+2023-07-24 14:12:01,250 INFO    MainThread:90553 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-07-24 14:12:01,250 INFO    MainThread:90553 [wandb_init.py:_pause_backend():418] pausing backend
+2023-07-24 14:12:26,536 INFO    MainThread:90553 [wandb_init.py:_resume_backend():423] resuming backend
+2023-07-24 14:12:26,554 INFO    MainThread:90553 [wandb_setup.py:_flush():76] Current SDK version is 0.15.5
+2023-07-24 14:12:26,554 INFO    MainThread:90553 [wandb_setup.py:_flush():76] Configure stats pid to 90553
+2023-07-24 14:12:26,554 INFO    MainThread:90553 [wandb_setup.py:_flush():76] Loading settings from /Users/heroofwisdom/.config/wandb/settings
+2023-07-24 14:12:26,554 INFO    MainThread:90553 [wandb_setup.py:_flush():76] Loading settings from /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/settings
+2023-07-24 14:12:26,554 INFO    MainThread:90553 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-07-24 14:12:26,554 INFO    MainThread:90553 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-07-24 14:12:26,555 INFO    MainThread:90553 [wandb_init.py:_log_setup():507] Logging user logs to /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230724_141226-r7ccudx5/logs/debug.log
+2023-07-24 14:12:26,555 INFO    MainThread:90553 [wandb_init.py:_log_setup():508] Logging internal logs to /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230724_141226-r7ccudx5/logs/debug-internal.log
+2023-07-24 14:12:26,555 INFO    MainThread:90553 [wandb_init.py:init():547] calling init triggers
+2023-07-24 14:12:26,555 INFO    MainThread:90553 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {}
+2023-07-24 14:12:26,555 INFO    MainThread:90553 [wandb_init.py:init():571] re-initializing run, found existing run on stack: jkldhq2m
+2023-07-24 14:12:26,557 INFO    MainThread:90553 [wandb_run.py:_finish():1887] finishing run alanfiler/Citrine_Solutions_Engineer_Test_V3/jkldhq2m
+2023-07-24 14:12:26,557 INFO    MainThread:90553 [jupyter.py:save_history():445] not saving jupyter history
+2023-07-24 14:12:26,558 INFO    MainThread:90553 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-07-24 14:12:26,558 INFO    MainThread:90553 [wandb_init.py:_jupyter_teardown():435] cleaning up jupyter logic
+2023-07-24 14:12:26,558 INFO    MainThread:90553 [wandb_run.py:_atexit_cleanup():2121] got exitcode: 0
+2023-07-24 14:12:26,558 INFO    MainThread:90553 [wandb_run.py:_restore():2104] restore
+2023-07-24 14:12:26,558 INFO    MainThread:90553 [wandb_run.py:_restore():2110] restore done
+2023-07-24 14:12:30,644 INFO    MainThread:90553 [wandb_run.py:_footer_history_summary_info():3464] rendering history
+2023-07-24 14:12:30,645 INFO    MainThread:90553 [wandb_run.py:_footer_history_summary_info():3496] rendering summary
+2023-07-24 14:12:30,651 INFO    MainThread:90553 [wandb_run.py:_footer_sync_info():3423] logging synced files

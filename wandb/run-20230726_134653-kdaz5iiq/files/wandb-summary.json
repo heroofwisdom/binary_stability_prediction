@@ -1,0 +1,1 @@
+{"f1_gain_score": 0.9705731832139202, "precision_gain_score": 0.988229273285568, "recall_gain_score": 0.9529170931422721, "_timestamp": 1690400813.757045, "_runtime": 0.5662450790405273, "_step": 9, "f1_gain_score_average": 0.9025518072296107, "precision_gain_average": 0.9290516728729704, "recall_gain_avg": 0.8760519415862513, "_wandb": {"runtime": 0}}

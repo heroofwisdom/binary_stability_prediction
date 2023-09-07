@@ -1,0 +1,56 @@
+2023-09-07 12:09:26,899 INFO    MainThread:80434 [wandb_setup.py:_flush():76] Current SDK version is 0.15.7
+2023-09-07 12:09:26,899 INFO    MainThread:80434 [wandb_setup.py:_flush():76] Configure stats pid to 80434
+2023-09-07 12:09:26,899 INFO    MainThread:80434 [wandb_setup.py:_flush():76] Loading settings from /Users/heroofwisdom/.config/wandb/settings
+2023-09-07 12:09:26,899 INFO    MainThread:80434 [wandb_setup.py:_flush():76] Loading settings from /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/settings
+2023-09-07 12:09:26,900 INFO    MainThread:80434 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'binary_stability_prediction', 'entity': 'alanfiler', 'root_dir': '/Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3', 'sweep_id': '17slkgb8', 'run_id': 'mxgewhga', 'sweep_param_path': '/Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/sweep-17slkgb8/config-mxgewhga.yaml'}
+2023-09-07 12:09:26,900 INFO    MainThread:80434 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-09-07 12:09:26,900 INFO    MainThread:80434 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-09-07 12:09:26,900 INFO    MainThread:80434 [wandb_init.py:_log_setup():507] Logging user logs to /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230907_120926-mxgewhga/logs/debug.log
+2023-09-07 12:09:26,900 INFO    MainThread:80434 [wandb_init.py:_log_setup():508] Logging internal logs to /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230907_120926-mxgewhga/logs/debug-internal.log
+2023-09-07 12:09:26,900 INFO    MainThread:80434 [wandb_init.py:_jupyter_setup():453] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x16eaf9ab0>
+2023-09-07 12:09:26,900 INFO    MainThread:80434 [wandb_init.py:init():547] calling init triggers
+2023-09-07 12:09:26,900 INFO    MainThread:80434 [wandb_init.py:init():554] wandb.init called with sweep_config: {'epochs': 20, 'layers': 58, 'learning_rate': 0.0005661919893249324, 'wd': 0.033170774204635385}
+config: {}
+2023-09-07 12:09:26,900 INFO    MainThread:80434 [wandb_init.py:init():596] starting backend
+2023-09-07 12:09:26,900 INFO    MainThread:80434 [wandb_init.py:init():600] setting up manager
+2023-09-07 12:09:26,905 INFO    MainThread:80434 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2023-09-07 12:09:26,906 INFO    MainThread:80434 [wandb_init.py:init():606] backend started and connected
+2023-09-07 12:09:26,920 INFO    MainThread:80434 [wandb_run.py:_config_callback():1282] config_cb None None {'epochs': 20, 'layers': 58, 'learning_rate': 0.0005661919893249324, 'wd': 0.033170774204635385}
+2023-09-07 12:09:26,924 INFO    MainThread:80434 [wandb_run.py:_label_probe_notebook():1234] probe notebook
+2023-09-07 12:09:26,924 INFO    MainThread:80434 [wandb_run.py:_label_probe_notebook():1244] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-09-07 12:09:26,924 INFO    MainThread:80434 [wandb_init.py:init():697] updated telemetry
+2023-09-07 12:09:26,967 INFO    MainThread:80434 [wandb_init.py:init():730] communicating run to backend with 60.0 second timeout
+2023-09-07 12:09:27,627 INFO    MainThread:80434 [wandb_run.py:_on_init():2174] communicating current version
+2023-09-07 12:09:27,788 INFO    MainThread:80434 [wandb_run.py:_on_init():2183] got version response upgrade_message: "wandb version 0.15.10 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2023-09-07 12:09:27,789 INFO    MainThread:80434 [wandb_init.py:init():781] starting run threads in backend
+2023-09-07 12:09:27,871 INFO    MainThread:80434 [wandb_run.py:_console_start():2153] atexit reg
+2023-09-07 12:09:27,871 INFO    MainThread:80434 [wandb_run.py:_redirect():2008] redirect: wrap_raw
+2023-09-07 12:09:27,872 INFO    MainThread:80434 [wandb_run.py:_redirect():2073] Wrapping output streams.
+2023-09-07 12:09:27,872 INFO    MainThread:80434 [wandb_run.py:_redirect():2098] Redirects installed.
+2023-09-07 12:09:27,873 INFO    MainThread:80434 [wandb_init.py:init():822] run started, returning control to user process
+2023-09-07 12:09:39,301 INFO    MainThread:80434 [wandb_agent.py:run():217] Running runs: []
+2023-09-07 12:09:39,832 INFO    MainThread:80434 [wandb_agent.py:_process_command():313] Agent received command: run
+2023-09-07 12:09:39,835 INFO    MainThread:80434 [wandb_agent.py:_command_run():346] Agent starting run with config:
+	epochs: 20
+	layers: 99
+	learning_rate: 0.008429568252363939
+	wd: 0.08917233309549576
+2023-09-07 12:09:39,847 INFO    MainThread:80434 [wandb_agent.py:_command_run():418] About to run command: /usr/bin/env python  --epochs=20 --layers=99 --learning_rate=0.008429568252363939 --wd=0.08917233309549576
+2023-09-07 12:09:45,152 INFO    MainThread:80434 [wandb_agent.py:run():217] Running runs: ['b0penp8p']
+2023-09-07 12:09:45,153 INFO    MainThread:80434 [wandb_agent.py:run():252] Cleaning up finished run: b0penp8p
+2023-09-07 12:09:50,704 WARNING MsgRouterThr:80434 [router.py:message_loop():77] message_loop has been closed
+2023-09-07 12:09:52,218 INFO    MainThread:80434 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-09-07 12:09:52,219 INFO    MainThread:80434 [wandb_init.py:_pause_backend():418] pausing backend
+2023-09-07 12:09:52,350 INFO    MainThread:80434 [wandb_init.py:_resume_backend():423] resuming backend
+2023-09-07 12:09:52,800 INFO    MainThread:80434 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-09-07 12:09:52,800 INFO    MainThread:80434 [wandb_init.py:_pause_backend():418] pausing backend
+2023-09-07 12:10:18,053 INFO    MainThread:80434 [wandb_init.py:_resume_backend():423] resuming backend
+2023-09-07 12:10:18,754 INFO    MainThread:80434 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-09-07 12:10:18,754 INFO    MainThread:80434 [wandb_init.py:_pause_backend():418] pausing backend
+2023-09-07 12:10:32,075 INFO    MainThread:80434 [wandb_init.py:_resume_backend():423] resuming backend
+2023-09-07 12:10:32,090 INFO    MainThread:80434 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-09-07 12:10:32,091 INFO    MainThread:80434 [wandb_init.py:_pause_backend():418] pausing backend
+2023-09-07 12:10:33,557 INFO    MainThread:80434 [wandb_init.py:_resume_backend():423] resuming backend
+2023-09-07 12:10:33,572 INFO    MainThread:80434 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-09-07 12:10:33,573 INFO    MainThread:80434 [wandb_init.py:_pause_backend():418] pausing backend

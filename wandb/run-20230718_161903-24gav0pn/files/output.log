@@ -1,0 +1,6 @@
+
+Warning: No categorical columns found. Calling 'transform' will only return input data.
+[I 2023-07-18 16:21:50,671] Searching the best hyperparameters using 2315 samples...
+[I 2023-07-18 16:24:43,986] Finished hyperparemeter search!
+Original model was better than the tuned model, hence it will be returned. NOTE: The display metrics are for the tuned model (not the original one).
+Transformation Pipeline and Model Successfully Saved

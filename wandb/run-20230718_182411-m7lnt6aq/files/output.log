@@ -1,0 +1,4 @@
+
+Warning: No categorical columns found. Calling 'transform' will only return input data.
+[I 2023-07-18 18:27:15,278] Searching the best hyperparameters using 2315 samples...
+[I 2023-07-18 18:30:15,850] Finished hyperparemeter search!

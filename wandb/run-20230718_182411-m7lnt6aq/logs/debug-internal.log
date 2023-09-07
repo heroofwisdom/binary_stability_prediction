@@ -1,0 +1,784 @@
+2023-07-18 18:24:11,580 INFO    StreamThr :7100 [internal.py:wandb_internal():86] W&B internal server running at pid: 7100, started at: 2023-07-18 18:24:11.579706
+2023-07-18 18:24:11,581 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status
+2023-07-18 18:24:11,585 INFO    WriterThread:7100 [datastore.py:open_for_write():85] open: /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230718_182411-m7lnt6aq/run-m7lnt6aq.wandb
+2023-07-18 18:24:11,586 DEBUG   SenderThread:7100 [sender.py:send():369] send: header
+2023-07-18 18:24:11,620 DEBUG   SenderThread:7100 [sender.py:send():369] send: run
+2023-07-18 18:24:11,883 INFO    SenderThread:7100 [dir_watcher.py:__init__():211] watching files in: /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230718_182411-m7lnt6aq/files
+2023-07-18 18:24:11,883 INFO    SenderThread:7100 [sender.py:_start_run_threads():1100] run started: m7lnt6aq with start time 1689726251.580273
+2023-07-18 18:24:11,883 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: summary_record
+2023-07-18 18:24:11,883 INFO    SenderThread:7100 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-18 18:24:11,889 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: check_version
+2023-07-18 18:24:11,889 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: check_version
+2023-07-18 18:24:11,969 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: run_start
+2023-07-18 18:24:11,976 DEBUG   HandlerThread:7100 [system_info.py:__init__():31] System info init
+2023-07-18 18:24:11,976 DEBUG   HandlerThread:7100 [system_info.py:__init__():46] System info init done
+2023-07-18 18:24:11,976 INFO    HandlerThread:7100 [system_monitor.py:start():181] Starting system monitor
+2023-07-18 18:24:11,977 INFO    SystemMonitor:7100 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-07-18 18:24:11,977 INFO    HandlerThread:7100 [system_monitor.py:probe():201] Collecting system info
+2023-07-18 18:24:11,978 INFO    SystemMonitor:7100 [interfaces.py:start():190] Started cpu monitoring
+2023-07-18 18:24:11,978 DEBUG   HandlerThread:7100 [system_info.py:probe():195] Probing system
+2023-07-18 18:24:11,978 INFO    SystemMonitor:7100 [interfaces.py:start():190] Started disk monitoring
+2023-07-18 18:24:11,979 INFO    SystemMonitor:7100 [interfaces.py:start():190] Started memory monitoring
+2023-07-18 18:24:11,979 INFO    SystemMonitor:7100 [interfaces.py:start():190] Started network monitoring
+2023-07-18 18:24:11,986 DEBUG   HandlerThread:7100 [system_info.py:_probe_git():180] Probing git
+2023-07-18 18:24:12,028 DEBUG   HandlerThread:7100 [system_info.py:_probe_git():188] Probing git done
+2023-07-18 18:24:12,028 DEBUG   HandlerThread:7100 [system_info.py:probe():240] Probing system done
+2023-07-18 18:24:12,029 DEBUG   HandlerThread:7100 [system_monitor.py:probe():210] {'os': 'macOS-13.5-x86_64-i386-64bit', 'python': '3.10.11', 'heartbeatAt': '2023-07-19T00:24:11.978529', 'startedAt': '2023-07-19T00:24:11.570597', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': '<python with no main file>', 'git': {'remote': None, 'commit': '66713dc891f1b0d642803c24630ce30bb938b67b'}, 'email': '119975864+heroofwisdom@users.noreply.github.com', 'root': '/Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3', 'host': 'MacBook-Pro.local', 'username': 'heroofwisdom', 'executable': '/Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/.venv/bin/python', 'cpu_count': 8, 'cpu_count_logical': 16, 'cpu_freq': {'current': 2300, 'min': 2300, 'max': 2300}, 'cpu_freq_per_core': [{'current': 2300, 'min': 2300, 'max': 2300}], 'disk': {'total': 931.546989440918, 'used': 10.817604064941406}, 'memory': {'total': 16.0}}
+2023-07-18 18:24:12,029 INFO    HandlerThread:7100 [system_monitor.py:probe():211] Finished collecting system info
+2023-07-18 18:24:12,029 INFO    HandlerThread:7100 [system_monitor.py:probe():214] Publishing system info
+2023-07-18 18:24:12,029 DEBUG   HandlerThread:7100 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-07-18 18:24:12,030 DEBUG   HandlerThread:7100 [system_info.py:_save_pip():67] Saving pip packages done
+2023-07-18 18:24:12,030 INFO    HandlerThread:7100 [system_monitor.py:probe():216] Finished publishing system info
+2023-07-18 18:24:12,034 DEBUG   SenderThread:7100 [sender.py:send():369] send: files
+2023-07-18 18:24:12,034 INFO    SenderThread:7100 [sender.py:_save_file():1354] saving file wandb-metadata.json with policy now
+2023-07-18 18:24:12,051 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-18 18:24:12,052 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: stop_status
+2023-07-18 18:24:12,173 DEBUG   SenderThread:7100 [sender.py:send():369] send: telemetry
+2023-07-18 18:24:12,363 INFO    wandb-upload_0:7100 [upload_job.py:push():133] Uploaded file /var/folders/tq/793pyzvn4ts7t0217hsm6l2w0000gq/T/tmppjqa3j8twandb/wjk6th0k-wandb-metadata.json
+2023-07-18 18:24:12,884 INFO    Thread-12 :7100 [dir_watcher.py:_on_file_created():272] file/dir created: /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230718_182411-m7lnt6aq/files/wandb-metadata.json
+2023-07-18 18:24:12,885 INFO    Thread-12 :7100 [dir_watcher.py:_on_file_created():272] file/dir created: /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230718_182411-m7lnt6aq/files/wandb-summary.json
+2023-07-18 18:24:12,885 INFO    Thread-12 :7100 [dir_watcher.py:_on_file_created():272] file/dir created: /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230718_182411-m7lnt6aq/files/requirements.txt
+2023-07-18 18:24:13,425 DEBUG   SenderThread:7100 [sender.py:send():369] send: telemetry
+2023-07-18 18:24:14,894 INFO    Thread-12 :7100 [dir_watcher.py:_on_file_created():272] file/dir created: /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230718_182411-m7lnt6aq/files/output.log
+2023-07-18 18:24:16,334 DEBUG   SenderThread:7100 [sender.py:send():369] send: config
+2023-07-18 18:24:16,896 INFO    Thread-12 :7100 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230718_182411-m7lnt6aq/files/output.log
+2023-07-18 18:24:17,131 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: log_artifact
+2023-07-18 18:24:17,131 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: log_artifact
+2023-07-18 18:24:17,362 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: log_artifact
+2023-07-18 18:24:17,489 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: log_artifact
+2023-07-18 18:24:18,031 INFO    wandb-upload_0:7100 [upload_job.py:push():91] Uploaded file /Users/heroofwisdom/Library/Application Support/wandb/artifacts/staging/tmp4afokq5v
+2023-07-18 18:24:18,631 INFO    SenderThread:7100 [sender.py:send_request_log_artifact():1414] logged artifact Transformation_Pipeline98ac240c - {'id': 'QXJ0aWZhY3Q6NTE2MjI3NTMy', 'digest': '093a6617c00af75a851b800b85197fa7', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjg0MDA0MDEw', 'latestArtifact': None}, 'version': 'latest'}
+2023-07-18 18:24:18,631 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: log_artifact
+2023-07-18 18:24:18,631 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:24:19,469 INFO    wandb-upload_0:7100 [upload_job.py:push():91] Uploaded file /Users/heroofwisdom/Library/Application Support/wandb/artifacts/staging/tmplvk4ewu8
+2023-07-18 18:24:19,913 INFO    SenderThread:7100 [sender.py:send_request_log_artifact():1414] logged artifact Train98d2ddae - {'id': 'QXJ0aWZhY3Q6NTE2MjI3NTYy', 'digest': '6bd20933a8d8da36c028a6d3865fff3f', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjg0MDA0MDI5', 'latestArtifact': None}, 'version': 'latest'}
+2023-07-18 18:24:19,913 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: log_artifact
+2023-07-18 18:24:20,652 INFO    wandb-upload_0:7100 [upload_job.py:push():91] Uploaded file /Users/heroofwisdom/Library/Application Support/wandb/artifacts/staging/tmpxjouo0tp
+2023-07-18 18:24:21,294 INFO    SenderThread:7100 [sender.py:send_request_log_artifact():1414] logged artifact Test98e22782 - {'id': 'QXJ0aWZhY3Q6NTE2MjI3NTkz', 'digest': '7f05d9ec41cb81e1adaa3928679addf1', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjg0MDA0MDQ4', 'latestArtifact': None}, 'version': 'latest'}
+2023-07-18 18:24:24,308 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:24:27,053 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-18 18:24:27,054 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: stop_status
+2023-07-18 18:24:30,115 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:24:35,122 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:24:40,135 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:24:42,056 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-18 18:24:42,057 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: stop_status
+2023-07-18 18:24:45,170 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:24:45,967 INFO    Thread-12 :7100 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230718_182411-m7lnt6aq/files/config.yaml
+2023-07-18 18:24:50,288 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:24:55,300 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:24:57,062 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-18 18:24:57,062 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: stop_status
+2023-07-18 18:25:01,130 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:25:06,138 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:25:11,152 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:25:11,984 DEBUG   SystemMonitor:7100 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-07-18 18:25:11,985 DEBUG   SenderThread:7100 [sender.py:send():369] send: stats
+2023-07-18 18:25:12,066 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-18 18:25:12,067 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: stop_status
+2023-07-18 18:25:17,124 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:25:22,131 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:25:27,070 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-18 18:25:27,070 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: stop_status
+2023-07-18 18:25:27,159 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:25:32,174 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:25:37,188 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:25:41,991 DEBUG   SenderThread:7100 [sender.py:send():369] send: stats
+2023-07-18 18:25:42,070 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-18 18:25:42,071 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: stop_status
+2023-07-18 18:25:43,119 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:25:48,129 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:25:53,149 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:25:57,074 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-18 18:25:57,075 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: stop_status
+2023-07-18 18:25:59,134 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:26:04,151 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:26:09,158 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:26:11,994 DEBUG   SenderThread:7100 [sender.py:send():369] send: stats
+2023-07-18 18:26:12,076 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-18 18:26:12,077 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: stop_status
+2023-07-18 18:26:15,151 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:26:20,161 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:26:25,175 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:26:27,078 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-18 18:26:27,079 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: stop_status
+2023-07-18 18:26:31,141 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:26:36,155 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:26:41,170 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:26:42,000 DEBUG   SenderThread:7100 [sender.py:send():369] send: stats
+2023-07-18 18:26:42,084 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-18 18:26:42,084 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: stop_status
+2023-07-18 18:26:46,178 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:26:51,197 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:26:56,210 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:26:57,087 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-18 18:26:57,087 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: stop_status
+2023-07-18 18:26:58,517 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: log_artifact
+2023-07-18 18:26:58,518 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: log_artifact
+2023-07-18 18:26:58,679 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-18 18:26:59,280 INFO    wandb-upload_0:7100 [upload_job.py:push():91] Uploaded file /Users/heroofwisdom/Library/Application Support/wandb/artifacts/staging/tmpf5sowl2y
+2023-07-18 18:26:59,516 INFO    Thread-12 :7100 [dir_watcher.py:_on_file_created():272] file/dir created: /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230718_182411-m7lnt6aq/files/media/table/compare_models_0_d8e724a0e0b28c5f79e4.table.json
+2023-07-18 18:26:59,517 INFO    Thread-12 :7100 [dir_watcher.py:_on_file_created():272] file/dir created: /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230718_182411-m7lnt6aq/files/media/table
+2023-07-18 18:26:59,517 INFO    Thread-12 :7100 [dir_watcher.py:_on_file_created():272] file/dir created: /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230718_182411-m7lnt6aq/files/media
+2023-07-18 18:26:59,920 INFO    SenderThread:7100 [sender.py:send_request_log_artifact():1414] logged artifact run-m7lnt6aq-compare_models - {'id': 'QXJ0aWZhY3Q6NTE2MjMwODU4', 'digest': '462724424fe4388436dd266872943b0c', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjg0MDA1Njkx', 'latestArtifact': None}, 'version': 'latest'}
+2023-07-18 18:26:59,920 DEBUG   SenderThread:7100 [sender.py:send():369] send: files
+2023-07-18 18:26:59,920 INFO    SenderThread:7100 [sender.py:_save_file():1354] saving file media/table/compare_models_0_d8e724a0e0b28c5f79e4.table.json with policy now
+2023-07-18 18:26:59,921 DEBUG   SenderThread:7100 [sender.py:send():369] send: history
+2023-07-18 18:26:59,922 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-18 18:26:59,922 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: summary_record
+2023-07-18 18:26:59,925 INFO    SenderThread:7100 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-18 18:26:59,925 DEBUG   SenderThread:7100 [sender.py:send():369] send: config
+2023-07-18 18:26:59,926 DEBUG   SenderThread:7100 [sender.py:send():369] send: history
+2023-07-18 18:26:59,926 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: summary_record
+2023-07-18 18:26:59,926 INFO    SenderThread:7100 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-18 18:27:00,037 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: log_artifact
+2023-07-18 18:27:00,037 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: log_artifact
+2023-07-18 18:27:00,105 INFO    wandb-upload_0:7100 [upload_job.py:push():133] Uploaded file /var/folders/tq/793pyzvn4ts7t0217hsm6l2w0000gq/T/tmppjqa3j8twandb/on2iguj3-media/table/compare_models_0_d8e724a0e0b28c5f79e4.table.json
+2023-07-18 18:27:00,518 INFO    wandb-upload_0:7100 [upload_job.py:push():133] Uploaded file /var/folders/tq/793pyzvn4ts7t0217hsm6l2w0000gq/T/tmppjqa3j8twandb/t4vpg7qv-media/table/compare_models_0_d8e724a0e0b28c5f79e4.table.json
+2023-07-18 18:27:00,522 INFO    Thread-12 :7100 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230718_182411-m7lnt6aq/files/wandb-summary.json
+2023-07-18 18:27:00,635 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: log_artifact
+2023-07-18 18:27:01,204 INFO    wandb-upload_0:7100 [upload_job.py:push():91] Uploaded file /Users/heroofwisdom/Library/Application Support/wandb/artifacts/staging/tmpjy6vsm6k
+2023-07-18 18:27:01,965 INFO    SenderThread:7100 [sender.py:send_request_log_artifact():1414] logged artifact Resultsf9c6fc3a - {'id': 'QXJ0aWZhY3Q6NTE2MjMwOTAw', 'digest': '5537a31e2413096009da1af58fbee4b8', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjg0MDA1NzE0', 'latestArtifact': None}, 'version': 'latest'}
+2023-07-18 18:27:01,965 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: log_artifact
+2023-07-18 18:27:01,967 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:27:02,306 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-18 18:27:02,527 INFO    Thread-12 :7100 [dir_watcher.py:_on_file_created():272] file/dir created: /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230718_182411-m7lnt6aq/files/media/images/AUC_2_1940be3349816f9258d0.png
+2023-07-18 18:27:02,527 INFO    Thread-12 :7100 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230718_182411-m7lnt6aq/files/media
+2023-07-18 18:27:02,527 INFO    Thread-12 :7100 [dir_watcher.py:_on_file_created():272] file/dir created: /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230718_182411-m7lnt6aq/files/media/images
+2023-07-18 18:27:02,804 INFO    wandb-upload_1:7100 [upload_job.py:push():133] Uploaded file /var/folders/tq/793pyzvn4ts7t0217hsm6l2w0000gq/T/tmppjqa3j8twandb/af0w6we0-media/images/AUC_2_1940be3349816f9258d0.png
+2023-07-18 18:27:02,826 INFO    wandb-upload_0:7100 [upload_job.py:push():91] Uploaded file /Users/heroofwisdom/Library/Application Support/wandb/artifacts/staging/tmp983t1680
+2023-07-18 18:27:02,841 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-18 18:27:03,528 INFO    Thread-12 :7100 [dir_watcher.py:_on_file_created():272] file/dir created: /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230718_182411-m7lnt6aq/files/media/images/Confusion Matrix_3_ea653a4feb0bca2f49db.png
+2023-07-18 18:27:03,528 INFO    Thread-12 :7100 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230718_182411-m7lnt6aq/files/media/images
+2023-07-18 18:27:03,622 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-18 18:27:03,732 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: log_artifact
+2023-07-18 18:27:04,515 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-18 18:27:04,620 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: log_artifact
+2023-07-18 18:27:05,440 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-18 18:27:05,552 INFO    SenderThread:7100 [sender.py:send_request_log_artifact():1414] logged artifact Holdoutfa1ed1ee - {'id': 'QXJ0aWZhY3Q6NTE2MjMwOTQ0', 'digest': '44666d82dca0c4ffcddd14fb58da511f', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjg0MDA1NzM4', 'latestArtifact': None}, 'version': 'latest'}
+2023-07-18 18:27:05,552 DEBUG   SenderThread:7100 [sender.py:send():369] send: files
+2023-07-18 18:27:05,553 INFO    SenderThread:7100 [sender.py:_save_file():1354] saving file media/images/AUC_2_1940be3349816f9258d0.png with policy now
+2023-07-18 18:27:05,553 DEBUG   SenderThread:7100 [sender.py:send():369] send: history
+2023-07-18 18:27:05,554 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: summary_record
+2023-07-18 18:27:05,554 INFO    SenderThread:7100 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-18 18:27:05,555 DEBUG   SenderThread:7100 [sender.py:send():369] send: files
+2023-07-18 18:27:05,555 INFO    SenderThread:7100 [sender.py:_save_file():1354] saving file media/images/Confusion Matrix_3_ea653a4feb0bca2f49db.png with policy now
+2023-07-18 18:27:05,555 DEBUG   SenderThread:7100 [sender.py:send():369] send: history
+2023-07-18 18:27:05,555 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: summary_record
+2023-07-18 18:27:05,556 INFO    SenderThread:7100 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-18 18:27:05,556 DEBUG   SenderThread:7100 [sender.py:send():369] send: config
+2023-07-18 18:27:05,556 DEBUG   SenderThread:7100 [sender.py:send():369] send: history
+2023-07-18 18:27:05,558 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: summary_record
+2023-07-18 18:27:05,559 INFO    SenderThread:7100 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-18 18:27:05,560 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: log_artifact
+2023-07-18 18:27:05,562 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: log_artifact
+2023-07-18 18:27:05,838 INFO    wandb-upload_0:7100 [upload_job.py:push():133] Uploaded file /var/folders/tq/793pyzvn4ts7t0217hsm6l2w0000gq/T/tmppjqa3j8twandb/mo50gzpq-media/images/AUC_2_1940be3349816f9258d0.png
+2023-07-18 18:27:05,859 INFO    wandb-upload_1:7100 [upload_job.py:push():133] Uploaded file /var/folders/tq/793pyzvn4ts7t0217hsm6l2w0000gq/T/tmppjqa3j8twandb/81320q0k-media/images/Confusion Matrix_3_ea653a4feb0bca2f49db.png
+2023-07-18 18:27:06,179 INFO    wandb-upload_0:7100 [upload_job.py:push():133] Uploaded file /var/folders/tq/793pyzvn4ts7t0217hsm6l2w0000gq/T/tmppjqa3j8twandb/zm79fb3n-media/images/Confusion Matrix_3_ea653a4feb0bca2f49db.png
+2023-07-18 18:27:06,333 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-18 18:27:06,439 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: log_artifact
+2023-07-18 18:27:06,545 INFO    Thread-12 :7100 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230718_182411-m7lnt6aq/files/wandb-summary.json
+2023-07-18 18:27:06,714 INFO    wandb-upload_1:7100 [upload_job.py:push():91] Uploaded file /Users/heroofwisdom/Library/Application Support/wandb/artifacts/staging/tmpthljg2gw
+2023-07-18 18:27:07,191 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-18 18:27:07,219 INFO    SenderThread:7100 [sender.py:send_request_log_artifact():1414] logged artifact Resultsfbfb8f0c - {'id': 'QXJ0aWZhY3Q6NTE2MjMwOTkw', 'digest': '6c85fd97e9269b0c45fc0722402d3e09', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjg0MDA1NzY1', 'latestArtifact': None}, 'version': 'latest'}
+2023-07-18 18:27:07,219 DEBUG   SenderThread:7100 [sender.py:send():369] send: config
+2023-07-18 18:27:07,219 DEBUG   SenderThread:7100 [sender.py:send():369] send: history
+2023-07-18 18:27:07,219 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: summary_record
+2023-07-18 18:27:07,220 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:27:07,221 INFO    SenderThread:7100 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-18 18:27:07,221 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: log_artifact
+2023-07-18 18:27:07,294 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: log_artifact
+2023-07-18 18:27:07,550 INFO    Thread-12 :7100 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230718_182411-m7lnt6aq/files/wandb-summary.json
+2023-07-18 18:27:07,989 INFO    wandb-upload_0:7100 [upload_job.py:push():91] Uploaded file /Users/heroofwisdom/Library/Application Support/wandb/artifacts/staging/tmpwt8tky0j
+2023-07-18 18:27:08,057 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-18 18:27:08,195 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: log_artifact
+2023-07-18 18:27:08,621 INFO    SenderThread:7100 [sender.py:send_request_log_artifact():1414] logged artifact Resultsfc83ca2a - {'id': 'QXJ0aWZhY3Q6NTE2MjMxMDMx', 'digest': '0f61f1a23fd51324cee72b6b7c61294e', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjg0MDA1Nzkw', 'latestArtifact': None}, 'version': 'latest'}
+2023-07-18 18:27:08,622 DEBUG   SenderThread:7100 [sender.py:send():369] send: config
+2023-07-18 18:27:08,622 DEBUG   SenderThread:7100 [sender.py:send():369] send: history
+2023-07-18 18:27:08,622 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: summary_record
+2023-07-18 18:27:08,622 INFO    SenderThread:7100 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-18 18:27:08,623 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: log_artifact
+2023-07-18 18:27:08,966 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-18 18:27:09,061 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: log_artifact
+2023-07-18 18:27:09,240 INFO    wandb-upload_1:7100 [upload_job.py:push():91] Uploaded file /Users/heroofwisdom/Library/Application Support/wandb/artifacts/staging/tmpkf8po6se
+2023-07-18 18:27:09,555 INFO    Thread-12 :7100 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230718_182411-m7lnt6aq/files/wandb-summary.json
+2023-07-18 18:27:09,860 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-18 18:27:09,942 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: log_artifact
+2023-07-18 18:27:10,030 INFO    SenderThread:7100 [sender.py:send_request_log_artifact():1414] logged artifact Resultsfd10ea36 - {'id': 'QXJ0aWZhY3Q6NTE2MjMxMDcz', 'digest': '62b78f185cc2e5d96cc2fdfffa3c2260', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjg0MDA1ODE0', 'latestArtifact': None}, 'version': 'latest'}
+2023-07-18 18:27:10,031 DEBUG   SenderThread:7100 [sender.py:send():369] send: config
+2023-07-18 18:27:10,031 DEBUG   SenderThread:7100 [sender.py:send():369] send: history
+2023-07-18 18:27:10,031 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: summary_record
+2023-07-18 18:27:10,032 INFO    SenderThread:7100 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-18 18:27:10,032 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: log_artifact
+2023-07-18 18:27:10,556 INFO    Thread-12 :7100 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230718_182411-m7lnt6aq/files/wandb-summary.json
+2023-07-18 18:27:10,762 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-18 18:27:10,890 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: log_artifact
+2023-07-18 18:27:10,953 INFO    wandb-upload_0:7100 [upload_job.py:push():91] Uploaded file /Users/heroofwisdom/Library/Application Support/wandb/artifacts/staging/tmpwt6jaxv1
+2023-07-18 18:27:11,630 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-18 18:27:11,643 INFO    SenderThread:7100 [sender.py:send_request_log_artifact():1414] logged artifact Resultsfd9954ac - {'id': 'QXJ0aWZhY3Q6NTE2MjMxMTA3', 'digest': '5e699563268156baf243672fc259169b', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjg0MDA1ODM5', 'latestArtifact': None}, 'version': 'latest'}
+2023-07-18 18:27:11,643 DEBUG   SenderThread:7100 [sender.py:send():369] send: config
+2023-07-18 18:27:11,643 DEBUG   SenderThread:7100 [sender.py:send():369] send: history
+2023-07-18 18:27:11,643 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: summary_record
+2023-07-18 18:27:11,644 INFO    SenderThread:7100 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-18 18:27:11,644 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: log_artifact
+2023-07-18 18:27:11,740 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: log_artifact
+2023-07-18 18:27:12,092 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-18 18:27:12,419 INFO    wandb-upload_1:7100 [upload_job.py:push():91] Uploaded file /Users/heroofwisdom/Library/Application Support/wandb/artifacts/staging/tmpzf20fx5r
+2023-07-18 18:27:12,486 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-18 18:27:12,568 INFO    Thread-12 :7100 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230718_182411-m7lnt6aq/files/wandb-summary.json
+2023-07-18 18:27:12,576 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: log_artifact
+2023-07-18 18:27:13,049 INFO    SenderThread:7100 [sender.py:send_request_log_artifact():1414] logged artifact Resultsfe1c1040 - {'id': 'QXJ0aWZhY3Q6NTE2MjMxMTUy', 'digest': 'af5f05497896981e10fe312a39b1cc61', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjg0MDA1ODY1', 'latestArtifact': None}, 'version': 'latest'}
+2023-07-18 18:27:13,049 DEBUG   SenderThread:7100 [sender.py:send():369] send: config
+2023-07-18 18:27:13,049 DEBUG   SenderThread:7100 [sender.py:send():369] send: history
+2023-07-18 18:27:13,050 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: summary_record
+2023-07-18 18:27:13,050 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:27:13,051 INFO    SenderThread:7100 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-18 18:27:13,051 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: log_artifact
+2023-07-18 18:27:13,317 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-18 18:27:13,415 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: log_artifact
+2023-07-18 18:27:13,572 INFO    Thread-12 :7100 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230718_182411-m7lnt6aq/files/wandb-summary.json
+2023-07-18 18:27:13,775 INFO    wandb-upload_0:7100 [upload_job.py:push():91] Uploaded file /Users/heroofwisdom/Library/Application Support/wandb/artifacts/staging/tmp1kkmlxrp
+2023-07-18 18:27:14,175 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-18 18:27:14,278 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: log_artifact
+2023-07-18 18:27:14,392 INFO    SenderThread:7100 [sender.py:send_request_log_artifact():1414] logged artifact Resultsfea01de0 - {'id': 'QXJ0aWZhY3Q6NTE2MjMxMTg0', 'digest': '035557e81ad7990a387946f16da64b28', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjg0MDA1ODg5', 'latestArtifact': None}, 'version': 'latest'}
+2023-07-18 18:27:14,392 DEBUG   SenderThread:7100 [sender.py:send():369] send: config
+2023-07-18 18:27:14,392 DEBUG   SenderThread:7100 [sender.py:send():369] send: history
+2023-07-18 18:27:14,392 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: summary_record
+2023-07-18 18:27:14,393 INFO    SenderThread:7100 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-18 18:27:14,393 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: log_artifact
+2023-07-18 18:27:14,574 INFO    Thread-12 :7100 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230718_182411-m7lnt6aq/files/wandb-summary.json
+2023-07-18 18:27:15,533 INFO    wandb-upload_1:7100 [upload_job.py:push():91] Uploaded file /Users/heroofwisdom/Library/Application Support/wandb/artifacts/staging/tmpvc_ki2pj
+2023-07-18 18:27:16,229 INFO    SenderThread:7100 [sender.py:send_request_log_artifact():1414] logged artifact Resultsff2b131e - {'id': 'QXJ0aWZhY3Q6NTE2MjMxMjE1', 'digest': 'ce21040b957fcbcd9908c7e18c1d065f', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjg0MDA1OTA3', 'latestArtifact': None}, 'version': 'latest'}
+2023-07-18 18:27:16,230 DEBUG   SenderThread:7100 [sender.py:send():369] send: config
+2023-07-18 18:27:16,230 DEBUG   SenderThread:7100 [sender.py:send():369] send: history
+2023-07-18 18:27:16,230 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: summary_record
+2023-07-18 18:27:16,231 INFO    SenderThread:7100 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-18 18:27:16,231 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: log_artifact
+2023-07-18 18:27:16,576 INFO    Thread-12 :7100 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230718_182411-m7lnt6aq/files/wandb-summary.json
+2023-07-18 18:27:16,870 INFO    wandb-upload_0:7100 [upload_job.py:push():91] Uploaded file /Users/heroofwisdom/Library/Application Support/wandb/artifacts/staging/tmpj7dqcpem
+2023-07-18 18:27:17,123 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-18 18:27:17,431 INFO    SenderThread:7100 [sender.py:send_request_log_artifact():1414] logged artifact Resultsffb36638 - {'id': 'QXJ0aWZhY3Q6NTE2MjMxMjYw', 'digest': '7b09c476260f7faca6f5e7662d8fd29e', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjg0MDA1OTMz', 'latestArtifact': None}, 'version': 'latest'}
+2023-07-18 18:27:17,431 DEBUG   SenderThread:7100 [sender.py:send():369] send: config
+2023-07-18 18:27:17,431 DEBUG   SenderThread:7100 [sender.py:send():369] send: history
+2023-07-18 18:27:17,431 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: summary_record
+2023-07-18 18:27:17,432 INFO    SenderThread:7100 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-18 18:27:17,432 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: log_artifact
+2023-07-18 18:27:17,577 INFO    Thread-12 :7100 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230718_182411-m7lnt6aq/files/wandb-summary.json
+2023-07-18 18:27:17,939 INFO    wandb-upload_1:7100 [upload_job.py:push():91] Uploaded file /Users/heroofwisdom/Library/Application Support/wandb/artifacts/staging/tmp12aavxl_
+2023-07-18 18:27:18,554 INFO    SenderThread:7100 [sender.py:send_request_log_artifact():1414] logged artifact Results003da212 - {'id': 'QXJ0aWZhY3Q6NTE2MjMxMjg2', 'digest': '32480021e07c529584f76310e2a3532f', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjg0MDA1OTUw', 'latestArtifact': None}, 'version': 'latest'}
+2023-07-18 18:27:18,554 DEBUG   SenderThread:7100 [sender.py:send():369] send: config
+2023-07-18 18:27:18,555 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:27:18,555 DEBUG   SenderThread:7100 [sender.py:send():369] send: history
+2023-07-18 18:27:18,555 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: summary_record
+2023-07-18 18:27:18,556 INFO    SenderThread:7100 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-18 18:27:18,556 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: log_artifact
+2023-07-18 18:27:18,580 INFO    Thread-12 :7100 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230718_182411-m7lnt6aq/files/wandb-summary.json
+2023-07-18 18:27:19,187 INFO    wandb-upload_0:7100 [upload_job.py:push():91] Uploaded file /Users/heroofwisdom/Library/Application Support/wandb/artifacts/staging/tmpn7ds8bnq
+2023-07-18 18:27:19,886 INFO    SenderThread:7100 [sender.py:send_request_log_artifact():1414] logged artifact Results00c14cfc - {'id': 'QXJ0aWZhY3Q6NTE2MjMxMzIx', 'digest': 'e9d91c69383044b35900e0f3304fe9c0', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjg0MDA1OTY4', 'latestArtifact': None}, 'version': 'latest'}
+2023-07-18 18:27:19,886 DEBUG   SenderThread:7100 [sender.py:send():369] send: stats
+2023-07-18 18:27:19,886 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: stop_status
+2023-07-18 18:27:19,926 DEBUG   SenderThread:7100 [sender.py:send():369] send: config
+2023-07-18 18:27:19,927 DEBUG   SenderThread:7100 [sender.py:send():369] send: history
+2023-07-18 18:27:19,927 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: summary_record
+2023-07-18 18:27:19,927 INFO    SenderThread:7100 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-18 18:27:19,927 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: log_artifact
+2023-07-18 18:27:20,562 INFO    wandb-upload_1:7100 [upload_job.py:push():91] Uploaded file /Users/heroofwisdom/Library/Application Support/wandb/artifacts/staging/tmpxhlu0uov
+2023-07-18 18:27:20,588 INFO    Thread-12 :7100 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230718_182411-m7lnt6aq/files/wandb-summary.json
+2023-07-18 18:27:21,029 INFO    SenderThread:7100 [sender.py:send_request_log_artifact():1414] logged artifact Results01441d12 - {'id': 'QXJ0aWZhY3Q6NTE2MjMxMzU5', 'digest': 'e35affa568b2dbac1e8d2fa18f2477bc', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjg0MDA1OTg5', 'latestArtifact': None}, 'version': 'latest'}
+2023-07-18 18:27:21,029 DEBUG   SenderThread:7100 [sender.py:send():369] send: config
+2023-07-18 18:27:21,029 DEBUG   SenderThread:7100 [sender.py:send():369] send: history
+2023-07-18 18:27:21,029 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: summary_record
+2023-07-18 18:27:21,030 INFO    SenderThread:7100 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-18 18:27:21,030 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: log_artifact
+2023-07-18 18:27:21,592 INFO    Thread-12 :7100 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230718_182411-m7lnt6aq/files/wandb-summary.json
+2023-07-18 18:27:21,726 INFO    wandb-upload_0:7100 [upload_job.py:push():91] Uploaded file /Users/heroofwisdom/Library/Application Support/wandb/artifacts/staging/tmpjmlxk7np
+2023-07-18 18:27:22,344 INFO    SenderThread:7100 [sender.py:send_request_log_artifact():1414] logged artifact Results01c2fcae - {'id': 'QXJ0aWZhY3Q6NTE2MjMxMzkz', 'digest': '75eef1b1a957096dfe878ef662aa4cc5', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjg0MDA2MDA1', 'latestArtifact': None}, 'version': 'latest'}
+2023-07-18 18:27:22,344 DEBUG   SenderThread:7100 [sender.py:send():369] send: config
+2023-07-18 18:27:22,344 DEBUG   SenderThread:7100 [sender.py:send():369] send: history
+2023-07-18 18:27:22,344 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: summary_record
+2023-07-18 18:27:22,345 INFO    SenderThread:7100 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-18 18:27:22,345 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: log_artifact
+2023-07-18 18:27:22,598 INFO    Thread-12 :7100 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230718_182411-m7lnt6aq/files/wandb-summary.json
+2023-07-18 18:27:23,034 INFO    wandb-upload_1:7100 [upload_job.py:push():91] Uploaded file /Users/heroofwisdom/Library/Application Support/wandb/artifacts/staging/tmpjyf0fdyd
+2023-07-18 18:27:23,676 INFO    SenderThread:7100 [sender.py:send_request_log_artifact():1414] logged artifact Results0245d098 - {'id': 'QXJ0aWZhY3Q6NTE2MjMxNDE2', 'digest': '12a4c07a0a35e9fbed48d8922ea45240', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjg0MDA2MDE4', 'latestArtifact': None}, 'version': 'latest'}
+2023-07-18 18:27:23,681 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:27:24,602 INFO    Thread-12 :7100 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230718_182411-m7lnt6aq/files/config.yaml
+2023-07-18 18:27:26,606 INFO    Thread-12 :7100 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230718_182411-m7lnt6aq/files/output.log
+2023-07-18 18:27:27,092 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-18 18:27:27,094 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-18 18:27:27,094 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: stop_status
+2023-07-18 18:27:29,155 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:27:34,160 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:27:39,169 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:27:42,006 DEBUG   SenderThread:7100 [sender.py:send():369] send: stats
+2023-07-18 18:27:42,108 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-18 18:27:42,176 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-18 18:27:42,177 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: stop_status
+2023-07-18 18:27:44,253 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:27:49,257 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:27:54,265 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:27:57,108 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-18 18:27:57,199 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-18 18:27:57,199 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: stop_status
+2023-07-18 18:28:00,257 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:28:05,269 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:28:10,276 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:28:12,008 DEBUG   SenderThread:7100 [sender.py:send():369] send: stats
+2023-07-18 18:28:12,144 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-18 18:28:12,255 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-18 18:28:12,255 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: stop_status
+2023-07-18 18:28:15,313 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:28:20,324 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:28:25,334 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:28:27,175 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-18 18:28:27,175 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: stop_status
+2023-07-18 18:28:31,236 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:28:36,247 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:28:41,265 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:28:42,011 DEBUG   SenderThread:7100 [sender.py:send():369] send: stats
+2023-07-18 18:28:42,146 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-18 18:28:42,146 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: stop_status
+2023-07-18 18:28:47,209 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:28:52,211 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:28:57,149 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-18 18:28:57,150 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: stop_status
+2023-07-18 18:28:57,219 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:29:02,230 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:29:07,245 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:29:12,012 DEBUG   SenderThread:7100 [sender.py:send():369] send: stats
+2023-07-18 18:29:12,152 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-18 18:29:12,152 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: stop_status
+2023-07-18 18:29:13,206 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:29:18,214 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:29:23,226 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:29:27,157 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-18 18:29:27,158 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: stop_status
+2023-07-18 18:29:29,222 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:29:34,231 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:29:39,244 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:29:42,014 DEBUG   SenderThread:7100 [sender.py:send():369] send: stats
+2023-07-18 18:29:42,160 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-18 18:29:42,160 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: stop_status
+2023-07-18 18:29:45,199 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:29:50,210 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:29:55,220 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:29:57,217 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-18 18:29:57,299 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-18 18:29:57,299 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: stop_status
+2023-07-18 18:30:00,359 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:30:05,368 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:30:10,382 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:30:12,019 DEBUG   SenderThread:7100 [sender.py:send():369] send: stats
+2023-07-18 18:30:12,212 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-18 18:30:12,213 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: stop_status
+2023-07-18 18:30:15,850 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:30:16,018 INFO    Thread-12 :7100 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230718_182411-m7lnt6aq/files/output.log
+2023-07-18 18:30:20,862 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:30:25,878 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:30:27,215 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-18 18:30:27,215 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: stop_status
+2023-07-18 18:30:31,291 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:30:36,041 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: log_artifact
+2023-07-18 18:30:36,042 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: log_artifact
+2023-07-18 18:30:36,052 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-18 18:30:36,057 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-18 18:30:36,122 INFO    Thread-12 :7100 [dir_watcher.py:_on_file_created():272] file/dir created: /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230718_182411-m7lnt6aq/files/media/table/tune_model_17_734808ba12faaa4e633d.table.json
+2023-07-18 18:30:36,122 INFO    Thread-12 :7100 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230718_182411-m7lnt6aq/files/media/table
+2023-07-18 18:30:36,169 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: log_artifact
+2023-07-18 18:30:36,351 INFO    wandb-upload_0:7100 [upload_job.py:push():133] Uploaded file /var/folders/tq/793pyzvn4ts7t0217hsm6l2w0000gq/T/tmppjqa3j8twandb/oq6wcx18-media/table/tune_model_17_734808ba12faaa4e633d.table.json
+2023-07-18 18:30:36,542 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: log_artifact
+2023-07-18 18:30:36,711 INFO    wandb-upload_1:7100 [upload_job.py:push():91] Uploaded file /Users/heroofwisdom/Library/Application Support/wandb/artifacts/staging/tmpub4av5zd
+2023-07-18 18:30:37,195 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-18 18:30:37,321 INFO    SenderThread:7100 [sender.py:send_request_log_artifact():1414] logged artifact run-m7lnt6aq-tune_model - {'id': 'QXJ0aWZhY3Q6NTE2MjM1MTE0', 'digest': '47492f73ae675ec4787cc1a2f3b6ff06', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjg0MDA3OTI0', 'latestArtifact': None}, 'version': 'latest'}
+2023-07-18 18:30:37,321 DEBUG   SenderThread:7100 [sender.py:send():369] send: files
+2023-07-18 18:30:37,321 INFO    SenderThread:7100 [sender.py:_save_file():1354] saving file media/table/tune_model_17_734808ba12faaa4e633d.table.json with policy now
+2023-07-18 18:30:37,322 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:30:37,322 DEBUG   SenderThread:7100 [sender.py:send():369] send: history
+2023-07-18 18:30:37,322 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: summary_record
+2023-07-18 18:30:37,323 INFO    SenderThread:7100 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-18 18:30:37,323 DEBUG   SenderThread:7100 [sender.py:send():369] send: config
+2023-07-18 18:30:37,323 DEBUG   SenderThread:7100 [sender.py:send():369] send: history
+2023-07-18 18:30:37,323 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: summary_record
+2023-07-18 18:30:37,324 INFO    SenderThread:7100 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-18 18:30:37,324 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: log_artifact
+2023-07-18 18:30:37,598 INFO    wandb-upload_0:7100 [upload_job.py:push():133] Uploaded file /var/folders/tq/793pyzvn4ts7t0217hsm6l2w0000gq/T/tmppjqa3j8twandb/vdnghnnt-media/table/tune_model_17_734808ba12faaa4e633d.table.json
+2023-07-18 18:30:37,753 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-18 18:30:37,952 INFO    wandb-upload_1:7100 [upload_job.py:push():91] Uploaded file /Users/heroofwisdom/Library/Application Support/wandb/artifacts/staging/tmpyrq2bhi4
+2023-07-18 18:30:38,130 INFO    Thread-12 :7100 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230718_182411-m7lnt6aq/files/wandb-summary.json
+2023-07-18 18:30:38,130 INFO    Thread-12 :7100 [dir_watcher.py:_on_file_created():272] file/dir created: /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230718_182411-m7lnt6aq/files/media/images/AUC_19_595acb4d6b03e04c6235.png
+2023-07-18 18:30:38,130 INFO    Thread-12 :7100 [dir_watcher.py:_on_file_created():272] file/dir created: /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230718_182411-m7lnt6aq/files/media/images/Confusion Matrix_20_a5205ab79112d4b34dca.png
+2023-07-18 18:30:38,131 INFO    Thread-12 :7100 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230718_182411-m7lnt6aq/files/media/images
+2023-07-18 18:30:38,658 INFO    SenderThread:7100 [sender.py:send_request_log_artifact():1414] logged artifact Results7a9ac6fc - {'id': 'QXJ0aWZhY3Q6NTE2MjM1MTUz', 'digest': '56021ba6b9d690847be2abc55e362bfe', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjg0MDA3OTQ3', 'latestArtifact': None}, 'version': 'latest'}
+2023-07-18 18:30:38,658 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: log_artifact
+2023-07-18 18:30:38,889 INFO    wandb-upload_1:7100 [upload_job.py:push():133] Uploaded file /var/folders/tq/793pyzvn4ts7t0217hsm6l2w0000gq/T/tmppjqa3j8twandb/4bqzp93e-media/images/Confusion Matrix_20_a5205ab79112d4b34dca.png
+2023-07-18 18:30:38,922 INFO    wandb-upload_0:7100 [upload_job.py:push():133] Uploaded file /var/folders/tq/793pyzvn4ts7t0217hsm6l2w0000gq/T/tmppjqa3j8twandb/06h09i6p-media/images/AUC_19_595acb4d6b03e04c6235.png
+2023-07-18 18:30:39,215 INFO    wandb-upload_1:7100 [upload_job.py:push():91] Uploaded file /Users/heroofwisdom/Library/Application Support/wandb/artifacts/staging/tmpbarrbl8a
+2023-07-18 18:30:39,779 INFO    SenderThread:7100 [sender.py:send_request_log_artifact():1414] logged artifact Holdout7ad56e7e - {'id': 'QXJ0aWZhY3Q6NTE2MjM1MTk2', 'digest': 'ae1096cd50ca847ae3b86de45e33add6', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjg0MDA3OTY4', 'latestArtifact': None}, 'version': 'latest'}
+2023-07-18 18:30:39,780 DEBUG   SenderThread:7100 [sender.py:send():369] send: files
+2023-07-18 18:30:39,780 INFO    SenderThread:7100 [sender.py:_save_file():1354] saving file media/images/AUC_19_595acb4d6b03e04c6235.png with policy now
+2023-07-18 18:30:39,780 DEBUG   SenderThread:7100 [sender.py:send():369] send: history
+2023-07-18 18:30:39,780 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: summary_record
+2023-07-18 18:30:39,781 INFO    SenderThread:7100 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-18 18:30:39,781 DEBUG   SenderThread:7100 [sender.py:send():369] send: files
+2023-07-18 18:30:39,781 INFO    SenderThread:7100 [sender.py:_save_file():1354] saving file media/images/Confusion Matrix_20_a5205ab79112d4b34dca.png with policy now
+2023-07-18 18:30:39,781 DEBUG   SenderThread:7100 [sender.py:send():369] send: history
+2023-07-18 18:30:39,781 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: summary_record
+2023-07-18 18:30:39,782 INFO    SenderThread:7100 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-18 18:30:40,046 INFO    wandb-upload_0:7100 [upload_job.py:push():133] Uploaded file /var/folders/tq/793pyzvn4ts7t0217hsm6l2w0000gq/T/tmppjqa3j8twandb/ap9zulrg-media/images/AUC_19_595acb4d6b03e04c6235.png
+2023-07-18 18:30:40,054 INFO    wandb-upload_1:7100 [upload_job.py:push():133] Uploaded file /var/folders/tq/793pyzvn4ts7t0217hsm6l2w0000gq/T/tmppjqa3j8twandb/wfhrhfnj-media/images/Confusion Matrix_20_a5205ab79112d4b34dca.png
+2023-07-18 18:30:40,148 INFO    Thread-12 :7100 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230718_182411-m7lnt6aq/files/wandb-summary.json
+2023-07-18 18:30:41,158 INFO    Thread-12 :7100 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230718_182411-m7lnt6aq/files/output.log
+2023-07-18 18:30:42,020 DEBUG   SenderThread:7100 [sender.py:send():369] send: stats
+2023-07-18 18:30:42,173 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: pause
+2023-07-18 18:30:42,174 INFO    HandlerThread:7100 [handler.py:handle_request_pause():728] stopping system metrics thread or process
+2023-07-18 18:30:42,174 INFO    HandlerThread:7100 [system_monitor.py:finish():190] Stopping system monitor
+2023-07-18 18:30:42,175 DEBUG   SystemMonitor:7100 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-07-18 18:30:42,175 INFO    HandlerThread:7100 [interfaces.py:finish():202] Joined cpu monitor
+2023-07-18 18:30:42,175 DEBUG   SystemMonitor:7100 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-07-18 18:30:42,177 INFO    HandlerThread:7100 [interfaces.py:finish():202] Joined disk monitor
+2023-07-18 18:30:42,178 INFO    HandlerThread:7100 [interfaces.py:finish():202] Joined memory monitor
+2023-07-18 18:30:42,178 INFO    HandlerThread:7100 [interfaces.py:finish():202] Joined network monitor
+2023-07-18 18:30:42,179 DEBUG   SenderThread:7100 [sender.py:send():369] send: stats
+2023-07-18 18:30:42,224 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-18 18:30:42,224 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: stop_status
+2023-07-18 18:30:43,278 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:30:48,309 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:30:53,343 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:30:57,228 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-18 18:30:57,229 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: stop_status
+2023-07-18 18:30:59,296 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:31:04,335 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:31:05,294 INFO    Thread-12 :7100 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230718_182411-m7lnt6aq/files/config.yaml
+2023-07-18 18:31:09,535 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:31:12,234 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-18 18:31:12,235 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-18 18:31:12,235 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: stop_status
+2023-07-18 18:31:15,311 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:31:20,319 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:31:25,344 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:31:27,244 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-18 18:31:27,244 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-18 18:31:27,244 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: stop_status
+2023-07-18 18:31:31,317 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:31:36,346 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:31:41,382 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:31:42,244 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-18 18:31:42,245 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-18 18:31:42,245 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: stop_status
+2023-07-18 18:31:47,331 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:31:52,363 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:31:57,245 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-18 18:31:57,255 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-18 18:31:57,255 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: stop_status
+2023-07-18 18:31:58,313 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:32:04,313 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:32:10,312 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:32:12,219 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-18 18:32:12,228 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-18 18:32:12,229 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: stop_status
+2023-07-18 18:32:16,288 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:32:22,286 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:32:27,209 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-18 18:32:27,218 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-18 18:32:27,219 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: stop_status
+2023-07-18 18:32:28,273 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:32:33,276 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:32:38,285 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:32:42,205 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-18 18:32:42,215 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-18 18:32:42,215 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: stop_status
+2023-07-18 18:32:44,280 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:32:49,281 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:32:54,295 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:32:57,207 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-18 18:32:57,214 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-18 18:32:57,215 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: stop_status
+2023-07-18 18:33:00,279 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:33:05,295 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:33:10,309 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:33:12,214 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-18 18:33:12,215 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-18 18:33:12,216 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: stop_status
+2023-07-18 18:33:16,298 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:33:21,314 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:33:26,325 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:33:27,220 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-18 18:33:27,220 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-18 18:33:27,221 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: stop_status
+2023-07-18 18:33:32,283 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:33:37,295 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:33:42,225 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-18 18:33:42,226 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-18 18:33:42,227 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: stop_status
+2023-07-18 18:33:43,271 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:33:48,284 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:33:53,293 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:33:57,233 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-18 18:33:57,233 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-18 18:33:57,234 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: stop_status
+2023-07-18 18:33:59,275 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:34:04,295 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:34:09,314 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:34:12,241 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-18 18:34:12,241 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-18 18:34:12,242 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: stop_status
+2023-07-18 18:34:15,287 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:34:20,314 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:34:25,335 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:34:27,245 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-18 18:34:27,245 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-18 18:34:27,245 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: stop_status
+2023-07-18 18:34:31,296 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:34:36,338 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:34:41,367 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:34:42,245 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-18 18:34:42,245 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-18 18:34:42,246 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: stop_status
+2023-07-18 18:34:47,300 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:34:52,311 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:34:57,255 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-18 18:34:57,255 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-18 18:34:57,255 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: stop_status
+2023-07-18 18:34:57,318 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:35:02,338 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:35:07,362 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:35:12,258 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-18 18:35:12,258 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-18 18:35:12,259 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: stop_status
+2023-07-18 18:35:12,382 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:35:17,405 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:35:22,427 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:35:27,261 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-18 18:35:27,262 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: stop_status
+2023-07-18 18:35:28,322 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:35:33,343 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:35:38,360 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:35:42,269 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-18 18:35:42,269 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-18 18:35:42,270 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: stop_status
+2023-07-18 18:35:43,366 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:35:48,392 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:35:53,416 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:35:57,269 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-18 18:35:57,269 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: stop_status
+2023-07-18 18:35:59,324 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:36:04,350 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:36:09,385 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:36:12,275 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-18 18:36:12,275 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-18 18:36:12,276 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: stop_status
+2023-07-18 18:36:15,378 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:36:20,398 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:36:25,428 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:36:27,284 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-18 18:36:27,284 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-18 18:36:27,285 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: stop_status
+2023-07-18 18:36:31,368 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:36:36,398 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:36:41,420 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:36:42,287 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-18 18:36:42,287 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-18 18:36:42,288 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: stop_status
+2023-07-18 18:36:47,380 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:36:52,399 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:36:57,295 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-18 18:36:57,295 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-18 18:36:57,296 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: stop_status
+2023-07-18 18:36:58,351 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:37:03,375 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:37:08,404 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:37:12,303 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-18 18:37:12,304 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-18 18:37:12,304 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: stop_status
+2023-07-18 18:37:14,395 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:37:19,427 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:37:24,457 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:37:27,311 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-18 18:37:27,312 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-18 18:37:27,312 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: stop_status
+2023-07-18 18:37:30,394 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:37:35,423 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:37:40,454 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:37:42,319 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-18 18:37:42,320 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-18 18:37:42,320 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: stop_status
+2023-07-18 18:37:46,381 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:37:51,405 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:37:56,438 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:37:57,322 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-18 18:37:57,323 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-18 18:37:57,323 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: stop_status
+2023-07-18 18:38:02,383 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:38:07,407 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:38:12,325 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-18 18:38:12,325 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-18 18:38:12,326 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: stop_status
+2023-07-18 18:38:13,407 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:38:18,442 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:38:23,477 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:38:27,333 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-18 18:38:27,333 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-18 18:38:27,334 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: stop_status
+2023-07-18 18:38:29,396 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:38:34,434 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:38:39,466 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:38:42,340 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-18 18:38:42,341 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-18 18:38:42,341 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: stop_status
+2023-07-18 18:38:45,415 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:38:50,451 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:38:55,477 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:38:57,349 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-18 18:38:57,350 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-18 18:38:57,350 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: stop_status
+2023-07-18 18:39:01,413 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:39:06,445 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:39:11,477 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:39:12,352 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-18 18:39:12,353 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-18 18:39:12,353 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: stop_status
+2023-07-18 18:39:17,440 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:39:22,480 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:39:27,360 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-18 18:39:27,361 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-18 18:39:27,362 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: stop_status
+2023-07-18 18:39:28,432 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:39:33,451 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:39:38,469 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:39:42,363 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-18 18:39:42,364 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-18 18:39:42,364 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: stop_status
+2023-07-18 18:39:44,437 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:39:49,464 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:39:54,497 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:39:57,371 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-18 18:39:57,372 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-18 18:39:57,372 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: stop_status
+2023-07-18 18:40:00,427 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:40:05,451 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:40:10,475 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:40:12,380 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-18 18:40:12,380 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-18 18:40:12,381 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: stop_status
+2023-07-18 18:40:16,481 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:40:21,509 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:40:26,525 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:40:27,388 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-18 18:40:27,388 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-18 18:40:27,389 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: stop_status
+2023-07-18 18:40:32,470 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:40:37,483 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:40:42,396 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-18 18:40:42,396 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-18 18:40:42,397 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: stop_status
+2023-07-18 18:40:43,462 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:40:48,481 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:40:53,505 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:40:57,399 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-18 18:40:57,399 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-18 18:40:57,400 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: stop_status
+2023-07-18 18:40:59,462 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:41:04,481 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:41:09,510 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:41:12,402 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-18 18:41:12,403 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-18 18:41:12,403 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: stop_status
+2023-07-18 18:41:15,479 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:41:20,513 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:41:25,542 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:41:27,410 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-18 18:41:27,410 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-18 18:41:27,411 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: stop_status
+2023-07-18 18:41:31,473 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:41:36,508 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:41:41,536 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:41:42,412 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-18 18:41:42,413 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-18 18:41:42,414 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: stop_status
+2023-07-18 18:41:47,499 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:41:52,540 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:41:57,415 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-18 18:41:57,416 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-18 18:41:57,417 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: stop_status
+2023-07-18 18:41:58,503 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:42:03,532 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:42:08,567 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:42:12,418 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-18 18:42:12,419 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-18 18:42:12,419 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: stop_status
+2023-07-18 18:42:14,506 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:42:19,522 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:42:24,551 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:42:27,426 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-18 18:42:27,427 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-18 18:42:27,427 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: stop_status
+2023-07-18 18:42:30,504 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:42:35,525 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:42:40,551 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:42:42,428 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-18 18:42:42,428 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-18 18:42:42,428 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: stop_status
+2023-07-18 18:42:46,509 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:42:51,527 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:42:56,546 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:42:57,437 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-18 18:42:57,438 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-18 18:42:57,438 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: stop_status
+2023-07-18 18:43:02,503 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:43:07,533 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:43:12,440 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-18 18:43:12,440 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-18 18:43:12,440 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: stop_status
+2023-07-18 18:43:13,521 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:43:18,533 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:43:23,553 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:43:27,449 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-18 18:43:27,449 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-18 18:43:27,450 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: stop_status
+2023-07-18 18:43:29,491 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:43:34,495 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:43:39,517 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:43:42,448 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-18 18:43:42,449 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: stop_status
+2023-07-18 18:43:45,512 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:43:50,523 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:43:55,536 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:43:57,450 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-18 18:43:57,450 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-18 18:43:57,451 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: stop_status
+2023-07-18 18:44:01,525 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:44:06,563 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:44:11,603 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:44:12,451 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-18 18:44:12,452 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-18 18:44:12,452 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: stop_status
+2023-07-18 18:44:17,562 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:44:22,584 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:44:27,452 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-18 18:44:27,452 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-18 18:44:27,452 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: stop_status
+2023-07-18 18:44:28,509 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:44:33,534 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:44:38,569 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:44:42,457 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-18 18:44:42,457 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-18 18:44:42,457 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: stop_status
+2023-07-18 18:44:43,667 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:44:48,691 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:44:53,708 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:44:57,460 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-18 18:44:57,460 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-18 18:44:57,461 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: stop_status
+2023-07-18 18:44:59,524 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:45:04,536 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:45:09,539 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:45:12,462 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-18 18:45:12,462 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-18 18:45:12,462 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: stop_status
+2023-07-18 18:45:15,531 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:45:20,548 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:45:25,558 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report
+2023-07-18 18:45:27,465 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-18 18:45:27,466 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-18 18:45:27,466 DEBUG   SenderThread:7100 [sender.py:send_request():396] send_request: stop_status
+2023-07-18 18:45:31,534 DEBUG   HandlerThread:7100 [handler.py:handle_request():144] handle_request: status_report

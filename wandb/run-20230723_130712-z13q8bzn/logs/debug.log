@@ -1,0 +1,297 @@
+2023-07-23 13:07:12,430 INFO    MainThread:72376 [wandb_setup.py:_flush():76] Current SDK version is 0.15.5
+2023-07-23 13:07:12,430 INFO    MainThread:72376 [wandb_setup.py:_flush():76] Configure stats pid to 72376
+2023-07-23 13:07:12,430 INFO    MainThread:72376 [wandb_setup.py:_flush():76] Loading settings from /Users/heroofwisdom/.config/wandb/settings
+2023-07-23 13:07:12,430 INFO    MainThread:72376 [wandb_setup.py:_flush():76] Loading settings from /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/settings
+2023-07-23 13:07:12,430 INFO    MainThread:72376 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-07-23 13:07:12,430 INFO    MainThread:72376 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-07-23 13:07:12,430 INFO    MainThread:72376 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-07-23 13:07:12,430 INFO    MainThread:72376 [wandb_init.py:_log_setup():507] Logging user logs to /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230723_130712-z13q8bzn/logs/debug.log
+2023-07-23 13:07:12,430 INFO    MainThread:72376 [wandb_init.py:_log_setup():508] Logging internal logs to /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230723_130712-z13q8bzn/logs/debug-internal.log
+2023-07-23 13:07:12,430 INFO    MainThread:72376 [wandb_init.py:_jupyter_setup():453] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x1518b9150>
+2023-07-23 13:07:12,431 INFO    MainThread:72376 [wandb_init.py:init():547] calling init triggers
+2023-07-23 13:07:12,431 INFO    MainThread:72376 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {}
+2023-07-23 13:07:12,431 INFO    MainThread:72376 [wandb_init.py:init():596] starting backend
+2023-07-23 13:07:12,431 INFO    MainThread:72376 [wandb_init.py:init():600] setting up manager
+2023-07-23 13:07:12,432 INFO    MainThread:72376 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2023-07-23 13:07:12,433 INFO    MainThread:72376 [wandb_init.py:init():606] backend started and connected
+2023-07-23 13:07:12,439 INFO    MainThread:72376 [wandb_run.py:_label_probe_notebook():1233] probe notebook
+2023-07-23 13:07:12,439 INFO    MainThread:72376 [wandb_run.py:_label_probe_notebook():1243] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-07-23 13:07:12,439 INFO    MainThread:72376 [wandb_init.py:init():705] updated telemetry
+2023-07-23 13:07:12,474 INFO    MainThread:72376 [wandb_init.py:init():738] communicating run to backend with 60.0 second timeout
+2023-07-23 13:07:12,715 INFO    MainThread:72376 [wandb_run.py:_on_init():2173] communicating current version
+2023-07-23 13:07:12,790 INFO    MainThread:72376 [wandb_run.py:_on_init():2182] got version response 
+2023-07-23 13:07:12,791 INFO    MainThread:72376 [wandb_init.py:init():789] starting run threads in backend
+2023-07-23 13:07:12,859 INFO    MainThread:72376 [wandb_run.py:_console_start():2152] atexit reg
+2023-07-23 13:07:12,859 INFO    MainThread:72376 [wandb_run.py:_redirect():2007] redirect: SettingsConsole.WRAP_RAW
+2023-07-23 13:07:12,859 INFO    MainThread:72376 [wandb_run.py:_redirect():2072] Wrapping output streams.
+2023-07-23 13:07:12,859 INFO    MainThread:72376 [wandb_run.py:_redirect():2097] Redirects installed.
+2023-07-23 13:07:12,860 INFO    MainThread:72376 [wandb_init.py:init():830] run started, returning control to user process
+2023-07-23 13:07:15,512 INFO    MainThread:72376 [wandb_run.py:_config_callback():1281] config_cb None None {'setup': {'Session id': 123, 'Target': '70A_30B', 'Target type': 'Binary', 'Original data shape': [2572, 101], 'Transformed data shape': [3741, 93], 'Transformed train set shape': [3464, 93], 'Transformed test set shape': [257, 93], 'Ignore features': 8, 'Ordinal features': 12, 'Numeric features': 72, 'Categorical features': 20, 'Preprocess': True, 'Imputation type': 'simple', 'Numeric imputation': 'mean', 'Categorical imputation': 'mode', 'Maximum one-hot encoding': 1, 'Encoding method': None, 'Fix imbalance': True, 'Fix imbalance method': 'SMOTETomek', 'Fold Generator': 'StratifiedKFold', 'Fold Number': 10, 'CPU Jobs': -1, 'Use GPU': False, 'Log Experiment': 'WandbLogger', 'Experiment Name': '70A_30B Multilabel F1_Score Unaveraged', 'USI': 'b2c4'}}
+2023-07-23 13:07:17,016 INFO    MainThread:72376 [wandb_run.py:_finish():1887] finishing run alanfiler/Citrine_Solutions_Engineer_Test_V3/9b2b5o80
+2023-07-23 13:08:15,801 INFO    MainThread:72376 [wandb_setup.py:_flush():76] Current SDK version is 0.15.5
+2023-07-23 13:08:15,801 INFO    MainThread:72376 [wandb_setup.py:_flush():76] Configure stats pid to 72376
+2023-07-23 13:08:15,802 INFO    MainThread:72376 [wandb_setup.py:_flush():76] Loading settings from /Users/heroofwisdom/.config/wandb/settings
+2023-07-23 13:08:15,802 INFO    MainThread:72376 [wandb_setup.py:_flush():76] Loading settings from /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/settings
+2023-07-23 13:08:15,802 INFO    MainThread:72376 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-07-23 13:08:15,802 INFO    MainThread:72376 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-07-23 13:08:15,802 INFO    MainThread:72376 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-07-23 13:08:15,802 INFO    MainThread:72376 [wandb_init.py:_log_setup():507] Logging user logs to /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230723_130815-ldo742dy/logs/debug.log
+2023-07-23 13:08:15,802 INFO    MainThread:72376 [wandb_init.py:_log_setup():508] Logging internal logs to /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230723_130815-ldo742dy/logs/debug-internal.log
+2023-07-23 13:08:15,802 INFO    MainThread:72376 [wandb_init.py:init():547] calling init triggers
+2023-07-23 13:08:15,802 INFO    MainThread:72376 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {}
+2023-07-23 13:08:15,803 INFO    MainThread:72376 [wandb_init.py:init():596] starting backend
+2023-07-23 13:08:15,803 INFO    MainThread:72376 [wandb_init.py:init():600] setting up manager
+2023-07-23 13:08:15,804 INFO    MainThread:72376 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2023-07-23 13:08:15,805 INFO    MainThread:72376 [wandb_init.py:init():606] backend started and connected
+2023-07-23 13:08:15,812 INFO    MainThread:72376 [wandb_run.py:_label_probe_notebook():1233] probe notebook
+2023-07-23 13:08:15,812 INFO    MainThread:72376 [wandb_run.py:_label_probe_notebook():1243] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-07-23 13:08:15,812 INFO    MainThread:72376 [wandb_init.py:init():705] updated telemetry
+2023-07-23 13:08:15,848 INFO    MainThread:72376 [wandb_init.py:init():738] communicating run to backend with 60.0 second timeout
+2023-07-23 13:08:16,115 INFO    MainThread:72376 [wandb_run.py:_on_init():2173] communicating current version
+2023-07-23 13:08:16,217 INFO    MainThread:72376 [wandb_run.py:_on_init():2182] got version response 
+2023-07-23 13:08:16,217 INFO    MainThread:72376 [wandb_init.py:init():789] starting run threads in backend
+2023-07-23 13:08:16,278 WARNING MsgRouterThr:72376 [router.py:message_loop():77] message_loop has been closed
+2023-07-23 13:08:46,389 INFO    MainThread:72376 [wandb_run.py:_console_start():2152] atexit reg
+2023-07-23 13:08:46,390 INFO    MainThread:72376 [wandb_run.py:_redirect():2007] redirect: SettingsConsole.WRAP_RAW
+2023-07-23 13:08:46,390 INFO    MainThread:72376 [wandb_run.py:_redirect():2072] Wrapping output streams.
+2023-07-23 13:08:46,390 INFO    MainThread:72376 [wandb_run.py:_redirect():2097] Redirects installed.
+2023-07-23 13:08:46,392 INFO    MainThread:72376 [wandb_init.py:init():830] run started, returning control to user process
+2023-07-23 13:08:46,397 INFO    MainThread:72376 [wandb_run.py:_config_callback():1281] config_cb None None {'Extra Trees Classifier': {'bootstrap': False, 'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': None, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': -1, 'oob_score': False, 'random_state': 123, 'verbose': 0, 'warm_start': False}}
+2023-07-23 13:08:47,980 WARNING MsgRouterThr:72376 [router.py:_handle_msg_rcv():114] No listener found for msg with uuid f7528ef1c8b34507a4e77e6cfbb2a012 (response {
+  log_artifact_response {
+    artifact_id: "QXJ0aWZhY3Q6NTIwNDM0MDUw"
+  }
+}
+control {
+  req_resp: true
+  local: true
+  relay_id: "21f50a3cdfcb45bd8a138e62bd74cbcd"
+}
+uuid: "f7528ef1c8b34507a4e77e6cfbb2a012"
+)
+2023-07-23 13:08:49,428 WARNING MsgRouterThr:72376 [router.py:_handle_msg_rcv():114] No listener found for msg with uuid c2f4f006f6ae497282498bfc0e471ef8 (response {
+  log_artifact_response {
+    artifact_id: "QXJ0aWZhY3Q6NTIwNDM0MDU1"
+  }
+}
+control {
+  req_resp: true
+  local: true
+  relay_id: "21f50a3cdfcb45bd8a138e62bd74cbcd"
+}
+uuid: "c2f4f006f6ae497282498bfc0e471ef8"
+)
+2023-07-23 13:08:52,315 INFO    MainThread:72376 [wandb_run.py:_config_callback():1281] config_cb None None {'Random Forest Classifier': {'bootstrap': True, 'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': None, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': -1, 'oob_score': False, 'random_state': 123, 'verbose': 0, 'warm_start': False}}
+2023-07-23 13:08:52,642 INFO    MainThread:72376 [wandb_run.py:_config_callback():1281] config_cb None None {'Logistic Regression': {'C': 1.0, 'class_weight': None, 'dual': False, 'fit_intercept': True, 'intercept_scaling': 1, 'l1_ratio': None, 'max_iter': 1000, 'multi_class': 'auto', 'n_jobs': None, 'penalty': 'l2', 'random_state': 123, 'solver': 'lbfgs', 'tol': 0.0001, 'verbose': 0, 'warm_start': False}}
+2023-07-23 13:08:52,898 INFO    MainThread:72376 [wandb_run.py:_config_callback():1281] config_cb None None {'Gradient Boosting Classifier': {'ccp_alpha': 0.0, 'criterion': 'friedman_mse', 'init': None, 'learning_rate': 0.1, 'loss': 'log_loss', 'max_depth': 3, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_iter_no_change': None, 'random_state': 123, 'subsample': 1.0, 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': 0, 'warm_start': False}}
+2023-07-23 13:08:53,123 INFO    MainThread:72376 [wandb_run.py:_config_callback():1281] config_cb None None {'Naive Bayes': {'priors': None, 'var_smoothing': 1e-09}}
+2023-07-23 13:08:53,349 INFO    MainThread:72376 [wandb_run.py:_config_callback():1281] config_cb None None {'Light Gradient Boosting Machine': {'boosting_type': 'gbdt', 'class_weight': None, 'colsample_bytree': 1.0, 'importance_type': 'split', 'learning_rate': 0.1, 'max_depth': -1, 'min_child_samples': 20, 'min_child_weight': 0.001, 'min_split_gain': 0.0, 'n_estimators': 100, 'n_jobs': -1, 'num_leaves': 31, 'objective': None, 'random_state': 123, 'reg_alpha': 0.0, 'reg_lambda': 0.0, 'subsample': 1.0, 'subsample_for_bin': 200000, 'subsample_freq': 0}}
+2023-07-23 13:08:53,534 WARNING MsgRouterThr:72376 [router.py:_handle_msg_rcv():114] No listener found for msg with uuid 49a58fbcfd934c0d945c590f247d8403 (response {
+  log_artifact_response {
+    artifact_id: "QXJ0aWZhY3Q6NTIwNDM0MDc0"
+  }
+}
+control {
+  req_resp: true
+  local: true
+  relay_id: "21f50a3cdfcb45bd8a138e62bd74cbcd"
+}
+uuid: "49a58fbcfd934c0d945c590f247d8403"
+)
+2023-07-23 13:08:53,569 INFO    MainThread:72376 [wandb_run.py:_config_callback():1281] config_cb None None {'K Neighbors Classifier': {'algorithm': 'auto', 'leaf_size': 30, 'metric': 'minkowski', 'metric_params': None, 'n_jobs': -1, 'n_neighbors': 5, 'p': 2, 'weights': 'uniform'}}
+2023-07-23 13:08:53,795 INFO    MainThread:72376 [wandb_run.py:_config_callback():1281] config_cb None None {'Decision Tree Classifier': {'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 123, 'splitter': 'best'}}
+2023-07-23 13:08:54,013 INFO    MainThread:72376 [wandb_run.py:_config_callback():1281] config_cb None None {'Ada Boost Classifier': {'algorithm': 'SAMME.R', 'base_estimator': 'deprecated', 'estimator': None, 'learning_rate': 1.0, 'n_estimators': 50, 'random_state': 123}}
+2023-07-23 13:08:54,261 INFO    MainThread:72376 [wandb_run.py:_config_callback():1281] config_cb None None {'SVM - Linear Kernel': {'alpha': 0.0001, 'average': False, 'class_weight': None, 'early_stopping': False, 'epsilon': 0.1, 'eta0': 0.001, 'fit_intercept': True, 'l1_ratio': 0.15, 'learning_rate': 'optimal', 'loss': 'hinge', 'max_iter': 1000, 'n_iter_no_change': 5, 'n_jobs': -1, 'penalty': 'l2', 'power_t': 0.5, 'random_state': 123, 'shuffle': True, 'tol': 0.001, 'validation_fraction': 0.1, 'verbose': 0, 'warm_start': False}}
+2023-07-23 13:08:54,473 INFO    MainThread:72376 [wandb_run.py:_config_callback():1281] config_cb None None {'Ridge Classifier': {'alpha': 1.0, 'class_weight': None, 'copy_X': True, 'fit_intercept': True, 'max_iter': None, 'positive': False, 'random_state': 123, 'solver': 'auto', 'tol': 0.0001}}
+2023-07-23 13:08:54,751 INFO    MainThread:72376 [wandb_run.py:_config_callback():1281] config_cb None None {'Linear Discriminant Analysis': {'covariance_estimator': None, 'n_components': None, 'priors': None, 'shrinkage': None, 'solver': 'svd', 'store_covariance': False, 'tol': 0.0001}}
+2023-07-23 13:08:54,834 WARNING MsgRouterThr:72376 [router.py:_handle_msg_rcv():114] No listener found for msg with uuid e932008b9807470dbbb560e60e6ab941 (response {
+  log_artifact_response {
+    artifact_id: "QXJ0aWZhY3Q6NTIwNDM0MDg0"
+  }
+}
+control {
+  req_resp: true
+  local: true
+  relay_id: "21f50a3cdfcb45bd8a138e62bd74cbcd"
+}
+uuid: "e932008b9807470dbbb560e60e6ab941"
+)
+2023-07-23 13:08:54,983 INFO    MainThread:72376 [wandb_run.py:_config_callback():1281] config_cb None None {'Quadratic Discriminant Analysis': {'priors': None, 'reg_param': 0.0, 'store_covariance': False, 'tol': 0.0001}}
+2023-07-23 13:08:55,195 INFO    MainThread:72376 [wandb_run.py:_config_callback():1281] config_cb None None {'Dummy Classifier': {'constant': None, 'random_state': 123, 'strategy': 'prior'}}
+2023-07-23 13:08:55,921 WARNING MsgRouterThr:72376 [router.py:_handle_msg_rcv():114] No listener found for msg with uuid de82be8a0b8c49989e0ccfaf6ccdd05e (response {
+  log_artifact_response {
+    artifact_id: "QXJ0aWZhY3Q6NTIwNDM0MDg4"
+  }
+}
+control {
+  req_resp: true
+  local: true
+  relay_id: "21f50a3cdfcb45bd8a138e62bd74cbcd"
+}
+uuid: "de82be8a0b8c49989e0ccfaf6ccdd05e"
+)
+2023-07-23 13:08:57,250 WARNING MsgRouterThr:72376 [router.py:_handle_msg_rcv():114] No listener found for msg with uuid 78d14823134f49328457fc557213ec26 (response {
+  log_artifact_response {
+    artifact_id: "QXJ0aWZhY3Q6NTIwNDM0MDkx"
+  }
+}
+control {
+  req_resp: true
+  local: true
+  relay_id: "21f50a3cdfcb45bd8a138e62bd74cbcd"
+}
+uuid: "78d14823134f49328457fc557213ec26"
+)
+2023-07-23 13:08:58,214 WARNING MsgRouterThr:72376 [router.py:_handle_msg_rcv():114] No listener found for msg with uuid fbf22620a9284105a1a1997f207e52d3 (response {
+  log_artifact_response {
+    artifact_id: "QXJ0aWZhY3Q6NTIwNDM0MDk3"
+  }
+}
+control {
+  req_resp: true
+  local: true
+  relay_id: "21f50a3cdfcb45bd8a138e62bd74cbcd"
+}
+uuid: "fbf22620a9284105a1a1997f207e52d3"
+)
+2023-07-23 13:08:59,283 WARNING MsgRouterThr:72376 [router.py:_handle_msg_rcv():114] No listener found for msg with uuid 14b050d85c32413db7744a9df2f8cdb0 (response {
+  log_artifact_response {
+    artifact_id: "QXJ0aWZhY3Q6NTIwNDM0MTA1"
+  }
+}
+control {
+  req_resp: true
+  local: true
+  relay_id: "21f50a3cdfcb45bd8a138e62bd74cbcd"
+}
+uuid: "14b050d85c32413db7744a9df2f8cdb0"
+)
+2023-07-23 13:09:00,629 WARNING MsgRouterThr:72376 [router.py:_handle_msg_rcv():114] No listener found for msg with uuid 633f36a1bf874259bc0ee6ae60e7873b (response {
+  log_artifact_response {
+    artifact_id: "QXJ0aWZhY3Q6NTIwNDM0MTEx"
+  }
+}
+control {
+  req_resp: true
+  local: true
+  relay_id: "21f50a3cdfcb45bd8a138e62bd74cbcd"
+}
+uuid: "633f36a1bf874259bc0ee6ae60e7873b"
+)
+2023-07-23 13:09:01,901 WARNING MsgRouterThr:72376 [router.py:_handle_msg_rcv():114] No listener found for msg with uuid 48cdf46fea6c44e998bcdcc89c0df8c7 (response {
+  log_artifact_response {
+    artifact_id: "QXJ0aWZhY3Q6NTIwNDM0MTIw"
+  }
+}
+control {
+  req_resp: true
+  local: true
+  relay_id: "21f50a3cdfcb45bd8a138e62bd74cbcd"
+}
+uuid: "48cdf46fea6c44e998bcdcc89c0df8c7"
+)
+2023-07-23 13:09:03,174 WARNING MsgRouterThr:72376 [router.py:_handle_msg_rcv():114] No listener found for msg with uuid 78ba67a192744b0a83e07dc183c9a085 (response {
+  log_artifact_response {
+    artifact_id: "QXJ0aWZhY3Q6NTIwNDM0MTI2"
+  }
+}
+control {
+  req_resp: true
+  local: true
+  relay_id: "21f50a3cdfcb45bd8a138e62bd74cbcd"
+}
+uuid: "78ba67a192744b0a83e07dc183c9a085"
+)
+2023-07-23 13:09:04,168 WARNING MsgRouterThr:72376 [router.py:_handle_msg_rcv():114] No listener found for msg with uuid c2b655286bfd48bb8676b74918f839a2 (response {
+  log_artifact_response {
+    artifact_id: "QXJ0aWZhY3Q6NTIwNDM0MTMy"
+  }
+}
+control {
+  req_resp: true
+  local: true
+  relay_id: "21f50a3cdfcb45bd8a138e62bd74cbcd"
+}
+uuid: "c2b655286bfd48bb8676b74918f839a2"
+)
+2023-07-23 13:09:05,246 WARNING MsgRouterThr:72376 [router.py:_handle_msg_rcv():114] No listener found for msg with uuid f0fe2f7ad4d8426cab711c06d0db635c (response {
+  log_artifact_response {
+    artifact_id: "QXJ0aWZhY3Q6NTIwNDM0MTM5"
+  }
+}
+control {
+  req_resp: true
+  local: true
+  relay_id: "21f50a3cdfcb45bd8a138e62bd74cbcd"
+}
+uuid: "f0fe2f7ad4d8426cab711c06d0db635c"
+)
+2023-07-23 13:09:06,362 WARNING MsgRouterThr:72376 [router.py:_handle_msg_rcv():114] No listener found for msg with uuid 83063b06d4c244f2a5a83d0619b1c7a9 (response {
+  log_artifact_response {
+    artifact_id: "QXJ0aWZhY3Q6NTIwNDM0MTQ1"
+  }
+}
+control {
+  req_resp: true
+  local: true
+  relay_id: "21f50a3cdfcb45bd8a138e62bd74cbcd"
+}
+uuid: "83063b06d4c244f2a5a83d0619b1c7a9"
+)
+2023-07-23 13:09:07,639 WARNING MsgRouterThr:72376 [router.py:_handle_msg_rcv():114] No listener found for msg with uuid bf2627a87ed1490e8be3b7e3638d6cc7 (response {
+  log_artifact_response {
+    artifact_id: "QXJ0aWZhY3Q6NTIwNDM0MTUx"
+  }
+}
+control {
+  req_resp: true
+  local: true
+  relay_id: "21f50a3cdfcb45bd8a138e62bd74cbcd"
+}
+uuid: "bf2627a87ed1490e8be3b7e3638d6cc7"
+)
+2023-07-23 13:11:31,561 INFO    MainThread:72376 [wandb_run.py:_config_callback():1281] config_cb None None {'Extra Trees Classifier': {'bootstrap': True, 'ccp_alpha': 0.0, 'class_weight': {}, 'criterion': 'entropy', 'max_depth': 8, 'max_features': 0.40765400033293386, 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.00042867717464411913, 'min_samples_leaf': 4, 'min_samples_split': 4, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 30, 'n_jobs': -1, 'oob_score': False, 'random_state': 123, 'verbose': 0, 'warm_start': False}}
+2023-07-23 13:11:32,720 WARNING MsgRouterThr:72376 [router.py:_handle_msg_rcv():114] No listener found for msg with uuid 51420d069bf54c1390f7b0cce4e86533 (response {
+  log_artifact_response {
+    artifact_id: "QXJ0aWZhY3Q6NTIwNDM1MDc0"
+  }
+}
+control {
+  req_resp: true
+  local: true
+  relay_id: "21f50a3cdfcb45bd8a138e62bd74cbcd"
+}
+uuid: "51420d069bf54c1390f7b0cce4e86533"
+)
+2023-07-23 13:11:33,874 WARNING MsgRouterThr:72376 [router.py:_handle_msg_rcv():114] No listener found for msg with uuid 2793f6d7bc384152a64f2f4fd92145a2 (response {
+  log_artifact_response {
+    artifact_id: "QXJ0aWZhY3Q6NTIwNDM1MDgx"
+  }
+}
+control {
+  req_resp: true
+  local: true
+  relay_id: "21f50a3cdfcb45bd8a138e62bd74cbcd"
+}
+uuid: "2793f6d7bc384152a64f2f4fd92145a2"
+)
+2023-07-23 13:11:35,108 WARNING MsgRouterThr:72376 [router.py:_handle_msg_rcv():114] No listener found for msg with uuid ef28e4f9df024eb285e97cd20da8efb3 (response {
+  log_artifact_response {
+    artifact_id: "QXJ0aWZhY3Q6NTIwNDM1MDkw"
+  }
+}
+control {
+  req_resp: true
+  local: true
+  relay_id: "21f50a3cdfcb45bd8a138e62bd74cbcd"
+}
+uuid: "ef28e4f9df024eb285e97cd20da8efb3"
+)
+2023-07-23 13:11:36,261 INFO    MainThread:72376 [wandb_run.py:_finish():1887] finishing run alanfiler/70A_30B Multilabel F1_Score Unaveraged/ldo742dy
+2023-07-23 13:11:36,261 INFO    MainThread:72376 [wandb_run.py:_atexit_cleanup():2121] got exitcode: 0
+2023-07-23 13:11:36,261 INFO    MainThread:72376 [wandb_run.py:_restore():2104] restore
+2023-07-23 13:11:36,261 INFO    MainThread:72376 [wandb_run.py:_restore():2110] restore done
+2023-07-23 13:24:41,738 INFO    MainThread:72376 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-07-23 13:24:41,738 INFO    MainThread:72376 [wandb_init.py:_pause_backend():418] pausing backend

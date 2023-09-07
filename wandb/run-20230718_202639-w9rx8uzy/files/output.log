@@ -1,0 +1,4 @@
+
+Warning: No categorical columns found. Calling 'transform' will only return input data.
+wandb: ERROR Error while calling W&B API: failed to find run Citrine_Solutions_Engineer_Test_V3/f01imwd8 (<Response [404]>)
+wandb: ERROR Error while calling W&B API: failed to find run Citrine_Solutions_Engineer_Test_V3/f01imwd8 (<Response [404]>)

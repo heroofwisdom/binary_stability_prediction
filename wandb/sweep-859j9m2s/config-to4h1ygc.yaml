@@ -1,0 +1,10 @@
+wandb_version: 1
+
+epochs:
+  value: 20
+layers:
+  value: 88
+learning_rate:
+  value: 0.008963258509372466
+wd:
+  value: 0.07560261285347036

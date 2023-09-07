@@ -1,0 +1,196 @@
+2023-07-23 15:46:08,930 INFO    StreamThr :76610 [internal.py:wandb_internal():86] W&B internal server running at pid: 76610, started at: 2023-07-23 15:46:08.930143
+2023-07-23 15:46:08,931 DEBUG   HandlerThread:76610 [handler.py:handle_request():144] handle_request: status
+2023-07-23 15:46:08,932 INFO    WriterThread:76610 [datastore.py:open_for_write():85] open: /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230723_154604-zm2yygce/run-zm2yygce.wandb
+2023-07-23 15:46:08,933 DEBUG   SenderThread:76610 [sender.py:send():369] send: header
+2023-07-23 15:46:08,933 DEBUG   SenderThread:76610 [sender.py:send():369] send: run
+2023-07-23 15:46:09,324 INFO    SenderThread:76610 [dir_watcher.py:__init__():211] watching files in: /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230723_154604-zm2yygce/files
+2023-07-23 15:46:09,324 INFO    SenderThread:76610 [sender.py:_start_run_threads():1100] run started: zm2yygce with start time 1690148767.959442
+2023-07-23 15:46:09,329 DEBUG   SenderThread:76610 [sender.py:send_request():396] send_request: summary_record
+2023-07-23 15:46:09,330 INFO    SenderThread:76610 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-23 15:46:09,334 DEBUG   HandlerThread:76610 [handler.py:handle_request():144] handle_request: check_version
+2023-07-23 15:46:09,334 DEBUG   SenderThread:76610 [sender.py:send_request():396] send_request: check_version
+2023-07-23 15:46:09,404 DEBUG   HandlerThread:76610 [handler.py:handle_request():144] handle_request: run_start
+2023-07-23 15:46:09,405 DEBUG   HandlerThread:76610 [system_info.py:__init__():31] System info init
+2023-07-23 15:46:09,405 DEBUG   HandlerThread:76610 [system_info.py:__init__():46] System info init done
+2023-07-23 15:46:09,405 INFO    HandlerThread:76610 [system_monitor.py:start():181] Starting system monitor
+2023-07-23 15:46:09,405 INFO    SystemMonitor:76610 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-07-23 15:46:09,405 INFO    HandlerThread:76610 [system_monitor.py:probe():201] Collecting system info
+2023-07-23 15:46:09,406 DEBUG   HandlerThread:76610 [system_info.py:probe():195] Probing system
+2023-07-23 15:46:09,406 INFO    SystemMonitor:76610 [interfaces.py:start():190] Started cpu monitoring
+2023-07-23 15:46:09,406 INFO    SystemMonitor:76610 [interfaces.py:start():190] Started disk monitoring
+2023-07-23 15:46:09,407 INFO    SystemMonitor:76610 [interfaces.py:start():190] Started memory monitoring
+2023-07-23 15:46:09,407 INFO    SystemMonitor:76610 [interfaces.py:start():190] Started network monitoring
+2023-07-23 15:46:09,408 DEBUG   HandlerThread:76610 [system_info.py:_probe_git():180] Probing git
+2023-07-23 15:46:09,449 DEBUG   HandlerThread:76610 [system_info.py:_probe_git():188] Probing git done
+2023-07-23 15:46:09,449 DEBUG   HandlerThread:76610 [system_info.py:probe():240] Probing system done
+2023-07-23 15:46:09,449 DEBUG   HandlerThread:76610 [system_monitor.py:probe():210] {'os': 'macOS-13.5-x86_64-i386-64bit', 'python': '3.10.11', 'heartbeatAt': '2023-07-23T21:46:09.406575', 'startedAt': '2023-07-23T21:46:04.859624', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': '<python with no main file>', 'git': {'remote': None, 'commit': '66713dc891f1b0d642803c24630ce30bb938b67b'}, 'email': '119975864+heroofwisdom@users.noreply.github.com', 'root': '/Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3', 'host': 'MacBook-Pro.local', 'username': 'heroofwisdom', 'executable': '/Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/.venv/bin/python', 'cpu_count': 8, 'cpu_count_logical': 16, 'cpu_freq': {'current': 2300, 'min': 2300, 'max': 2300}, 'cpu_freq_per_core': [{'current': 2300, 'min': 2300, 'max': 2300}], 'disk': {'total': 931.546989440918, 'used': 8.546794891357422}, 'memory': {'total': 16.0}}
+2023-07-23 15:46:09,449 INFO    HandlerThread:76610 [system_monitor.py:probe():211] Finished collecting system info
+2023-07-23 15:46:09,450 INFO    HandlerThread:76610 [system_monitor.py:probe():214] Publishing system info
+2023-07-23 15:46:09,450 DEBUG   HandlerThread:76610 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-07-23 15:46:09,450 DEBUG   HandlerThread:76610 [system_info.py:_save_pip():67] Saving pip packages done
+2023-07-23 15:46:09,451 INFO    HandlerThread:76610 [system_monitor.py:probe():216] Finished publishing system info
+2023-07-23 15:46:09,452 DEBUG   SenderThread:76610 [sender.py:send():369] send: files
+2023-07-23 15:46:09,452 INFO    SenderThread:76610 [sender.py:_save_file():1354] saving file wandb-metadata.json with policy now
+2023-07-23 15:46:09,468 DEBUG   SenderThread:76610 [sender.py:send():369] send: telemetry
+2023-07-23 15:46:09,468 DEBUG   HandlerThread:76610 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-23 15:46:09,469 DEBUG   SenderThread:76610 [sender.py:send_request():396] send_request: stop_status
+2023-07-23 15:46:09,731 INFO    wandb-upload_0:76610 [upload_job.py:push():133] Uploaded file /var/folders/tq/793pyzvn4ts7t0217hsm6l2w0000gq/T/tmprcp7uw13wandb/clyc72ec-wandb-metadata.json
+2023-07-23 15:46:10,326 INFO    Thread-59 :76610 [dir_watcher.py:_on_file_created():272] file/dir created: /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230723_154604-zm2yygce/files/requirements.txt
+2023-07-23 15:46:10,326 INFO    Thread-59 :76610 [dir_watcher.py:_on_file_created():272] file/dir created: /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230723_154604-zm2yygce/files/wandb-summary.json
+2023-07-23 15:46:10,326 INFO    Thread-59 :76610 [dir_watcher.py:_on_file_created():272] file/dir created: /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230723_154604-zm2yygce/files/wandb-metadata.json
+2023-07-23 15:46:11,329 INFO    Thread-59 :76610 [dir_watcher.py:_on_file_created():272] file/dir created: /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230723_154604-zm2yygce/files/output.log
+2023-07-23 15:46:12,608 DEBUG   SenderThread:76610 [sender.py:send():369] send: config
+2023-07-23 15:46:13,336 INFO    Thread-59 :76610 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230723_154604-zm2yygce/files/output.log
+2023-07-23 15:46:14,286 DEBUG   HandlerThread:76610 [handler.py:handle_request():144] handle_request: log_artifact
+2023-07-23 15:46:14,286 DEBUG   SenderThread:76610 [sender.py:send_request():396] send_request: log_artifact
+2023-07-23 15:46:14,691 DEBUG   HandlerThread:76610 [handler.py:handle_request():144] handle_request: log_artifact
+2023-07-23 15:46:14,774 DEBUG   HandlerThread:76610 [handler.py:handle_request():144] handle_request: log_artifact
+2023-07-23 15:46:15,193 INFO    wandb-upload_0:76610 [upload_job.py:push():91] Uploaded file /Users/heroofwisdom/Library/Application Support/wandb/artifacts/staging/tmpdxa_v7qx
+2023-07-23 15:46:15,624 INFO    SenderThread:76610 [sender.py:send_request_log_artifact():1414] logged artifact Transformation_Pipeline588b6e1a - {'id': 'QXJ0aWZhY3Q6NTIwNDk4ODM4', 'digest': '61f16cf2358457885e234a39fa972ddf', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjg1MTEyMDc4', 'latestArtifact': None}, 'version': 'latest'}
+2023-07-23 15:46:15,624 DEBUG   SenderThread:76610 [sender.py:send_request():396] send_request: log_artifact
+2023-07-23 15:46:15,626 DEBUG   HandlerThread:76610 [handler.py:handle_request():144] handle_request: status_report
+2023-07-23 15:46:16,285 INFO    wandb-upload_0:76610 [upload_job.py:push():91] Uploaded file /Users/heroofwisdom/Library/Application Support/wandb/artifacts/staging/tmp8nun_1fv
+2023-07-23 15:46:16,820 INFO    SenderThread:76610 [sender.py:send_request_log_artifact():1414] logged artifact Train58c19026 - {'id': 'QXJ0aWZhY3Q6NTIwNDk4ODQ4', 'digest': '632d38c04a42fbceed283916f8467d94', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjg1MTEyMDgz', 'latestArtifact': None}, 'version': 'latest'}
+2023-07-23 15:46:16,820 DEBUG   SenderThread:76610 [sender.py:send_request():396] send_request: log_artifact
+2023-07-23 15:46:17,690 INFO    wandb-upload_0:76610 [upload_job.py:push():91] Uploaded file /Users/heroofwisdom/Library/Application Support/wandb/artifacts/staging/tmptb412ko6
+2023-07-23 15:46:18,434 INFO    SenderThread:76610 [sender.py:send_request_log_artifact():1414] logged artifact Test58d6257c - {'id': 'QXJ0aWZhY3Q6NTIwNDk4ODU1', 'digest': '8ac6ba0c46af4341a2658e96e9d0ebce', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjg1MTEyMDg0', 'latestArtifact': None}, 'version': 'latest'}
+2023-07-23 15:46:21,451 DEBUG   HandlerThread:76610 [handler.py:handle_request():144] handle_request: status_report
+2023-07-23 15:46:24,482 DEBUG   HandlerThread:76610 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-23 15:46:24,482 DEBUG   SenderThread:76610 [sender.py:send_request():396] send_request: stop_status
+2023-07-23 15:46:26,634 DEBUG   HandlerThread:76610 [handler.py:handle_request():144] handle_request: status_report
+2023-07-23 15:46:31,656 DEBUG   HandlerThread:76610 [handler.py:handle_request():144] handle_request: status_report
+2023-07-23 15:46:36,674 DEBUG   HandlerThread:76610 [handler.py:handle_request():144] handle_request: status_report
+2023-07-23 15:46:39,479 DEBUG   HandlerThread:76610 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-23 15:46:39,482 DEBUG   SenderThread:76610 [sender.py:send_request():396] send_request: stop_status
+2023-07-23 15:46:42,541 DEBUG   HandlerThread:76610 [handler.py:handle_request():144] handle_request: status_report
+2023-07-23 15:46:43,553 INFO    Thread-59 :76610 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230723_154604-zm2yygce/files/config.yaml
+2023-07-23 15:46:47,634 DEBUG   HandlerThread:76610 [handler.py:handle_request():144] handle_request: status_report
+2023-07-23 15:46:52,647 DEBUG   HandlerThread:76610 [handler.py:handle_request():144] handle_request: status_report
+2023-07-23 15:46:54,479 DEBUG   HandlerThread:76610 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-23 15:46:54,479 DEBUG   SenderThread:76610 [sender.py:send_request():396] send_request: stop_status
+2023-07-23 15:46:58,530 DEBUG   HandlerThread:76610 [handler.py:handle_request():144] handle_request: status_report
+2023-07-23 15:47:03,549 DEBUG   HandlerThread:76610 [handler.py:handle_request():144] handle_request: status_report
+2023-07-23 15:47:08,570 DEBUG   HandlerThread:76610 [handler.py:handle_request():144] handle_request: status_report
+2023-07-23 15:47:09,412 DEBUG   SystemMonitor:76610 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-07-23 15:47:09,413 DEBUG   SenderThread:76610 [sender.py:send():369] send: stats
+2023-07-23 15:47:09,483 DEBUG   HandlerThread:76610 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-23 15:47:09,483 DEBUG   SenderThread:76610 [sender.py:send_request():396] send_request: stop_status
+2023-07-23 15:47:14,533 DEBUG   HandlerThread:76610 [handler.py:handle_request():144] handle_request: status_report
+2023-07-23 15:47:19,556 DEBUG   HandlerThread:76610 [handler.py:handle_request():144] handle_request: status_report
+2023-07-23 15:47:24,497 DEBUG   HandlerThread:76610 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-23 15:47:24,519 DEBUG   SenderThread:76610 [sender.py:send_request():396] send_request: stop_status
+2023-07-23 15:47:24,577 DEBUG   HandlerThread:76610 [handler.py:handle_request():144] handle_request: status_report
+2023-07-23 15:47:29,597 DEBUG   HandlerThread:76610 [handler.py:handle_request():144] handle_request: status_report
+2023-07-23 15:47:34,609 DEBUG   HandlerThread:76610 [handler.py:handle_request():144] handle_request: status_report
+2023-07-23 15:47:39,418 DEBUG   SenderThread:76610 [sender.py:send():369] send: stats
+2023-07-23 15:47:39,492 DEBUG   HandlerThread:76610 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-23 15:47:39,493 DEBUG   SenderThread:76610 [sender.py:send_request():396] send_request: stop_status
+2023-07-23 15:47:40,554 DEBUG   HandlerThread:76610 [handler.py:handle_request():144] handle_request: status_report
+2023-07-23 15:47:45,574 DEBUG   HandlerThread:76610 [handler.py:handle_request():144] handle_request: status_report
+2023-07-23 15:47:50,592 DEBUG   HandlerThread:76610 [handler.py:handle_request():144] handle_request: status_report
+2023-07-23 15:47:54,493 DEBUG   HandlerThread:76610 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-23 15:47:54,493 DEBUG   SenderThread:76610 [sender.py:send_request():396] send_request: stop_status
+2023-07-23 15:47:56,576 DEBUG   HandlerThread:76610 [handler.py:handle_request():144] handle_request: status_report
+2023-07-23 15:48:01,597 DEBUG   HandlerThread:76610 [handler.py:handle_request():144] handle_request: status_report
+2023-07-23 15:48:06,615 DEBUG   HandlerThread:76610 [handler.py:handle_request():144] handle_request: status_report
+2023-07-23 15:48:09,419 DEBUG   SenderThread:76610 [sender.py:send():369] send: stats
+2023-07-23 15:48:09,493 DEBUG   HandlerThread:76610 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-23 15:48:09,494 DEBUG   SenderThread:76610 [sender.py:send_request():396] send_request: stop_status
+2023-07-23 15:48:12,538 DEBUG   HandlerThread:76610 [handler.py:handle_request():144] handle_request: status_report
+2023-07-23 15:48:17,557 DEBUG   HandlerThread:76610 [handler.py:handle_request():144] handle_request: status_report
+2023-07-23 15:48:22,576 DEBUG   HandlerThread:76610 [handler.py:handle_request():144] handle_request: status_report
+2023-07-23 15:48:24,499 DEBUG   HandlerThread:76610 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-23 15:48:24,499 DEBUG   SenderThread:76610 [sender.py:send_request():396] send_request: stop_status
+2023-07-23 15:48:28,555 DEBUG   HandlerThread:76610 [handler.py:handle_request():144] handle_request: status_report
+2023-07-23 15:48:33,573 DEBUG   HandlerThread:76610 [handler.py:handle_request():144] handle_request: status_report
+2023-07-23 15:48:38,590 DEBUG   HandlerThread:76610 [handler.py:handle_request():144] handle_request: status_report
+2023-07-23 15:48:39,423 DEBUG   SenderThread:76610 [sender.py:send():369] send: stats
+2023-07-23 15:48:39,503 DEBUG   HandlerThread:76610 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-23 15:48:39,503 DEBUG   SenderThread:76610 [sender.py:send_request():396] send_request: stop_status
+2023-07-23 15:48:44,559 DEBUG   HandlerThread:76610 [handler.py:handle_request():144] handle_request: status_report
+2023-07-23 15:48:49,573 DEBUG   HandlerThread:76610 [handler.py:handle_request():144] handle_request: status_report
+2023-07-23 15:48:54,503 DEBUG   HandlerThread:76610 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-23 15:48:54,503 DEBUG   SenderThread:76610 [sender.py:send_request():396] send_request: stop_status
+2023-07-23 15:48:55,541 DEBUG   HandlerThread:76610 [handler.py:handle_request():144] handle_request: status_report
+2023-07-23 15:49:00,559 DEBUG   HandlerThread:76610 [handler.py:handle_request():144] handle_request: status_report
+2023-07-23 15:49:05,577 DEBUG   HandlerThread:76610 [handler.py:handle_request():144] handle_request: status_report
+2023-07-23 15:49:09,428 DEBUG   SenderThread:76610 [sender.py:send():369] send: stats
+2023-07-23 15:49:09,507 DEBUG   HandlerThread:76610 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-23 15:49:09,507 DEBUG   SenderThread:76610 [sender.py:send_request():396] send_request: stop_status
+2023-07-23 15:49:11,555 DEBUG   HandlerThread:76610 [handler.py:handle_request():144] handle_request: status_report
+2023-07-23 15:49:16,575 DEBUG   HandlerThread:76610 [handler.py:handle_request():144] handle_request: status_report
+2023-07-23 15:49:21,591 DEBUG   HandlerThread:76610 [handler.py:handle_request():144] handle_request: status_report
+2023-07-23 15:49:24,511 DEBUG   HandlerThread:76610 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-23 15:49:24,511 DEBUG   SenderThread:76610 [sender.py:send_request():396] send_request: stop_status
+2023-07-23 15:49:27,552 DEBUG   HandlerThread:76610 [handler.py:handle_request():144] handle_request: status_report
+2023-07-23 15:49:28,265 DEBUG   HandlerThread:76610 [handler.py:handle_request():144] handle_request: log_artifact
+2023-07-23 15:49:28,266 DEBUG   SenderThread:76610 [sender.py:send_request():396] send_request: log_artifact
+2023-07-23 15:49:28,279 DEBUG   HandlerThread:76610 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-23 15:49:28,927 INFO    wandb-upload_0:76610 [upload_job.py:push():91] Uploaded file /Users/heroofwisdom/Library/Application Support/wandb/artifacts/staging/tmp1d8dpsc8
+2023-07-23 15:49:29,200 INFO    Thread-59 :76610 [dir_watcher.py:_on_file_created():272] file/dir created: /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230723_154604-zm2yygce/files/media/table/compare_models_0_1e0fd43d8953327c6d92.table.json
+2023-07-23 15:49:29,214 INFO    Thread-59 :76610 [dir_watcher.py:_on_file_created():272] file/dir created: /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230723_154604-zm2yygce/files/media
+2023-07-23 15:49:29,214 INFO    Thread-59 :76610 [dir_watcher.py:_on_file_created():272] file/dir created: /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230723_154604-zm2yygce/files/media/table
+2023-07-23 15:49:29,423 INFO    SenderThread:76610 [sender.py:send_request_log_artifact():1414] logged artifact run-zm2yygce-compare_models - {'id': 'QXJ0aWZhY3Q6NTIwNDk5OTkz', 'digest': '165b59914f7490b4347953ce9f8e2b92', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjg1MTEyMzAy', 'latestArtifact': None}, 'version': 'latest'}
+2023-07-23 15:49:29,423 DEBUG   SenderThread:76610 [sender.py:send():369] send: files
+2023-07-23 15:49:29,423 INFO    SenderThread:76610 [sender.py:_save_file():1354] saving file media/table/compare_models_0_1e0fd43d8953327c6d92.table.json with policy now
+2023-07-23 15:49:29,426 DEBUG   SenderThread:76610 [sender.py:send():369] send: history
+2023-07-23 15:49:29,426 DEBUG   SenderThread:76610 [sender.py:send_request():396] send_request: summary_record
+2023-07-23 15:49:29,427 INFO    SenderThread:76610 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-07-23 15:49:29,627 INFO    wandb-upload_0:76610 [upload_job.py:push():133] Uploaded file /var/folders/tq/793pyzvn4ts7t0217hsm6l2w0000gq/T/tmprcp7uw13wandb/23oi87hh-media/table/compare_models_0_1e0fd43d8953327c6d92.table.json
+2023-07-23 15:49:30,043 INFO    wandb-upload_0:76610 [upload_job.py:push():133] Uploaded file /var/folders/tq/793pyzvn4ts7t0217hsm6l2w0000gq/T/tmprcp7uw13wandb/0spbamjy-media/table/compare_models_0_1e0fd43d8953327c6d92.table.json
+2023-07-23 15:49:30,205 INFO    Thread-59 :76610 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230723_154604-zm2yygce/files/wandb-summary.json
+2023-07-23 15:49:31,197 INFO    StreamThr :76610 [internal.py:wandb_internal():86] W&B internal server running at pid: 76610, started at: 2023-07-23 15:49:31.194196
+2023-07-23 15:49:31,200 DEBUG   HandlerThread:76610 [handler.py:handle_request():144] handle_request: status
+2023-07-23 15:49:31,210 INFO    WriterThread:76610 [datastore.py:open_for_write():85] open: /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230723_154931-6m5go7xk/run-6m5go7xk.wandb
+2023-07-23 15:49:31,211 DEBUG   SenderThread:76610 [sender.py:send():369] send: header
+2023-07-23 15:49:31,272 DEBUG   SenderThread:76610 [sender.py:send():369] send: run
+2023-07-23 15:49:31,521 INFO    SenderThread:76610 [dir_watcher.py:__init__():211] watching files in: /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230723_154931-6m5go7xk/files
+2023-07-23 15:49:31,521 INFO    SenderThread:76610 [sender.py:_start_run_threads():1100] run started: 6m5go7xk with start time 1690148971.193867
+2023-07-23 15:49:33,440 DEBUG   HandlerThread:76610 [handler.py:handle_request():144] handle_request: status_report
+2023-07-23 15:49:36,298 DEBUG   HandlerThread:76610 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-23 15:49:36,542 DEBUG   HandlerThread:76610 [handler.py:handle_request():144] handle_request: status_report
+2023-07-23 15:49:38,455 DEBUG   HandlerThread:76610 [handler.py:handle_request():144] handle_request: status_report
+2023-07-23 15:49:39,434 DEBUG   SenderThread:76610 [sender.py:send():369] send: stats
+2023-07-23 15:49:39,515 DEBUG   HandlerThread:76610 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-23 15:49:39,515 DEBUG   SenderThread:76610 [sender.py:send_request():396] send_request: stop_status
+2023-07-23 15:49:41,319 DEBUG   HandlerThread:76610 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-23 15:49:41,564 DEBUG   HandlerThread:76610 [handler.py:handle_request():144] handle_request: status_report
+2023-07-23 15:49:43,564 DEBUG   HandlerThread:76610 [handler.py:handle_request():144] handle_request: status_report
+2023-07-23 15:49:46,336 DEBUG   HandlerThread:76610 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-23 15:49:46,585 DEBUG   HandlerThread:76610 [handler.py:handle_request():144] handle_request: status_report
+2023-07-23 15:49:48,582 DEBUG   HandlerThread:76610 [handler.py:handle_request():144] handle_request: status_report
+2023-07-23 15:49:51,354 DEBUG   HandlerThread:76610 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-23 15:49:51,605 DEBUG   HandlerThread:76610 [handler.py:handle_request():144] handle_request: status_report
+2023-07-23 15:49:53,599 DEBUG   HandlerThread:76610 [handler.py:handle_request():144] handle_request: status_report
+2023-07-23 15:49:54,517 DEBUG   HandlerThread:76610 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-23 15:49:54,517 DEBUG   SenderThread:76610 [sender.py:send_request():396] send_request: stop_status
+2023-07-23 15:49:56,378 DEBUG   HandlerThread:76610 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-23 15:49:56,619 DEBUG   HandlerThread:76610 [handler.py:handle_request():144] handle_request: status_report
+2023-07-23 15:49:59,585 DEBUG   HandlerThread:76610 [handler.py:handle_request():144] handle_request: status_report
+2023-07-23 15:50:01,398 DEBUG   HandlerThread:76610 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-23 15:50:01,632 DEBUG   HandlerThread:76610 [handler.py:handle_request():144] handle_request: status_report
+2023-07-23 15:50:04,606 DEBUG   HandlerThread:76610 [handler.py:handle_request():144] handle_request: status_report
+2023-07-23 15:50:06,421 DEBUG   HandlerThread:76610 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-23 15:50:06,656 DEBUG   HandlerThread:76610 [handler.py:handle_request():144] handle_request: status_report
+2023-07-23 15:50:09,439 DEBUG   SenderThread:76610 [sender.py:send():369] send: stats
+2023-07-23 15:50:09,522 DEBUG   HandlerThread:76610 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-23 15:50:09,522 DEBUG   SenderThread:76610 [sender.py:send_request():396] send_request: stop_status
+2023-07-23 15:50:10,568 DEBUG   HandlerThread:76610 [handler.py:handle_request():144] handle_request: status_report
+2023-07-23 15:50:11,440 DEBUG   HandlerThread:76610 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-23 15:50:11,673 DEBUG   HandlerThread:76610 [handler.py:handle_request():144] handle_request: status_report
+2023-07-23 15:50:14,582 DEBUG   HandlerThread:76610 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-23 15:50:15,136 DEBUG   HandlerThread:76610 [handler.py:handle_request():144] handle_request: pause
+2023-07-23 15:50:15,137 INFO    HandlerThread:76610 [handler.py:handle_request_pause():728] stopping system metrics thread or process
+2023-07-23 15:50:15,137 INFO    HandlerThread:76610 [system_monitor.py:finish():190] Stopping system monitor
+2023-07-23 15:50:15,137 DEBUG   SystemMonitor:76610 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-07-23 15:50:15,137 INFO    HandlerThread:76610 [interfaces.py:finish():202] Joined cpu monitor
+2023-07-23 15:50:15,138 DEBUG   SystemMonitor:76610 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-07-23 15:50:15,138 INFO    HandlerThread:76610 [interfaces.py:finish():202] Joined disk monitor
+2023-07-23 15:50:15,139 INFO    HandlerThread:76610 [interfaces.py:finish():202] Joined memory monitor
+2023-07-23 15:50:15,139 INFO    HandlerThread:76610 [interfaces.py:finish():202] Joined network monitor
+2023-07-23 15:50:15,140 DEBUG   SenderThread:76610 [sender.py:send():369] send: stats
+2023-07-23 15:50:16,143 DEBUG   HandlerThread:76610 [handler.py:handle_request():144] handle_request: status_report
+2023-07-23 15:50:16,407 INFO    Thread-59 :76610 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230723_154604-zm2yygce/files/output.log
+2023-07-23 15:50:16,689 DEBUG   HandlerThread:76610 [handler.py:handle_request():144] handle_request: status_report
+2023-07-23 15:50:19,602 DEBUG   HandlerThread:76610 [handler.py:handle_request():144] handle_request: keepalive
+2023-07-23 15:50:21,164 DEBUG   HandlerThread:76610 [handler.py:handle_request():144] handle_request: status_report

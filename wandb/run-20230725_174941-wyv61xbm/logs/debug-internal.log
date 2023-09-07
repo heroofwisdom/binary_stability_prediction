@@ -1,0 +1,177 @@
+2023-07-25 17:49:41,755 INFO    StreamThr :30922 [internal.py:wandb_internal():86] W&B internal server running at pid: 30922, started at: 2023-07-25 17:49:41.755275
+2023-07-25 17:49:41,756 DEBUG   HandlerThread:30922 [handler.py:handle_request():144] handle_request: status
+2023-07-25 17:49:41,787 INFO    WriterThread:30922 [datastore.py:open_for_write():85] open: /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230725_174941-wyv61xbm/run-wyv61xbm.wandb
+2023-07-25 17:49:41,788 DEBUG   SenderThread:30922 [sender.py:send():379] send: header
+2023-07-25 17:49:41,817 DEBUG   SenderThread:30922 [sender.py:send():379] send: run
+2023-07-25 17:49:42,030 INFO    SenderThread:30922 [dir_watcher.py:__init__():211] watching files in: /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230725_174941-wyv61xbm/files
+2023-07-25 17:49:42,030 INFO    SenderThread:30922 [sender.py:_start_run_threads():1122] run started: wyv61xbm with start time 1690328981.755306
+2023-07-25 17:49:42,030 DEBUG   SenderThread:30922 [sender.py:send_request():406] send_request: summary_record
+2023-07-25 17:49:42,030 INFO    SenderThread:30922 [sender.py:_save_file():1376] saving file wandb-summary.json with policy end
+2023-07-25 17:49:42,041 DEBUG   HandlerThread:30922 [handler.py:handle_request():144] handle_request: check_version
+2023-07-25 17:49:42,041 DEBUG   SenderThread:30922 [sender.py:send_request():406] send_request: check_version
+2023-07-25 17:49:42,123 DEBUG   HandlerThread:30922 [handler.py:handle_request():144] handle_request: run_start
+2023-07-25 17:49:42,130 DEBUG   HandlerThread:30922 [system_info.py:__init__():31] System info init
+2023-07-25 17:49:42,130 DEBUG   HandlerThread:30922 [system_info.py:__init__():46] System info init done
+2023-07-25 17:49:42,130 INFO    HandlerThread:30922 [system_monitor.py:start():181] Starting system monitor
+2023-07-25 17:49:42,131 INFO    SystemMonitor:30922 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-07-25 17:49:42,132 INFO    HandlerThread:30922 [system_monitor.py:probe():201] Collecting system info
+2023-07-25 17:49:42,132 INFO    SystemMonitor:30922 [interfaces.py:start():190] Started cpu monitoring
+2023-07-25 17:49:42,132 INFO    SystemMonitor:30922 [interfaces.py:start():190] Started disk monitoring
+2023-07-25 17:49:42,132 INFO    SystemMonitor:30922 [interfaces.py:start():190] Started memory monitoring
+2023-07-25 17:49:42,133 DEBUG   HandlerThread:30922 [system_info.py:probe():195] Probing system
+2023-07-25 17:49:42,134 INFO    SystemMonitor:30922 [interfaces.py:start():190] Started network monitoring
+2023-07-25 17:49:42,140 DEBUG   HandlerThread:30922 [system_info.py:_probe_git():180] Probing git
+2023-07-25 17:49:42,180 DEBUG   HandlerThread:30922 [system_info.py:_probe_git():188] Probing git done
+2023-07-25 17:49:42,181 DEBUG   HandlerThread:30922 [system_info.py:probe():240] Probing system done
+2023-07-25 17:49:42,181 DEBUG   HandlerThread:30922 [system_monitor.py:probe():210] {'os': 'macOS-13.5-x86_64-i386-64bit', 'python': '3.10.11', 'heartbeatAt': '2023-07-25T23:49:42.133806', 'startedAt': '2023-07-25T23:49:41.743859', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'git': {'remote': None, 'commit': '66713dc891f1b0d642803c24630ce30bb938b67b'}, 'email': '119975864+heroofwisdom@users.noreply.github.com', 'root': '/Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3', 'host': 'MacBook-Pro.local', 'username': 'heroofwisdom', 'executable': '/Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/.venv/bin/python', 'cpu_count': 8, 'cpu_count_logical': 16, 'cpu_freq': {'current': 2300, 'min': 2300, 'max': 2300}, 'cpu_freq_per_core': [{'current': 2300, 'min': 2300, 'max': 2300}], 'disk': {'total': 931.546989440918, 'used': 8.546794891357422}, 'memory': {'total': 16.0}}
+2023-07-25 17:49:42,181 INFO    HandlerThread:30922 [system_monitor.py:probe():211] Finished collecting system info
+2023-07-25 17:49:42,181 INFO    HandlerThread:30922 [system_monitor.py:probe():214] Publishing system info
+2023-07-25 17:49:42,181 DEBUG   HandlerThread:30922 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-07-25 17:49:42,182 DEBUG   HandlerThread:30922 [system_info.py:_save_pip():67] Saving pip packages done
+2023-07-25 17:49:42,182 INFO    HandlerThread:30922 [system_monitor.py:probe():216] Finished publishing system info
+2023-07-25 17:49:42,185 DEBUG   SenderThread:30922 [sender.py:send():379] send: files
+2023-07-25 17:49:42,185 INFO    SenderThread:30922 [sender.py:_save_file():1376] saving file wandb-metadata.json with policy now
+2023-07-25 17:49:42,200 DEBUG   HandlerThread:30922 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-25 17:49:42,201 DEBUG   SenderThread:30922 [sender.py:send_request():406] send_request: stop_status
+2023-07-25 17:49:42,318 DEBUG   SenderThread:30922 [sender.py:send():379] send: telemetry
+2023-07-25 17:49:42,538 INFO    wandb-upload_0:30922 [upload_job.py:push():131] Uploaded file /var/folders/tq/793pyzvn4ts7t0217hsm6l2w0000gq/T/tmpbz6jnxf4wandb/880g9m6s-wandb-metadata.json
+2023-07-25 17:49:43,035 INFO    Thread-12 :30922 [dir_watcher.py:_on_file_created():272] file/dir created: /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230725_174941-wyv61xbm/files/wandb-summary.json
+2023-07-25 17:49:43,035 INFO    Thread-12 :30922 [dir_watcher.py:_on_file_created():272] file/dir created: /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230725_174941-wyv61xbm/files/requirements.txt
+2023-07-25 17:49:43,035 INFO    Thread-12 :30922 [dir_watcher.py:_on_file_created():272] file/dir created: /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230725_174941-wyv61xbm/files/wandb-metadata.json
+2023-07-25 17:49:44,038 INFO    Thread-12 :30922 [dir_watcher.py:_on_file_created():272] file/dir created: /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230725_174941-wyv61xbm/files/output.log
+2023-07-25 17:49:46,047 INFO    Thread-12 :30922 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230725_174941-wyv61xbm/files/output.log
+2023-07-25 17:49:46,664 DEBUG   HandlerThread:30922 [handler.py:handle_request():144] handle_request: partial_history
+2023-07-25 17:49:46,666 DEBUG   SenderThread:30922 [sender.py:send():379] send: history
+2023-07-25 17:49:46,666 DEBUG   SenderThread:30922 [sender.py:send_request():406] send_request: summary_record
+2023-07-25 17:49:46,667 INFO    SenderThread:30922 [sender.py:_save_file():1376] saving file wandb-summary.json with policy end
+2023-07-25 17:49:46,686 DEBUG   SenderThread:30922 [sender.py:send():379] send: telemetry
+2023-07-25 17:49:46,687 DEBUG   SenderThread:30922 [sender.py:send():379] send: exit
+2023-07-25 17:49:46,688 INFO    SenderThread:30922 [sender.py:send_exit():584] handling exit code: 0
+2023-07-25 17:49:46,688 INFO    SenderThread:30922 [sender.py:send_exit():586] handling runtime: 4
+2023-07-25 17:49:46,688 INFO    SenderThread:30922 [sender.py:_save_file():1376] saving file wandb-summary.json with policy end
+2023-07-25 17:49:46,688 INFO    SenderThread:30922 [sender.py:send_exit():592] send defer
+2023-07-25 17:49:46,689 DEBUG   HandlerThread:30922 [handler.py:handle_request():144] handle_request: defer
+2023-07-25 17:49:46,689 INFO    HandlerThread:30922 [handler.py:handle_request_defer():170] handle defer: 0
+2023-07-25 17:49:46,689 DEBUG   SenderThread:30922 [sender.py:send_request():406] send_request: defer
+2023-07-25 17:49:46,689 INFO    SenderThread:30922 [sender.py:send_request_defer():608] handle sender defer: 0
+2023-07-25 17:49:46,689 INFO    SenderThread:30922 [sender.py:transition_state():612] send defer: 1
+2023-07-25 17:49:46,689 DEBUG   HandlerThread:30922 [handler.py:handle_request():144] handle_request: defer
+2023-07-25 17:49:46,689 INFO    HandlerThread:30922 [handler.py:handle_request_defer():170] handle defer: 1
+2023-07-25 17:49:46,690 DEBUG   SenderThread:30922 [sender.py:send_request():406] send_request: defer
+2023-07-25 17:49:46,690 INFO    SenderThread:30922 [sender.py:send_request_defer():608] handle sender defer: 1
+2023-07-25 17:49:46,690 INFO    SenderThread:30922 [sender.py:transition_state():612] send defer: 2
+2023-07-25 17:49:46,690 DEBUG   HandlerThread:30922 [handler.py:handle_request():144] handle_request: defer
+2023-07-25 17:49:46,690 INFO    HandlerThread:30922 [handler.py:handle_request_defer():170] handle defer: 2
+2023-07-25 17:49:46,690 INFO    HandlerThread:30922 [system_monitor.py:finish():190] Stopping system monitor
+2023-07-25 17:49:46,690 INFO    HandlerThread:30922 [interfaces.py:finish():202] Joined cpu monitor
+2023-07-25 17:49:46,691 DEBUG   SystemMonitor:30922 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-07-25 17:49:46,691 INFO    HandlerThread:30922 [interfaces.py:finish():202] Joined disk monitor
+2023-07-25 17:49:46,691 DEBUG   SystemMonitor:30922 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-07-25 17:49:46,691 INFO    HandlerThread:30922 [interfaces.py:finish():202] Joined memory monitor
+2023-07-25 17:49:46,691 DEBUG   SystemMonitor:30922 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-07-25 17:49:46,691 INFO    HandlerThread:30922 [interfaces.py:finish():202] Joined network monitor
+2023-07-25 17:49:46,693 DEBUG   SenderThread:30922 [sender.py:send_request():406] send_request: defer
+2023-07-25 17:49:46,693 INFO    SenderThread:30922 [sender.py:send_request_defer():608] handle sender defer: 2
+2023-07-25 17:49:46,693 INFO    SenderThread:30922 [sender.py:transition_state():612] send defer: 3
+2023-07-25 17:49:46,693 DEBUG   SenderThread:30922 [sender.py:send():379] send: stats
+2023-07-25 17:49:46,693 DEBUG   HandlerThread:30922 [handler.py:handle_request():144] handle_request: defer
+2023-07-25 17:49:46,693 INFO    HandlerThread:30922 [handler.py:handle_request_defer():170] handle defer: 3
+2023-07-25 17:49:46,693 DEBUG   SenderThread:30922 [sender.py:send_request():406] send_request: defer
+2023-07-25 17:49:46,693 INFO    SenderThread:30922 [sender.py:send_request_defer():608] handle sender defer: 3
+2023-07-25 17:49:46,694 INFO    SenderThread:30922 [sender.py:transition_state():612] send defer: 4
+2023-07-25 17:49:46,694 DEBUG   HandlerThread:30922 [handler.py:handle_request():144] handle_request: defer
+2023-07-25 17:49:46,694 INFO    HandlerThread:30922 [handler.py:handle_request_defer():170] handle defer: 4
+2023-07-25 17:49:46,694 DEBUG   SenderThread:30922 [sender.py:send_request():406] send_request: defer
+2023-07-25 17:49:46,694 INFO    SenderThread:30922 [sender.py:send_request_defer():608] handle sender defer: 4
+2023-07-25 17:49:46,694 INFO    SenderThread:30922 [sender.py:transition_state():612] send defer: 5
+2023-07-25 17:49:46,694 DEBUG   HandlerThread:30922 [handler.py:handle_request():144] handle_request: defer
+2023-07-25 17:49:46,694 INFO    HandlerThread:30922 [handler.py:handle_request_defer():170] handle defer: 5
+2023-07-25 17:49:46,694 DEBUG   SenderThread:30922 [sender.py:send():379] send: summary
+2023-07-25 17:49:46,695 INFO    SenderThread:30922 [sender.py:_save_file():1376] saving file wandb-summary.json with policy end
+2023-07-25 17:49:46,695 DEBUG   SenderThread:30922 [sender.py:send_request():406] send_request: defer
+2023-07-25 17:49:46,695 INFO    SenderThread:30922 [sender.py:send_request_defer():608] handle sender defer: 5
+2023-07-25 17:49:46,695 INFO    SenderThread:30922 [sender.py:transition_state():612] send defer: 6
+2023-07-25 17:49:46,695 DEBUG   HandlerThread:30922 [handler.py:handle_request():144] handle_request: defer
+2023-07-25 17:49:46,695 INFO    HandlerThread:30922 [handler.py:handle_request_defer():170] handle defer: 6
+2023-07-25 17:49:46,695 DEBUG   SenderThread:30922 [sender.py:send_request():406] send_request: defer
+2023-07-25 17:49:46,695 INFO    SenderThread:30922 [sender.py:send_request_defer():608] handle sender defer: 6
+2023-07-25 17:49:46,698 DEBUG   HandlerThread:30922 [handler.py:handle_request():144] handle_request: status_report
+2023-07-25 17:49:46,777 INFO    SenderThread:30922 [sender.py:transition_state():612] send defer: 7
+2023-07-25 17:49:46,778 DEBUG   HandlerThread:30922 [handler.py:handle_request():144] handle_request: defer
+2023-07-25 17:49:46,778 INFO    HandlerThread:30922 [handler.py:handle_request_defer():170] handle defer: 7
+2023-07-25 17:49:46,778 DEBUG   SenderThread:30922 [sender.py:send_request():406] send_request: defer
+2023-07-25 17:49:46,778 INFO    SenderThread:30922 [sender.py:send_request_defer():608] handle sender defer: 7
+2023-07-25 17:49:47,052 INFO    Thread-12 :30922 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230725_174941-wyv61xbm/files/wandb-summary.json
+2023-07-25 17:49:47,053 INFO    Thread-12 :30922 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230725_174941-wyv61xbm/files/config.yaml
+2023-07-25 17:49:47,194 INFO    SenderThread:30922 [sender.py:transition_state():612] send defer: 8
+2023-07-25 17:49:47,194 DEBUG   HandlerThread:30922 [handler.py:handle_request():144] handle_request: defer
+2023-07-25 17:49:47,194 INFO    HandlerThread:30922 [handler.py:handle_request_defer():170] handle defer: 8
+2023-07-25 17:49:47,194 DEBUG   SenderThread:30922 [sender.py:send_request():406] send_request: defer
+2023-07-25 17:49:47,195 INFO    SenderThread:30922 [sender.py:send_request_defer():608] handle sender defer: 8
+2023-07-25 17:49:47,195 INFO    SenderThread:30922 [job_builder.py:build():280] Attempting to build job artifact
+2023-07-25 17:49:47,195 INFO    SenderThread:30922 [job_builder.py:build():296] run is notebook based run
+2023-07-25 17:49:47,195 INFO    SenderThread:30922 [job_builder.py:_get_source_type():400] no source found
+2023-07-25 17:49:47,195 INFO    SenderThread:30922 [sender.py:transition_state():612] send defer: 9
+2023-07-25 17:49:47,195 DEBUG   HandlerThread:30922 [handler.py:handle_request():144] handle_request: defer
+2023-07-25 17:49:47,195 INFO    HandlerThread:30922 [handler.py:handle_request_defer():170] handle defer: 9
+2023-07-25 17:49:47,195 DEBUG   SenderThread:30922 [sender.py:send_request():406] send_request: defer
+2023-07-25 17:49:47,195 INFO    SenderThread:30922 [sender.py:send_request_defer():608] handle sender defer: 9
+2023-07-25 17:49:47,196 INFO    SenderThread:30922 [dir_watcher.py:finish():359] shutting down directory watcher
+2023-07-25 17:49:47,693 DEBUG   HandlerThread:30922 [handler.py:handle_request():144] handle_request: poll_exit
+2023-07-25 17:49:48,057 INFO    Thread-12 :30922 [dir_watcher.py:_on_file_modified():289] file/dir modified: /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230725_174941-wyv61xbm/files/output.log
+2023-07-25 17:49:48,057 INFO    SenderThread:30922 [dir_watcher.py:finish():389] scan: /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230725_174941-wyv61xbm/files
+2023-07-25 17:49:48,057 INFO    SenderThread:30922 [dir_watcher.py:finish():403] scan save: /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230725_174941-wyv61xbm/files/requirements.txt requirements.txt
+2023-07-25 17:49:48,058 INFO    SenderThread:30922 [dir_watcher.py:finish():403] scan save: /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230725_174941-wyv61xbm/files/output.log output.log
+2023-07-25 17:49:48,060 INFO    SenderThread:30922 [dir_watcher.py:finish():403] scan save: /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230725_174941-wyv61xbm/files/config.yaml config.yaml
+2023-07-25 17:49:48,062 INFO    SenderThread:30922 [dir_watcher.py:finish():403] scan save: /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230725_174941-wyv61xbm/files/wandb-summary.json wandb-summary.json
+2023-07-25 17:49:48,065 INFO    SenderThread:30922 [dir_watcher.py:finish():403] scan save: /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230725_174941-wyv61xbm/files/wandb-metadata.json wandb-metadata.json
+2023-07-25 17:49:48,065 INFO    SenderThread:30922 [sender.py:transition_state():612] send defer: 10
+2023-07-25 17:49:48,065 DEBUG   SenderThread:30922 [sender.py:send_request():406] send_request: poll_exit
+2023-07-25 17:49:48,065 DEBUG   HandlerThread:30922 [handler.py:handle_request():144] handle_request: defer
+2023-07-25 17:49:48,066 INFO    HandlerThread:30922 [handler.py:handle_request_defer():170] handle defer: 10
+2023-07-25 17:49:48,068 DEBUG   SenderThread:30922 [sender.py:send_request():406] send_request: defer
+2023-07-25 17:49:48,069 INFO    SenderThread:30922 [sender.py:send_request_defer():608] handle sender defer: 10
+2023-07-25 17:49:48,069 INFO    SenderThread:30922 [file_pusher.py:finish():159] shutting down file pusher
+2023-07-25 17:49:48,328 INFO    wandb-upload_2:30922 [upload_job.py:push():131] Uploaded file /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230725_174941-wyv61xbm/files/config.yaml
+2023-07-25 17:49:48,373 INFO    wandb-upload_3:30922 [upload_job.py:push():131] Uploaded file /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230725_174941-wyv61xbm/files/wandb-summary.json
+2023-07-25 17:49:48,384 INFO    wandb-upload_0:30922 [upload_job.py:push():131] Uploaded file /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230725_174941-wyv61xbm/files/requirements.txt
+2023-07-25 17:49:48,511 INFO    wandb-upload_1:30922 [upload_job.py:push():131] Uploaded file /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230725_174941-wyv61xbm/files/output.log
+2023-07-25 17:49:48,699 DEBUG   HandlerThread:30922 [handler.py:handle_request():144] handle_request: poll_exit
+2023-07-25 17:49:48,699 DEBUG   SenderThread:30922 [sender.py:send_request():406] send_request: poll_exit
+2023-07-25 17:49:48,717 INFO    Thread-11 (_thread_body):30922 [sender.py:transition_state():612] send defer: 11
+2023-07-25 17:49:48,717 DEBUG   HandlerThread:30922 [handler.py:handle_request():144] handle_request: defer
+2023-07-25 17:49:48,717 INFO    HandlerThread:30922 [handler.py:handle_request_defer():170] handle defer: 11
+2023-07-25 17:49:48,718 DEBUG   SenderThread:30922 [sender.py:send_request():406] send_request: defer
+2023-07-25 17:49:48,718 INFO    SenderThread:30922 [sender.py:send_request_defer():608] handle sender defer: 11
+2023-07-25 17:49:48,718 INFO    SenderThread:30922 [file_pusher.py:join():164] waiting for file pusher
+2023-07-25 17:49:48,718 INFO    SenderThread:30922 [sender.py:transition_state():612] send defer: 12
+2023-07-25 17:49:48,718 DEBUG   HandlerThread:30922 [handler.py:handle_request():144] handle_request: defer
+2023-07-25 17:49:48,718 INFO    HandlerThread:30922 [handler.py:handle_request_defer():170] handle defer: 12
+2023-07-25 17:49:48,718 DEBUG   SenderThread:30922 [sender.py:send_request():406] send_request: defer
+2023-07-25 17:49:48,718 INFO    SenderThread:30922 [sender.py:send_request_defer():608] handle sender defer: 12
+2023-07-25 17:49:48,963 INFO    SenderThread:30922 [sender.py:transition_state():612] send defer: 13
+2023-07-25 17:49:48,963 DEBUG   HandlerThread:30922 [handler.py:handle_request():144] handle_request: defer
+2023-07-25 17:49:48,963 INFO    HandlerThread:30922 [handler.py:handle_request_defer():170] handle defer: 13
+2023-07-25 17:49:48,964 DEBUG   SenderThread:30922 [sender.py:send_request():406] send_request: defer
+2023-07-25 17:49:48,964 INFO    SenderThread:30922 [sender.py:send_request_defer():608] handle sender defer: 13
+2023-07-25 17:49:48,964 INFO    SenderThread:30922 [sender.py:transition_state():612] send defer: 14
+2023-07-25 17:49:48,964 DEBUG   HandlerThread:30922 [handler.py:handle_request():144] handle_request: defer
+2023-07-25 17:49:48,964 INFO    HandlerThread:30922 [handler.py:handle_request_defer():170] handle defer: 14
+2023-07-25 17:49:48,965 DEBUG   SenderThread:30922 [sender.py:send():379] send: final
+2023-07-25 17:49:48,965 DEBUG   SenderThread:30922 [sender.py:send():379] send: footer
+2023-07-25 17:49:48,965 DEBUG   SenderThread:30922 [sender.py:send_request():406] send_request: defer
+2023-07-25 17:49:48,965 INFO    SenderThread:30922 [sender.py:send_request_defer():608] handle sender defer: 14
+2023-07-25 17:49:48,966 DEBUG   HandlerThread:30922 [handler.py:handle_request():144] handle_request: poll_exit
+2023-07-25 17:49:48,966 DEBUG   HandlerThread:30922 [handler.py:handle_request():144] handle_request: server_info
+2023-07-25 17:49:48,966 DEBUG   HandlerThread:30922 [handler.py:handle_request():144] handle_request: get_summary
+2023-07-25 17:49:48,966 DEBUG   HandlerThread:30922 [handler.py:handle_request():144] handle_request: sampled_history
+2023-07-25 17:49:48,967 DEBUG   SenderThread:30922 [sender.py:send_request():406] send_request: poll_exit
+2023-07-25 17:49:48,967 DEBUG   HandlerThread:30922 [handler.py:handle_request():144] handle_request: job_info
+2023-07-25 17:49:48,967 DEBUG   SenderThread:30922 [sender.py:send_request():406] send_request: server_info
+2023-07-25 17:49:49,055 DEBUG   SenderThread:30922 [sender.py:send_request():406] send_request: job_info
+2023-07-25 17:49:49,056 DEBUG   HandlerThread:30922 [handler.py:handle_request():144] handle_request: shutdown
+2023-07-25 17:49:49,056 INFO    HandlerThread:30922 [handler.py:finish():857] shutting down handler
+2023-07-25 17:49:49,972 INFO    WriterThread:30922 [datastore.py:close():294] close: /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230725_174941-wyv61xbm/run-wyv61xbm.wandb
+2023-07-25 17:49:50,057 INFO    SenderThread:30922 [sender.py:finish():1552] shutting down sender
+2023-07-25 17:49:50,057 INFO    SenderThread:30922 [file_pusher.py:finish():159] shutting down file pusher
+2023-07-25 17:49:50,057 INFO    SenderThread:30922 [file_pusher.py:join():164] waiting for file pusher

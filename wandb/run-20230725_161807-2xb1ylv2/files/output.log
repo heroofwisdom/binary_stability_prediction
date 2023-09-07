@@ -1,0 +1,46 @@
+Better model found at epoch 0 with f1_score value: 0.9215495536736096.
+Better model found at epoch 1 with f1_score value: 0.9371179119419357.
+Better model found at epoch 2 with f1_score value: 0.971403620278936.
+No improvement since epoch 2: early stopping
+Better model found at epoch 0 with f1_score value: 0.7998498557142035.
+Better model found at epoch 1 with f1_score value: 0.8901483110584786.
+Better model found at epoch 2 with f1_score value: 0.9456256405688533.
+No improvement since epoch 2: early stopping
+Better model found at epoch 0 with f1_score value: 0.748092443276018.
+Better model found at epoch 1 with f1_score value: 0.7766997397094754.
+Better model found at epoch 2 with f1_score value: 0.8045852493809692.
+Better model found at epoch 3 with f1_score value: 0.8138870625262726.
+Better model found at epoch 4 with f1_score value: 0.8215707341530332.
+Better model found at epoch 5 with f1_score value: 0.8384400858088426.
+No improvement since epoch 5: early stopping
+Better model found at epoch 0 with f1_score value: 0.846999015286953.
+Better model found at epoch 1 with f1_score value: 0.860281440620135.
+Better model found at epoch 2 with f1_score value: 0.9007923553787409.
+Better model found at epoch 4 with f1_score value: 0.9272430069435939.
+No improvement since epoch 4: early stopping
+Better model found at epoch 0 with f1_score value: 0.7318499852573717.
+Better model found at epoch 1 with f1_score value: 0.7663291477350975.
+Better model found at epoch 2 with f1_score value: 0.7962386133875222.
+Better model found at epoch 3 with f1_score value: 0.8062376701653424.
+Better model found at epoch 5 with f1_score value: 0.8298667218222008.
+Better model found at epoch 7 with f1_score value: 0.8469262631431579.
+No improvement since epoch 7: early stopping
+Better model found at epoch 0 with f1_score value: 0.8193155436007258.
+Better model found at epoch 1 with f1_score value: 0.8680677252867283.
+Better model found at epoch 2 with f1_score value: 0.9007923553787409.
+Better model found at epoch 3 with f1_score value: 0.9185965669152847.
+Better model found at epoch 4 with f1_score value: 0.92868003591739.
+No improvement since epoch 4: early stopping
+Better model found at epoch 0 with f1_score value: 0.722624965354892.
+Better model found at epoch 1 with f1_score value: 0.7639252766917843.
+Better model found at epoch 2 with f1_score value: 0.8575542562267212.
+No improvement since epoch 2: early stopping
+Better model found at epoch 0 with f1_score value: 0.7280288309453071.
+Better model found at epoch 1 with f1_score value: 0.7537597732855992.
+Better model found at epoch 2 with f1_score value: 0.8092734925942676.
+No improvement since epoch 2: early stopping
+Better model found at epoch 0 with f1_score value: 0.9093502238085486.
+Better model found at epoch 1 with f1_score value: 0.943401754911073.
+Better model found at epoch 2 with f1_score value: 0.9610894941634242.
+Better model found at epoch 4 with f1_score value: 0.9637909949972207.
+No improvement since epoch 4: early stopping

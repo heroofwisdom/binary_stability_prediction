@@ -1,0 +1,55 @@
+2023-07-18 20:26:59,949 INFO    MainThread:9207 [wandb_setup.py:_flush():76] Current SDK version is 0.15.5
+2023-07-18 20:26:59,950 INFO    MainThread:9207 [wandb_setup.py:_flush():76] Configure stats pid to 9207
+2023-07-18 20:26:59,950 INFO    MainThread:9207 [wandb_setup.py:_flush():76] Loading settings from /Users/heroofwisdom/.config/wandb/settings
+2023-07-18 20:26:59,950 INFO    MainThread:9207 [wandb_setup.py:_flush():76] Loading settings from /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/settings
+2023-07-18 20:26:59,950 INFO    MainThread:9207 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-07-18 20:26:59,950 INFO    MainThread:9207 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-07-18 20:26:59,950 INFO    MainThread:9207 [wandb_init.py:_log_setup():507] Logging user logs to /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230718_202659-f01imwd8/logs/debug.log
+2023-07-18 20:26:59,951 INFO    MainThread:9207 [wandb_init.py:_log_setup():508] Logging internal logs to /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230718_202659-f01imwd8/logs/debug-internal.log
+2023-07-18 20:26:59,951 INFO    MainThread:9207 [wandb_init.py:init():547] calling init triggers
+2023-07-18 20:26:59,951 INFO    MainThread:9207 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {}
+2023-07-18 20:26:59,951 INFO    MainThread:9207 [wandb_init.py:init():596] starting backend
+2023-07-18 20:26:59,951 INFO    MainThread:9207 [wandb_init.py:init():600] setting up manager
+2023-07-18 20:26:59,952 INFO    MainThread:9207 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2023-07-18 20:26:59,953 INFO    MainThread:9207 [wandb_init.py:init():606] backend started and connected
+2023-07-18 20:26:59,958 INFO    MainThread:9207 [wandb_run.py:_label_probe_notebook():1233] probe notebook
+2023-07-18 20:26:59,959 INFO    MainThread:9207 [wandb_run.py:_label_probe_notebook():1243] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-07-18 20:26:59,959 INFO    MainThread:9207 [wandb_init.py:init():705] updated telemetry
+2023-07-18 20:26:59,986 INFO    MainThread:9207 [wandb_init.py:init():738] communicating run to backend with 60.0 second timeout
+2023-07-18 20:27:00,253 INFO    MainThread:9207 [wandb_run.py:_on_init():2173] communicating current version
+2023-07-18 20:27:30,327 INFO    MainThread:9207 [wandb_init.py:init():789] starting run threads in backend
+2023-07-18 20:27:30,398 INFO    MainThread:9207 [wandb_run.py:_console_start():2152] atexit reg
+2023-07-18 20:27:30,399 INFO    MainThread:9207 [wandb_run.py:_redirect():2007] redirect: SettingsConsole.WRAP_RAW
+2023-07-18 20:27:30,399 INFO    MainThread:9207 [wandb_run.py:_redirect():2072] Wrapping output streams.
+2023-07-18 20:27:30,399 INFO    MainThread:9207 [wandb_run.py:_redirect():2097] Redirects installed.
+2023-07-18 20:27:30,400 INFO    MainThread:9207 [wandb_init.py:init():830] run started, returning control to user process
+2023-07-18 20:27:30,400 INFO    MainThread:9207 [wandb_run.py:_config_callback():1281] config_cb None None {'Extra Trees Classifier': {'bootstrap': False, 'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': None, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': -1, 'oob_score': False, 'random_state': 123, 'verbose': 0, 'warm_start': False}}
+2023-07-18 20:27:30,644 WARNING MsgRouterThr:9207 [router.py:_handle_msg_rcv():114] No listener found for msg with uuid 14baabbe819a4585bd6370e1a457ea03 (response {
+  log_artifact_response {
+    error_message: "error logging artifact \"Results/Resultscf7aedea\": It appears that you do not have permission to access the requested resource. Please reach out to the project owner to grant you access. If you have the correct permissions, verify that there are no issues with your networking setup.(Error 404: Not Found)"
+  }
+}
+control {
+  req_resp: true
+  local: true
+  relay_id: "3277d63c4075442797860795349aaab6"
+}
+uuid: "14baabbe819a4585bd6370e1a457ea03"
+)
+2023-07-18 20:27:31,204 WARNING MsgRouterThr:9207 [router.py:_handle_msg_rcv():114] No listener found for msg with uuid 4c95fb2696b340e7bb9dce0553827bf6 (response {
+  log_artifact_response {
+    error_message: "error logging artifact \"Holdout/Holdoutcfd5785a\": It appears that you do not have permission to access the requested resource. Please reach out to the project owner to grant you access. If you have the correct permissions, verify that there are no issues with your networking setup.(Error 404: Not Found)"
+  }
+}
+control {
+  req_resp: true
+  local: true
+  relay_id: "3277d63c4075442797860795349aaab6"
+}
+uuid: "4c95fb2696b340e7bb9dce0553827bf6"
+)
+2023-07-18 20:27:37,753 INFO    MainThread:9207 [wandb_run.py:_finish():1887] finishing run alanfiler/90A_10B Multilabel Stratified SMOTEENN/f01imwd8
+2023-07-18 20:27:37,753 INFO    MainThread:9207 [wandb_run.py:_atexit_cleanup():2121] got exitcode: 0
+2023-07-18 20:27:37,753 INFO    MainThread:9207 [wandb_run.py:_restore():2104] restore
+2023-07-18 20:27:37,754 INFO    MainThread:9207 [wandb_run.py:_restore():2110] restore done

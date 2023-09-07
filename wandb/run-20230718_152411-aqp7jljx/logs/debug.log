@@ -1,0 +1,227 @@
+2023-07-18 15:24:11,198 INFO    MainThread:2968 [wandb_setup.py:_flush():76] Current SDK version is 0.15.5
+2023-07-18 15:24:11,199 INFO    MainThread:2968 [wandb_setup.py:_flush():76] Configure stats pid to 2968
+2023-07-18 15:24:11,199 INFO    MainThread:2968 [wandb_setup.py:_flush():76] Loading settings from /Users/heroofwisdom/.config/wandb/settings
+2023-07-18 15:24:11,199 INFO    MainThread:2968 [wandb_setup.py:_flush():76] Loading settings from /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/settings
+2023-07-18 15:24:11,199 INFO    MainThread:2968 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-07-18 15:24:11,199 INFO    MainThread:2968 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-07-18 15:24:11,199 INFO    MainThread:2968 [wandb_init.py:_log_setup():507] Logging user logs to /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230718_152411-aqp7jljx/logs/debug.log
+2023-07-18 15:24:11,199 INFO    MainThread:2968 [wandb_init.py:_log_setup():508] Logging internal logs to /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230718_152411-aqp7jljx/logs/debug-internal.log
+2023-07-18 15:24:11,199 INFO    MainThread:2968 [wandb_init.py:_jupyter_setup():453] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x15ea46740>
+2023-07-18 15:24:11,200 INFO    MainThread:2968 [wandb_init.py:init():547] calling init triggers
+2023-07-18 15:24:11,200 INFO    MainThread:2968 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {}
+2023-07-18 15:24:11,200 INFO    MainThread:2968 [wandb_init.py:init():596] starting backend
+2023-07-18 15:24:11,200 INFO    MainThread:2968 [wandb_init.py:init():600] setting up manager
+2023-07-18 15:24:11,202 INFO    MainThread:2968 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2023-07-18 15:24:11,203 INFO    MainThread:2968 [wandb_init.py:init():606] backend started and connected
+2023-07-18 15:24:11,209 INFO    MainThread:2968 [wandb_run.py:_label_probe_notebook():1233] probe notebook
+2023-07-18 15:24:11,210 INFO    MainThread:2968 [wandb_run.py:_label_probe_notebook():1243] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-07-18 15:24:11,210 INFO    MainThread:2968 [wandb_init.py:init():705] updated telemetry
+2023-07-18 15:24:11,243 INFO    MainThread:2968 [wandb_init.py:init():738] communicating run to backend with 60.0 second timeout
+2023-07-18 15:24:11,580 INFO    MainThread:2968 [wandb_run.py:_on_init():2173] communicating current version
+2023-07-18 15:24:11,660 INFO    MainThread:2968 [wandb_run.py:_on_init():2182] got version response 
+2023-07-18 15:24:11,660 INFO    MainThread:2968 [wandb_init.py:init():789] starting run threads in backend
+2023-07-18 15:24:41,769 INFO    MainThread:2968 [wandb_run.py:_console_start():2152] atexit reg
+2023-07-18 15:24:41,769 INFO    MainThread:2968 [wandb_run.py:_redirect():2007] redirect: SettingsConsole.WRAP_RAW
+2023-07-18 15:24:41,769 INFO    MainThread:2968 [wandb_run.py:_redirect():2072] Wrapping output streams.
+2023-07-18 15:24:41,770 INFO    MainThread:2968 [wandb_run.py:_redirect():2097] Redirects installed.
+2023-07-18 15:24:41,771 INFO    MainThread:2968 [wandb_init.py:init():830] run started, returning control to user process
+2023-07-18 15:24:41,772 INFO    MainThread:2968 [wandb_run.py:_config_callback():1281] config_cb None None {'Random Forest Classifier': {'bootstrap': True, 'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': None, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': -1, 'oob_score': False, 'random_state': 123, 'verbose': 0, 'warm_start': False}}
+2023-07-18 15:24:42,456 WARNING MsgRouterThr:2968 [router.py:_handle_msg_rcv():114] No listener found for msg with uuid daa7e37a3ede4d6bb1972a8fbec40d93 (response {
+  log_artifact_response {
+    error_message: "error logging artifact \"Holdout/Holdout8265a542\": It appears that you do not have permission to access the requested resource. Please reach out to the project owner to grant you access. If you have the correct permissions, verify that there are no issues with your networking setup.(Error 404: Not Found)"
+  }
+}
+control {
+  req_resp: true
+  local: true
+  relay_id: "884c8122119a4f889fdf2da74c382d69"
+}
+uuid: "daa7e37a3ede4d6bb1972a8fbec40d93"
+)
+2023-07-18 15:24:44,162 INFO    MainThread:2968 [wandb_run.py:_config_callback():1281] config_cb None None {'Extra Trees Classifier': {'bootstrap': False, 'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': None, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': -1, 'oob_score': False, 'random_state': 123, 'verbose': 0, 'warm_start': False}}
+2023-07-18 15:24:44,437 INFO    MainThread:2968 [wandb_run.py:_config_callback():1281] config_cb None None {'Gradient Boosting Classifier': {'ccp_alpha': 0.0, 'criterion': 'friedman_mse', 'init': None, 'learning_rate': 0.1, 'loss': 'log_loss', 'max_depth': 3, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_iter_no_change': None, 'random_state': 123, 'subsample': 1.0, 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': 0, 'warm_start': False}}
+2023-07-18 15:24:44,725 INFO    MainThread:2968 [wandb_run.py:_config_callback():1281] config_cb None None {'Light Gradient Boosting Machine': {'boosting_type': 'gbdt', 'class_weight': None, 'colsample_bytree': 1.0, 'importance_type': 'split', 'learning_rate': 0.1, 'max_depth': -1, 'min_child_samples': 20, 'min_child_weight': 0.001, 'min_split_gain': 0.0, 'n_estimators': 100, 'n_jobs': -1, 'num_leaves': 31, 'objective': None, 'random_state': 123, 'reg_alpha': 0.0, 'reg_lambda': 0.0, 'subsample': 1.0, 'subsample_for_bin': 200000, 'subsample_freq': 0}}
+2023-07-18 15:24:44,857 WARNING MsgRouterThr:2968 [router.py:_handle_msg_rcv():114] No listener found for msg with uuid 36442999aaf54d9c961ffe3eccac3906 (response {
+  log_artifact_response {
+    error_message: "error logging artifact \"Results/Results83b88d74\": It appears that you do not have permission to access the requested resource. Please reach out to the project owner to grant you access. If you have the correct permissions, verify that there are no issues with your networking setup.(Error 404: Not Found)"
+  }
+}
+control {
+  req_resp: true
+  local: true
+  relay_id: "884c8122119a4f889fdf2da74c382d69"
+}
+uuid: "36442999aaf54d9c961ffe3eccac3906"
+)
+2023-07-18 15:24:44,942 WARNING MsgRouterThr:2968 [router.py:_handle_msg_rcv():114] No listener found for msg with uuid 4bbb86be14af4bd78ed7cb1540620ddc (response {
+  log_artifact_response {
+    error_message: "error logging artifact \"Results/Results83e45364\": It appears that you do not have permission to access the requested resource. Please reach out to the project owner to grant you access. If you have the correct permissions, verify that there are no issues with your networking setup.(Error 404: Not Found)"
+  }
+}
+control {
+  req_resp: true
+  local: true
+  relay_id: "884c8122119a4f889fdf2da74c382d69"
+}
+uuid: "4bbb86be14af4bd78ed7cb1540620ddc"
+)
+2023-07-18 15:24:44,942 WARNING MsgRouterThr:2968 [router.py:message_loop():77] message_loop has been closed
+2023-07-18 15:24:44,954 INFO    MainThread:2968 [wandb_run.py:_config_callback():1281] config_cb None None {'Decision Tree Classifier': {'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 123, 'splitter': 'best'}}
+2023-07-18 15:24:45,147 WARNING MsgRouterThr:2968 [router.py:_handle_msg_rcv():114] No listener found for msg with uuid 8d943aeceecb4dc5ad3726f8c7cdfc95 (response {
+  log_artifact_response {
+    error_message: "error logging artifact \"Results/Results840762a0\": It appears that you do not have permission to access the requested resource. Please reach out to the project owner to grant you access. If you have the correct permissions, verify that there are no issues with your networking setup.(Error 404: Not Found)"
+  }
+}
+control {
+  req_resp: true
+  local: true
+  relay_id: "884c8122119a4f889fdf2da74c382d69"
+}
+uuid: "8d943aeceecb4dc5ad3726f8c7cdfc95"
+)
+2023-07-18 15:24:45,191 INFO    MainThread:2968 [wandb_run.py:_config_callback():1281] config_cb None None {'K Neighbors Classifier': {'algorithm': 'auto', 'leaf_size': 30, 'metric': 'minkowski', 'metric_params': None, 'n_jobs': -1, 'n_neighbors': 5, 'p': 2, 'weights': 'uniform'}}
+2023-07-18 15:24:45,425 WARNING MsgRouterThr:2968 [router.py:_handle_msg_rcv():114] No listener found for msg with uuid 7988c374151f4cc093a4f9f2bd3cb688 (response {
+  log_artifact_response {
+    error_message: "error logging artifact \"Results/Results842b9486\": It appears that you do not have permission to access the requested resource. Please reach out to the project owner to grant you access. If you have the correct permissions, verify that there are no issues with your networking setup.(Error 404: Not Found)"
+  }
+}
+control {
+  req_resp: true
+  local: true
+  relay_id: "884c8122119a4f889fdf2da74c382d69"
+}
+uuid: "7988c374151f4cc093a4f9f2bd3cb688"
+)
+2023-07-18 15:24:45,443 INFO    MainThread:2968 [wandb_run.py:_config_callback():1281] config_cb None None {'Ada Boost Classifier': {'algorithm': 'SAMME.R', 'base_estimator': 'deprecated', 'estimator': None, 'learning_rate': 1.0, 'n_estimators': 50, 'random_state': 123}}
+2023-07-18 15:24:45,709 INFO    MainThread:2968 [wandb_run.py:_config_callback():1281] config_cb None None {'Linear Discriminant Analysis': {'covariance_estimator': None, 'n_components': None, 'priors': None, 'shrinkage': None, 'solver': 'svd', 'store_covariance': False, 'tol': 0.0001}}
+2023-07-18 15:24:45,738 WARNING MsgRouterThr:2968 [router.py:_handle_msg_rcv():114] No listener found for msg with uuid 5f658c89d92548ffbd854aa02750fad4 (response {
+  log_artifact_response {
+    error_message: "error logging artifact \"Results/Results84520472\": It appears that you do not have permission to access the requested resource. Please reach out to the project owner to grant you access. If you have the correct permissions, verify that there are no issues with your networking setup.(Error 404: Not Found)"
+  }
+}
+control {
+  req_resp: true
+  local: true
+  relay_id: "884c8122119a4f889fdf2da74c382d69"
+}
+uuid: "5f658c89d92548ffbd854aa02750fad4"
+)
+2023-07-18 15:24:46,041 INFO    MainThread:2968 [wandb_run.py:_config_callback():1281] config_cb None None {'Logistic Regression': {'C': 1.0, 'class_weight': None, 'dual': False, 'fit_intercept': True, 'intercept_scaling': 1, 'l1_ratio': None, 'max_iter': 1000, 'multi_class': 'auto', 'n_jobs': None, 'penalty': 'l2', 'random_state': 123, 'solver': 'lbfgs', 'tol': 0.0001, 'verbose': 0, 'warm_start': False}}
+2023-07-18 15:24:46,057 WARNING MsgRouterThr:2968 [router.py:_handle_msg_rcv():114] No listener found for msg with uuid 6ebf158a01f34e668799a6447bb4e30e (response {
+  log_artifact_response {
+    error_message: "error logging artifact \"Results/Results847a5bf2\": It appears that you do not have permission to access the requested resource. Please reach out to the project owner to grant you access. If you have the correct permissions, verify that there are no issues with your networking setup.(Error 404: Not Found)"
+  }
+}
+control {
+  req_resp: true
+  local: true
+  relay_id: "884c8122119a4f889fdf2da74c382d69"
+}
+uuid: "6ebf158a01f34e668799a6447bb4e30e"
+)
+2023-07-18 15:24:46,369 INFO    MainThread:2968 [wandb_run.py:_config_callback():1281] config_cb None None {'SVM - Linear Kernel': {'alpha': 0.0001, 'average': False, 'class_weight': None, 'early_stopping': False, 'epsilon': 0.1, 'eta0': 0.001, 'fit_intercept': True, 'l1_ratio': 0.15, 'learning_rate': 'optimal', 'loss': 'hinge', 'max_iter': 1000, 'n_iter_no_change': 5, 'n_jobs': -1, 'penalty': 'l2', 'power_t': 0.5, 'random_state': 123, 'shuffle': True, 'tol': 0.001, 'validation_fraction': 0.1, 'verbose': 0, 'warm_start': False}}
+2023-07-18 15:24:46,378 WARNING MsgRouterThr:2968 [router.py:_handle_msg_rcv():114] No listener found for msg with uuid c6addb1896f94796b409e81e145119de (response {
+  log_artifact_response {
+    error_message: "error logging artifact \"Results/Results84ad1ec0\": It appears that you do not have permission to access the requested resource. Please reach out to the project owner to grant you access. If you have the correct permissions, verify that there are no issues with your networking setup.(Error 404: Not Found)"
+  }
+}
+control {
+  req_resp: true
+  local: true
+  relay_id: "884c8122119a4f889fdf2da74c382d69"
+}
+uuid: "c6addb1896f94796b409e81e145119de"
+)
+2023-07-18 15:24:46,680 INFO    MainThread:2968 [wandb_run.py:_config_callback():1281] config_cb None None {'Ridge Classifier': {'alpha': 1.0, 'class_weight': None, 'copy_X': True, 'fit_intercept': True, 'max_iter': None, 'positive': False, 'random_state': 123, 'solver': 'auto', 'tol': 0.0001}}
+2023-07-18 15:24:46,707 WARNING MsgRouterThr:2968 [router.py:_handle_msg_rcv():114] No listener found for msg with uuid 83ee2133c828496eb9c17a1d7191876e (response {
+  log_artifact_response {
+    error_message: "error logging artifact \"Results/Results84df354a\": It appears that you do not have permission to access the requested resource. Please reach out to the project owner to grant you access. If you have the correct permissions, verify that there are no issues with your networking setup.(Error 404: Not Found)"
+  }
+}
+control {
+  req_resp: true
+  local: true
+  relay_id: "884c8122119a4f889fdf2da74c382d69"
+}
+uuid: "83ee2133c828496eb9c17a1d7191876e"
+)
+2023-07-18 15:24:46,970 INFO    MainThread:2968 [wandb_run.py:_config_callback():1281] config_cb None None {'Quadratic Discriminant Analysis': {'priors': None, 'reg_param': 0.0, 'store_covariance': False, 'tol': 0.0001}}
+2023-07-18 15:24:46,989 WARNING MsgRouterThr:2968 [router.py:_handle_msg_rcv():114] No listener found for msg with uuid a8d49c00e2724e19838ae6481b5694f1 (response {
+  log_artifact_response {
+    error_message: "error logging artifact \"Results/Results850ea4c4\": It appears that you do not have permission to access the requested resource. Please reach out to the project owner to grant you access. If you have the correct permissions, verify that there are no issues with your networking setup.(Error 404: Not Found)"
+  }
+}
+control {
+  req_resp: true
+  local: true
+  relay_id: "884c8122119a4f889fdf2da74c382d69"
+}
+uuid: "a8d49c00e2724e19838ae6481b5694f1"
+)
+2023-07-18 15:24:47,269 INFO    MainThread:2968 [wandb_run.py:_config_callback():1281] config_cb None None {'Naive Bayes': {'priors': None, 'var_smoothing': 1e-09}}
+2023-07-18 15:24:47,306 WARNING MsgRouterThr:2968 [router.py:_handle_msg_rcv():114] No listener found for msg with uuid 370715d734a443649e11d039b3477ab7 (response {
+  log_artifact_response {
+    error_message: "error logging artifact \"Results/Results853aec82\": It appears that you do not have permission to access the requested resource. Please reach out to the project owner to grant you access. If you have the correct permissions, verify that there are no issues with your networking setup.(Error 404: Not Found)"
+  }
+}
+control {
+  req_resp: true
+  local: true
+  relay_id: "884c8122119a4f889fdf2da74c382d69"
+}
+uuid: "370715d734a443649e11d039b3477ab7"
+)
+2023-07-18 15:24:47,521 WARNING MsgRouterThr:2968 [router.py:_handle_msg_rcv():114] No listener found for msg with uuid b5ac4f2c60d546fdae4148f785e3896f (response {
+  log_artifact_response {
+    error_message: "error logging artifact \"Results/Results856896a0\": It appears that you do not have permission to access the requested resource. Please reach out to the project owner to grant you access. If you have the correct permissions, verify that there are no issues with your networking setup.(Error 404: Not Found)"
+  }
+}
+control {
+  req_resp: true
+  local: true
+  relay_id: "884c8122119a4f889fdf2da74c382d69"
+}
+uuid: "b5ac4f2c60d546fdae4148f785e3896f"
+)
+2023-07-18 15:24:47,545 INFO    MainThread:2968 [wandb_run.py:_config_callback():1281] config_cb None None {'Dummy Classifier': {'constant': None, 'random_state': 123, 'strategy': 'prior'}}
+2023-07-18 15:24:47,784 WARNING MsgRouterThr:2968 [router.py:_handle_msg_rcv():114] No listener found for msg with uuid fc7172c4154a4901ba4a764f7daf0f5e (response {
+  log_artifact_response {
+    error_message: "error logging artifact \"Results/Results8592aef4\": It appears that you do not have permission to access the requested resource. Please reach out to the project owner to grant you access. If you have the correct permissions, verify that there are no issues with your networking setup.(Error 404: Not Found)"
+  }
+}
+control {
+  req_resp: true
+  local: true
+  relay_id: "884c8122119a4f889fdf2da74c382d69"
+}
+uuid: "fc7172c4154a4901ba4a764f7daf0f5e"
+)
+2023-07-18 15:24:47,867 INFO    MainThread:2968 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-07-18 15:24:47,868 INFO    MainThread:2968 [wandb_init.py:_pause_backend():418] pausing backend
+2023-07-18 15:26:51,704 INFO    MainThread:2968 [wandb_init.py:_resume_backend():423] resuming backend
+2023-07-18 15:26:59,217 INFO    MainThread:2968 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-07-18 15:26:59,217 INFO    MainThread:2968 [wandb_init.py:_pause_backend():418] pausing backend
+2023-07-18 15:27:01,045 INFO    MainThread:2968 [wandb_init.py:_resume_backend():423] resuming backend
+2023-07-18 15:27:01,047 INFO    MainThread:2968 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-07-18 15:27:01,047 INFO    MainThread:2968 [wandb_init.py:_pause_backend():418] pausing backend
+2023-07-18 15:27:29,642 INFO    MainThread:2968 [wandb_init.py:_resume_backend():423] resuming backend
+2023-07-18 15:27:29,665 INFO    MainThread:2968 [wandb_setup.py:_flush():76] Current SDK version is 0.15.5
+2023-07-18 15:27:29,665 INFO    MainThread:2968 [wandb_setup.py:_flush():76] Configure stats pid to 2968
+2023-07-18 15:27:29,665 INFO    MainThread:2968 [wandb_setup.py:_flush():76] Loading settings from /Users/heroofwisdom/.config/wandb/settings
+2023-07-18 15:27:29,666 INFO    MainThread:2968 [wandb_setup.py:_flush():76] Loading settings from /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/settings
+2023-07-18 15:27:29,666 INFO    MainThread:2968 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-07-18 15:27:29,666 INFO    MainThread:2968 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-07-18 15:27:29,666 INFO    MainThread:2968 [wandb_init.py:_log_setup():507] Logging user logs to /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230718_152729-zmhf7oa8/logs/debug.log
+2023-07-18 15:27:29,666 INFO    MainThread:2968 [wandb_init.py:_log_setup():508] Logging internal logs to /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230718_152729-zmhf7oa8/logs/debug-internal.log
+2023-07-18 15:27:29,666 INFO    MainThread:2968 [wandb_init.py:init():547] calling init triggers
+2023-07-18 15:27:29,666 INFO    MainThread:2968 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {}
+2023-07-18 15:27:29,667 INFO    MainThread:2968 [wandb_init.py:init():571] re-initializing run, found existing run on stack: aqp7jljx
+2023-07-18 15:27:29,669 INFO    MainThread:2968 [wandb_run.py:_finish():1887] finishing run alanfiler/90A_10B Multilabel Stratified/aqp7jljx
+2023-07-18 15:27:29,669 INFO    MainThread:2968 [jupyter.py:save_history():445] not saving jupyter history
+2023-07-18 15:27:29,670 INFO    MainThread:2968 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-07-18 15:27:29,670 INFO    MainThread:2968 [wandb_init.py:_jupyter_teardown():435] cleaning up jupyter logic
+2023-07-18 15:27:29,670 INFO    MainThread:2968 [wandb_run.py:_atexit_cleanup():2121] got exitcode: 0
+2023-07-18 15:27:29,670 INFO    MainThread:2968 [wandb_run.py:_restore():2104] restore
+2023-07-18 15:27:29,670 INFO    MainThread:2968 [wandb_run.py:_restore():2110] restore done

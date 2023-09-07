@@ -1,0 +1,40 @@
+2023-07-25 17:10:09,500 INFO    Thread-27 (_run_job):27614 [wandb_setup.py:_flush():76] Current SDK version is 0.15.7
+2023-07-25 17:10:09,500 INFO    Thread-27 (_run_job):27614 [wandb_setup.py:_flush():76] Configure stats pid to 27614
+2023-07-25 17:10:09,500 INFO    Thread-27 (_run_job):27614 [wandb_setup.py:_flush():76] Loading settings from /Users/heroofwisdom/.config/wandb/settings
+2023-07-25 17:10:09,500 INFO    Thread-27 (_run_job):27614 [wandb_setup.py:_flush():76] Loading settings from /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/settings
+2023-07-25 17:10:09,500 INFO    Thread-27 (_run_job):27614 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'Citrine_Solutions_Engineer_Test_V3', 'entity': 'alanfiler', 'root_dir': '/Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3', 'sweep_id': 'lytay7a2', 'run_id': 'rj55fgu6', 'sweep_param_path': '/Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/sweep-lytay7a2/config-rj55fgu6.yaml'}
+2023-07-25 17:10:09,500 INFO    Thread-27 (_run_job):27614 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-07-25 17:10:09,500 INFO    Thread-27 (_run_job):27614 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-07-25 17:10:09,500 INFO    Thread-27 (_run_job):27614 [wandb_init.py:_log_setup():507] Logging user logs to /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230725_171009-rj55fgu6/logs/debug.log
+2023-07-25 17:10:09,501 INFO    Thread-27 (_run_job):27614 [wandb_init.py:_log_setup():508] Logging internal logs to /Users/heroofwisdom/Documents/GitHub/Citrine_Test_V3/wandb/run-20230725_171009-rj55fgu6/logs/debug-internal.log
+2023-07-25 17:10:09,501 INFO    Thread-27 (_run_job):27614 [wandb_init.py:_jupyter_setup():453] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x19add9e10>
+2023-07-25 17:10:09,501 INFO    Thread-27 (_run_job):27614 [wandb_init.py:init():547] calling init triggers
+2023-07-25 17:10:09,501 INFO    Thread-27 (_run_job):27614 [wandb_init.py:init():554] wandb.init called with sweep_config: {'epochs': 20, 'layers': 50, 'learning_rate': 0.004033635493423647, 'wd': 0.09710507902068129}
+config: {}
+2023-07-25 17:10:09,501 INFO    Thread-27 (_run_job):27614 [wandb_init.py:init():596] starting backend
+2023-07-25 17:10:09,501 INFO    Thread-27 (_run_job):27614 [wandb_init.py:init():600] setting up manager
+2023-07-25 17:10:09,506 INFO    Thread-27 (_run_job):27614 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2023-07-25 17:10:09,506 INFO    Thread-27 (_run_job):27614 [wandb_init.py:init():606] backend started and connected
+2023-07-25 17:10:09,519 INFO    Thread-27 (_run_job):27614 [wandb_run.py:_config_callback():1282] config_cb None None {'epochs': 20, 'layers': 50, 'learning_rate': 0.004033635493423647, 'wd': 0.09710507902068129}
+2023-07-25 17:10:09,523 INFO    Thread-27 (_run_job):27614 [wandb_run.py:_label_probe_notebook():1234] probe notebook
+2023-07-25 17:10:09,524 INFO    Thread-27 (_run_job):27614 [wandb_run.py:_label_probe_notebook():1244] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-07-25 17:10:09,524 INFO    Thread-27 (_run_job):27614 [wandb_init.py:init():697] updated telemetry
+2023-07-25 17:10:09,558 INFO    Thread-27 (_run_job):27614 [wandb_init.py:init():730] communicating run to backend with 60.0 second timeout
+2023-07-25 17:10:09,860 INFO    Thread-27 (_run_job):27614 [wandb_run.py:_on_init():2174] communicating current version
+2023-07-25 17:10:09,959 INFO    Thread-27 (_run_job):27614 [wandb_run.py:_on_init():2183] got version response 
+2023-07-25 17:10:09,959 INFO    Thread-27 (_run_job):27614 [wandb_init.py:init():781] starting run threads in backend
+2023-07-25 17:10:10,042 INFO    Thread-27 (_run_job):27614 [wandb_run.py:_console_start():2153] atexit reg
+2023-07-25 17:10:10,043 INFO    Thread-27 (_run_job):27614 [wandb_run.py:_redirect():2008] redirect: wrap_raw
+2023-07-25 17:10:10,043 INFO    Thread-27 (_run_job):27614 [wandb_run.py:_redirect():2073] Wrapping output streams.
+2023-07-25 17:10:10,043 INFO    Thread-27 (_run_job):27614 [wandb_run.py:_redirect():2098] Redirects installed.
+2023-07-25 17:10:10,044 INFO    Thread-27 (_run_job):27614 [wandb_init.py:init():822] run started, returning control to user process
+2023-07-25 17:10:10,336 INFO    Thread-27 (_run_job):27614 [wandb_run.py:_finish():1888] finishing run alanfiler/Citrine_Solutions_Engineer_Test_V3/rj55fgu6
+2023-07-25 17:10:10,336 INFO    Thread-27 (_run_job):27614 [jupyter.py:save_history():445] not saving jupyter history
+2023-07-25 17:10:10,336 INFO    Thread-27 (_run_job):27614 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-07-25 17:10:10,336 INFO    Thread-27 (_run_job):27614 [wandb_init.py:_jupyter_teardown():435] cleaning up jupyter logic
+2023-07-25 17:10:10,336 INFO    Thread-27 (_run_job):27614 [wandb_run.py:_atexit_cleanup():2122] got exitcode: 1
+2023-07-25 17:10:10,336 INFO    Thread-27 (_run_job):27614 [wandb_run.py:_restore():2105] restore
+2023-07-25 17:10:10,337 INFO    Thread-27 (_run_job):27614 [wandb_run.py:_restore():2111] restore done
+2023-07-25 17:10:12,854 INFO    Thread-27 (_run_job):27614 [wandb_run.py:_footer_history_summary_info():3475] rendering history
+2023-07-25 17:10:12,855 INFO    Thread-27 (_run_job):27614 [wandb_run.py:_footer_history_summary_info():3507] rendering summary
+2023-07-25 17:10:12,857 INFO    Thread-27 (_run_job):27614 [wandb_run.py:_footer_sync_info():3434] logging synced files

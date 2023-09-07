@@ -1,0 +1,1 @@
+{"f1_score_macro_average": 0.49409448818897633, "precision_score_macro_average": 0.4883268482490272, "recall_score_macro_average": 0.5, "_timestamp": 1689750255.7359622, "_runtime": 0.5963602066040039, "_step": 8, "_wandb": {"runtime": 0}}

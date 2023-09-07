@@ -1,0 +1,6 @@
+
+Better model found at epoch 0 with f1_score value: 0.9689164024539966.
+Better model found at epoch 3 with f1_score value: 0.971403620278936.
+Better model found at epoch 6 with f1_score value: 0.979309006607637.
+No improvement since epoch 6: early stopping
+0.979309006607637

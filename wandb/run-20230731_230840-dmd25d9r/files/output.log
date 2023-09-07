@@ -1,0 +1,49 @@
+Better model found at epoch 0 with matthews_corrcoef value: 0.22322685864075958.
+Better model found at epoch 1 with matthews_corrcoef value: 0.3502057337359612.
+No improvement since epoch 1: early stopping
+Better model found at epoch 0 with matthews_corrcoef value: 0.1922294959010954.
+Better model found at epoch 1 with matthews_corrcoef value: 0.31178315730622247.
+Better model found at epoch 2 with matthews_corrcoef value: 0.4290314929578167.
+Better model found at epoch 3 with matthews_corrcoef value: 0.5165571311953473.
+No improvement since epoch 3: early stopping
+Better model found at epoch 0 with matthews_corrcoef value: 0.41657758634890646.
+Better model found at epoch 1 with matthews_corrcoef value: 0.49510479991656814.
+Better model found at epoch 2 with matthews_corrcoef value: 0.5211484695329812.
+Better model found at epoch 3 with matthews_corrcoef value: 0.5494280372183854.
+Better model found at epoch 5 with matthews_corrcoef value: 0.568844542843655.
+Better model found at epoch 8 with matthews_corrcoef value: 0.5705352057143573.
+Better model found at epoch 10 with matthews_corrcoef value: 0.57321535202666.
+No improvement since epoch 10: early stopping
+Better model found at epoch 0 with matthews_corrcoef value: 0.22948510956228182.
+Better model found at epoch 1 with matthews_corrcoef value: 0.31827749558242713.
+Better model found at epoch 2 with matthews_corrcoef value: 0.35484930353270205.
+Better model found at epoch 7 with matthews_corrcoef value: 0.38842185884980535.
+Better model found at epoch 11 with matthews_corrcoef value: 0.39224044014574894.
+Better model found at epoch 12 with matthews_corrcoef value: 0.4377708611854938.
+No improvement since epoch 12: early stopping
+Better model found at epoch 0 with matthews_corrcoef value: 0.33189890882824274.
+Better model found at epoch 1 with matthews_corrcoef value: 0.4488103748158612.
+Better model found at epoch 2 with matthews_corrcoef value: 0.4929464496471216.
+Better model found at epoch 3 with matthews_corrcoef value: 0.5580498930208783.
+No improvement since epoch 3: early stopping
+Better model found at epoch 0 with matthews_corrcoef value: 0.22536391622560836.
+Better model found at epoch 1 with matthews_corrcoef value: 0.3464396948608407.
+Better model found at epoch 2 with matthews_corrcoef value: 0.37404284912955366.
+Better model found at epoch 3 with matthews_corrcoef value: 0.4328710350941873.
+Better model found at epoch 4 with matthews_corrcoef value: 0.44886536678888017.
+Better model found at epoch 6 with matthews_corrcoef value: 0.4886643827005069.
+No improvement since epoch 6: early stopping
+Better model found at epoch 0 with matthews_corrcoef value: 0.22952503051813086.
+Better model found at epoch 1 with matthews_corrcoef value: 0.2905504770743787.
+Better model found at epoch 2 with matthews_corrcoef value: 0.38577682594854545.
+Better model found at epoch 5 with matthews_corrcoef value: 0.4390491053280201.
+No improvement since epoch 5: early stopping
+Better model found at epoch 0 with matthews_corrcoef value: 0.4038254769767618.
+Better model found at epoch 1 with matthews_corrcoef value: 0.50024385711581.
+Better model found at epoch 2 with matthews_corrcoef value: 0.5654754624037873.
+No improvement since epoch 2: early stopping
+Better model found at epoch 0 with matthews_corrcoef value: 0.2565573115493917.
+Better model found at epoch 1 with matthews_corrcoef value: 0.46572757981429197.
+Better model found at epoch 4 with matthews_corrcoef value: 0.5125410003061461.
+Better model found at epoch 5 with matthews_corrcoef value: 0.5706094406758773.
+No improvement since epoch 5: early stopping

@@ -1,0 +1,161 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    python_version: 3.10.11
+    cli_version: 0.15.5
+    framework: lightgbm
+    is_jupyter_run: true
+    is_kaggle_kernel: false
+    start_time: 1690229550.758917
+    t:
+      1:
+      - 1
+      - 4
+      - 5
+      - 8
+      - 28
+      - 35
+      - 53
+      - 55
+      2:
+      - 1
+      - 4
+      - 5
+      - 8
+      - 28
+      - 35
+      - 53
+      - 55
+      3:
+      - 2
+      - 23
+      4: 3.10.11
+      5: 0.15.5
+      8:
+      - 1
+      - 5
+Learner:
+  desc: null
+  value:
+    loss_func:
+      axis: -1
+      flatten: true
+      floatify: false
+      is_2d: true
+      _name: FlattenedLoss of CrossEntropyLoss()
+    opt_func: fastai.optimizer.Adam
+    lr: 0.001
+    splitter: fastai.torch_core.trainable_params
+    metrics:
+    - func: sklearn.metrics._classification.f1_score
+      dim_argmax: -1
+      activation: 'no'
+      thresh: null
+      flatten: true
+      _name: <fastai.metrics.AccumMetric object at 0x171cc3490>
+    - func: sklearn.metrics._classification.f1_score
+      dim_argmax: -1
+      activation: 'no'
+      thresh: null
+      flatten: true
+      _name: <fastai.metrics.AccumMetric object at 0x169e3b790>
+    - func: sklearn.metrics._classification.precision_score
+      dim_argmax: -1
+      activation: 'no'
+      thresh: null
+      flatten: true
+      _name: <fastai.metrics.AccumMetric object at 0x169e3bb50>
+    - func: sklearn.metrics._classification.recall_score
+      dim_argmax: -1
+      activation: 'no'
+      thresh: null
+      flatten: true
+      _name: <fastai.metrics.AccumMetric object at 0x15ebb8b20>
+    path: .
+    model_dir: models
+    wd: null
+    wd_bn_bias: false
+    train_bn: true
+    moms:
+    - 0.95
+    - 0.85
+    - 0.95
+    default_cbs: true
+    _name: <fastai.tabular.learner.TabularLearner object at 0x169f56620>
+TrainEvalCallback:
+  desc: null
+  value: true
+Recorder:
+  desc: null
+  value:
+    add_time: true
+    train_metrics: false
+    valid_metrics: true
+CastToTensor:
+  desc: null
+  value: true
+ProgressCallback:
+  desc: null
+  value: true
+ParamScheduler:
+  desc: null
+  value: true
+EarlyStoppingCallback:
+  desc: null
+  value: true
+SaveModelCallback:
+  desc: null
+  value:
+    fname: model
+    every_epoch: false
+    at_end: false
+    with_opt: false
+WandbCallback:
+  desc: null
+  value:
+    log: null
+    log_preds: true
+    log_preds_every_epoch: false
+    log_model: false
+    model_name: null
+    log_dataset: false
+    dataset_name: null
+    valid_dl: null
+    n_preds: 36
+    seed: 12345
+    reorder: true
+n_inp:
+  desc: null
+  value: 2
+input 1 dim 1:
+  desc: null
+  value: 64
+input 1 dim 2:
+  desc: null
+  value: 20
+input 2 dim 1:
+  desc: null
+  value: 64
+input 2 dim 2:
+  desc: null
+  value: 72
+batch size:
+  desc: null
+  value: 64
+batch per epoch:
+  desc: null
+  value: 70
+model parameters:
+  desc: null
+  value: 62464
+device:
+  desc: null
+  value: cpu
+frozen:
+  desc: null
+  value: false
+frozen idx:
+  desc: null
+  value: 0
